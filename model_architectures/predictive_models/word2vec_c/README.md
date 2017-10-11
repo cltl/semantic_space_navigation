@@ -13,7 +13,9 @@ There are two steps involved in creating a model for this code:
 For instance:
 
 ./initiate_word2vec.sh data/counts.words.vocab model/pinit1
-# settings: size=500, neg=1, iters=50
+
+For settings: size=500, neg=1, iters=50:
+
 ./create_word2vec_with_init.sh data/pairs data/counts.words.vocab model/pinit1 model/sgns_rand_pinit1 500 1 50
 
 
