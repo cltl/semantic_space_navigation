@@ -1,0 +1,95 @@
+Feature,Similarity,Embedding Captured
+is_red,low,"yes for stereotypically red things that form frequent collocations, but if a specific category is overrepresented, it will learn the category"
+is_fast,low,"no, but for some things, a  classifier may pick up typical activities (run, drive)"
+is_a_fruit,high,yes (learns category)
+is_long,low,"No, this is a visual feature that I don’t expect to be mentioned in the context. I could imagine that long in the sense of duration could be learned (long time, long journey, long class), if it is in the data."
+is_black,low,"No, but a classifier might pick up things that are typically or often black (cat, car, hair, skin, dress)"
+has_a_point,low ,"No (a few things might be associated with typical activities (poke, stab) picked up by a classifier, but only if the point is relevant)"
+does_lay_eggs,high (because of high correlation with other features and categories),"No, this is knowledge that is part of the concept it applies to and will most likely not be mentioned, except if it is part of the ‘function’ or ‘use’ of an animal (such as a chicken) – not enough examples "
+does_live_in_water,high (high correlation with other features),"Yes, may be able to pick up less typical animals, e.g. beaver"
+is_electric,high ,yes
+has_eyes,high ,"Yes, but most likely learns a category. Metaphorical sense of eyes is most likely too infrequent to be picked up. "
+is_yellow,low,"No, not enough stereotypically yellow things (where ‘yellow’ appears in the context)"
+is_warm,medium (possibly successful for warm clothes that also share other features),"Yes, I expect this to be mentioned with things that are or can be typically warm (water, clothes, blanket, color (metaphorically warm). Some of these things have similar functions and are used in similar situation (winter, cold, warm up)"
+is_hard,low,"No (except a few frequent collocations such as hard wood, as hard as stone, but I expect these instances to be too limited. "
+has_flesh,medium (wide range of concepts of different categories),"no, except for things whose flesh has a particular purpose, e.g. flesh of a fruit and co-occurs with similar activities, but probably not distinctive enough (eat, remove)"
+is_useful,"Medium (may work for a large category, e.g. tools)",No (may learn something like ‘tool’)
+has_teeth,"medium, high correlation with a wide range of categories. ","Yes in the literal sense, but I expect the metaphorical sense to be too infrequent. "
+has_an_engine,high ,"most likely learns a broad category, depends on the negative examples if it can distinguish between vehicles with and without an engine. We could test this. The context should provide evidence: start, fire-up, die, fuel, etc)"
+is_played_does_play,"medium (can apply to different categories: games, musical instruments, and in the agentive interpretation to entities that play)","yes, this is an activity/function I expect to occur in the contexts of most entities that play or can be played (games, instruments, children, dogs, etc)"
+made_of_wood,"low (very general description, not many shared features)","Yes for things that are not necessarily made of wood (i.e. things of which it is worth mentioning): e.g. wooden floor, table"
+is_grown,high ,"yes, probably learns category of plants"
+does_eat,"Medium (correlates with a number of other features, but can be applied to several categories)","Yes,probably learns a large category (not enough evidence of things that are not animals but eat – metaphorical sense too infrequent, category of animals too big)"
+is_healthy,"High (high correlation with other features, mainly food","Yes, might also capture things other than food, e.g. exercising, sports, running)"
+has_wings,"High (mainly birds, but airplanes and helicopters might be caught as well, because they also fly","Yes, may capture things that share fewer features, e.g. angels "
+does_kill,"medium (high for the biggest group of examples, probably weapons)","Yes, probably learns several categories, we could test whether it overgeneralizes (e.g. to all substances instead of detecting those substances that kill). There is a chance that things that kill occur in typical contexts of danger, crime, death"
+is_juicy,"Medium (high in the literal sense and for the biggest group, most likely fruits)","Yes, probably learns a category. I don’t think there are enough activities typically involving juicy things (make juice from juicy fruits, but this does not work for a juicy steak)"
+is_colourful,low,no 
+has_skin_peel,medium (high for the biggest category in the data),"yes, most likely learns a category. It is possible that there is enough contextual evidence (too peel, remove skin) that a classifier can learn which fruits/vegetables are usually peeled, but this is not what is meant by the feature. "
+does_grow,medium (high for the biggest category in the data),"No, probably learns categories. Depending on the training data, there is a chance it may pick up activities involving hair or fur (brushing, cutting, shaving, growing)"
+has_skin,"High (high correlation with other features, but several categories) ",yes (but it is not clear whether the overall categories are learned or the feature is learned. I say the overall categories are learned)
+is_noisy_loud,"Medium (high for the biggest category in the data, possibly instruments)","No, except a small number of typical examples, but these are probably not enough"
+is_for_children,Low,No
+does_make_music,"High (high for instruments and musicians, low for other, less typical things such as birds)","Yes, probably learns the category, not enough evidence for things that are not musical instruments"
+does_protect,Low,No
+made_of_glass,Low,No
+has_leaves,High (largely applies to overall similar concepts),"Yes, but we don’t know whether the feature or the categories are learned "
+has_feathers,"High for birds, low for other things that have feathers (pillow, duvet, down jacket). Arrow might be captured, as it also flies","Yes for birds, for other things there are probably not enough examples for a classifier to learn it, contextual evidence for things that have feathers is probably sparse "
+is_for_women_females_girls,"Medium (high for clothes, but then many false positives/things which are not explicitly gendered might be included, other categories may not be captured)","Probably learns a category (clothes, make-up, jewelry)"
+has_a_handle_handles,"Medium (works for largest category – possibly tools, but return many false positives)",No
+has_legs,High (works well for largest category – most likely animals – but humans or furniture is probably not included),"Yes (can be inferred via several activities that require legs – running, walking), evidence and examples of furniture may be too sparse.) Hard to say whether categories or actual feature is learned. "
+has_wheels,High (correlated with a large portion of vehicles),"High, but may over-generalize to vehicles without wheels – we can test this "
+is_a_mammal,High ,"Yes, may learn to exclude animals with features mammals typically do not have (e.g. fly, most do not swim)"
+is_soft,Low (high diversity),No
+has_a_beak,High (high correlation with other features),"Yes, but most likely learn category and not feature (only few examples of different categories – dolphin, platypus)"
+is_food,"High, but difficult for polysemous words with a dominant animal sense","Yes, could also work for polysemous words. The classifier probably learns to include several categories. We could test this by checking whether it classifies animals without a food sense as positive examples. "
+does_make_sound_a_noise,Low,No
+is_clothing,High,yes
+is_a_musical_instrument,High,yes
+is_heavy,low,no
+is_an_animal,high,yes
+does_swim,"medium (high for animals that swim, probably does not work for other things like ships)","Yes, may pick up activities related to water and swimming "
+does_carry_transport,Medium ,"yes, may pick up activities related to carrying and transportation"
+is_a_tool,Medium (rather diverse category),"Yes, may pick up typical activities involving tools "
+is_white,Low,No
+is_circular_round,Low,"May pick up activities only possible for or highly related to round things, like rolling, throwing, but I don’t think there are enough examples"
+is_used_in_cooking,"Medium (diverse category, probably works well for food)","Yes, may pick up typical cooking activities"
+has_a_seat_seats,High ,yes
+is_a_vehicle,High,yes
+is_small,Low,No
+is_big_large,Low,No
+has_a_stalk_stem,Low,No
+has_claws,"Medium (several different animals, high change of false","No, there might be some indications for activities done with claws, but I expect these to be too sparse. It is more likely that a classifier may pick up one or more categories and overgeneralize (e.g. cats to other pets)"
+made_of_metal,low,no 
+does_smell_is_smelly,low,no
+is_tasty,High (largely correlated with food),"Yes, probably learns food"
+has_fur_hair,Low,"May pick up activities usually done with hair or fur (brushing), but this does not apply to all concepts"
+is_found_in_seas,High (large correlation with other features and categories),yes
+is_expensive,Medium (high for biggest category),"Yes, may learn some categories, but also include false positives"
+is_a_weapon,High,"yes, may learn category as well as activities typically involving weapons"
+is_eaten_edible,"Medium (several categories, similar to food)","Yes, probably learns several categories"
+is_brown,Low,No
+made_of_fabric_cloth_material,Medium (probably high for biggest category),No
+is_pink,Low,No
+is_pretty_attractive_beautiful,Low,"Yes, since this is a judgement, it probably occurs in the context (e.g. pretty dress, pretty girl, beautiful painting). Of course this would not cover everything that can be pretty/attractive/beautiful"
+is_found_in_kitchens,Medium (broad range of categories),"Yes, probably learns cooking/baking activities"
+has_pips_seeds,Medium (probably high for largest category),"No, probably learns categories and returns many false positives "
+is_sweet,Medium (probably high for largest category),"Yes, may work for very sweet food that is often described as such (sweet apple, sweet mango, sweet chocolate cake)"
+made_of_plastic,Low,No
+is_dangerous,Low,"Yes, may pick op context words associated with danger (threat, fear, protect, careful)"
+is_sharp,Low,"Yes, may pick ip activities involving sharp things (cutting, injure, shave), but the data may be too sparse. May also include metaphorical senses (e.g. sharp/cutting words)"
+has_a_blade_blades,Medium (work for a number of similar things),"Yes, similar to sharp "
+is_a_plant,High,Yes
+is_worn,"Medium (high for biggest category (probably clothes), low for weapons or jewelry","Yes, may learn categories or activities associated with wearing (put on, put off)"
+is_thin,Low,No
+is_a_vegetable,High,Yes
+does_fly,"Medium (high for biggest category (probably birds), lower for other things that fly (balloons, planes, helicopters, insects)","Yes, could learn activity or categories"
+is_a_bird,High,yes
+has_a_tail,Low,no
+has_four_legs,"High (high correlation with many animals, but probably does not cover furniture)","yes, but examples as well as indicative contexts of furniture may be too sparse"
+has_roots,High (high correlation with category),Yes
+is_strong,Low,No
+is_an_insect,High,Yes
+is_tall,low,no
+is_green,"Medium (may work for a big plant category, but probably also return many false positives)","Yes, but learns categories rather than color – easy to test with plant examples that are not green"
+made_of_cotton,Medium (high for largest category – probably clothes),"Yes, probably learns categories that are large enough"

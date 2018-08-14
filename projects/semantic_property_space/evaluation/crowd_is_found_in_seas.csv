@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-07:56:25-161166-loo-crowd_is_found_in_seas,0.9574468085106385,0.9574468085106383,0.9574468085106383,0
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-08:01:10-380542-loo-crowd_is_found_in_seas,0.9574468085106385,0.9574468085106383,0.9574468085106383,0
+word2vec_google_news-logistic_regression-default-loo-crowd_is_found_in_seas,0.9375000000000001,0.9183673469387755,0.9574468085106383,0
+word2vec_google_news-nearest_neighbors-900-loo-crowd_is_found_in_seas,0.8735632183908046,0.95,0.8085106382978723,0
+word2vec_google_news-nearest_neighbors-1000-loo-crowd_is_found_in_seas,0.8735632183908046,0.95,0.8085106382978723,0
+word2vec_google_news-nearest_neighbors-800-loo-crowd_is_found_in_seas,0.8604651162790696,0.9487179487179487,0.7872340425531915,0
+word2vec_google_news-nearest_neighbors-700-loo-crowd_is_found_in_seas,0.8571428571428571,0.972972972972973,0.7659574468085106,0
+word2vec_google_news-nearest_neighbors-600-loo-crowd_is_found_in_seas,0.8292682926829269,0.9714285714285714,0.723404255319149,0
+word2vec_google_news-nearest_neighbors-500-loo-crowd_is_found_in_seas,0.8292682926829269,0.9714285714285714,0.723404255319149,0
+word2vec_google_news-nearest_neighbors-400-loo-crowd_is_found_in_seas,0.8148148148148149,0.9705882352941176,0.7021276595744681,0
+word2vec_google_news-nearest_neighbors-300-loo-crowd_is_found_in_seas,0.7848101265822784,0.96875,0.6595744680851063,0
+word2vec_google_news-nearest_neighbors-200-loo-crowd_is_found_in_seas,0.7792207792207793,1.0,0.6382978723404256,0
+word2vec_google_news-nearest_neighbors-100-loo-crowd_is_found_in_seas,0.5970149253731344,1.0,0.425531914893617,0

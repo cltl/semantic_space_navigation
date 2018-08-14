@@ -1,0 +1,95 @@
+Feature	select	Similarity	Embedding Captured	comments					
+is_red	y	l	n						
+is_fast	y	m	y	diverse things	 but likely to be made explicit (possibly only for very fast things though: e.g. jaguar	 sports car	 yes	 wolf no)	
+is_a_fruit	y	h	y (ps)						
+is_long	n	l	n	not expected to have an impact on interaction in most cases (shape meaning)					
+is_black	y	l	n						
+has_a_point	y	l	for some	having a sharp point can be related to function or also injuring					
+does_lay_eggs	y	h	y						
+does_live_in_water	y	m	y	expect the environment to be important for the non-fish	 talk about eco-system will also make this a topic mentioned for fish itself				
+is_electric	y	h	y	difficult class: many things can be					
+has_eyes	n	h	y	literal meaning	 other meaning to test later				
+is_yellow	y	l	n						
+is_warm	y	l	depends on meaning: generic: no	 keeping warm: yes	clothes	 drinks	 heating	 blanket: diverse	 but context will possibly give this away
+is_hard	n	m	for some	complex class					
+has_flesh	n	m	y	yes for typical ones	 but otherwise difficult to distinguish from learning taxonomic groups.				
+is_useful	n	l	if literal: yes	 otherwise: no	can pick up that something is a tool	 but subjective component is difficult: data also likely to be polluted by this.			
+has_teeth	n	h	y	tooth related activities (bite	 etc.)	 not sure if other teeth (mechanical) should be taken into consideration			
+has_an_engine	y	h	y						
+is_played_does_play	n	h	depends on meaning: if double meaning: for some	 otherwise yes	instruments and toys: yes	 beings that play is another class. People may also differ in their judgement. It could learn instruments	 toys and young animals	 the word `play' itself is likely to occur in context for all  (possibly less for the animals though).	
+made_of_wood	y	m	n	being made of wood is not likely to be relevant or influence how people talk about things across the wide variety of objects					
+is_grown	n	h	y						
+does_eat	y	h	y						
+is_healthy	n	m	y	sports and certain food. Likely to capture specific foods	 possibly sports in general	 good sleep	 but not specific sports linked to food		
+has_wings	y	h	y	difficult to test	 since high correlation with things that fly: do not expect it to capture the helicopter	 but possibly non-flying birds.			
+does_kill	n	m	y	animals and weapons: 2 subgroups: possibly captured because of danger	 warnings or even directly kill/death				
+is_juicy	n	h	y	mainly fruits	 some other foods				
+is_colourful	n	l	n	animals and weapons: 2 subgroups: possibly captured because of danger					
+has_skin_peel	y	m	n	if this is supposed to be both skin and peel (of animals and fruit), it will not be captured in the same way: they are not presented by the same dimensions					
+does_grow	y	m	y	expected to have expression around farming, etc.					
+has_skin	n	h	n	very few specific properties, if so, correlating with similarity (no capturing polysemy beyond that)					
+is_noisy_loud	n	l	no	I expect it to be difficult to distinguish noisy from sound (you hear helicopters, motorcycles, but also birds (generally not noisy) and music (can be loud or noisy, but is not always) 					
+is_for_children	n	m	y, partially	toys, pets typically for children will be captured, but possibly not products that parents use.					
+does_make_music	n	h	depends	if only tools, etc: probably yes (play music), persons, animals that sing, probably not in the same class					
+does_protect	n	m	y						
+made_of_glass	n	m	n						
+has_leaves	n	h	n						
+has_feathers	n	h	y if enough data						
+is_for_women_females_girls	y?	m	y						
+has_a_handle_handles	n	m	y						
+has_legs	y	m	y						
+has_wheels	n	h	y						
+is_a_mammal	n	h	n						
+is_soft	n	l	for some						
+has_a_beak	n	h	n						
+is_food	y	m	y (ps)						
+does_make_sound_a_noise	n	m	y						
+is_clothing	n	h	y (ps)						
+is_a_musical_instrument	n	h	y (ps)						
+is_heavy	y	l	n						
+is_an_animal	y	h	n						
+does_swim	y	h	y						
+does_carry_transport	y	m	y						
+is_a_tool	y	h	y						
+is_white	y	l	n						
+is_circular_round	y	l	for some						
+is_used_in_cooking	y	m	n (too varied)						
+has_a_seat_seats	n	m	n						
+is_a_vehicle	n	h	y						
+is_small	y	l	n						
+is_big_large	y	l	n						
+has_a_stalk_stem	n	h	n						
+has_claws	n	h	y (ps)						
+made_of_metal	y	m	n						
+does_smell_is_smelly	n	m	n (if literal)	 y if connotation					
+is_tasty	n	h	y (ps) (as food)	 but not subjective element					
+has_fur_hair	n	h	n						
+is_found_in_seas	y	m	for some						
+is_expensive	n	l	y						
+is_a_weapon	y	m	y						
+is_eaten_edible	y	h	y (ps)						
+is_brown	y	l	n						
+made_of_fabric_cloth_material	y	m	for some						
+is_pink	y	l	n						
+is_pretty_attractive_beautiful	n	l	yes						
+is_found_in_kitchens	y	m	for some (less varied than 56)						
+has_pips_seeds	n	h	n						
+is_sweet	y	h	n						
+made_of_plastic	n	m	n						
+is_dangerous	y	m	y						
+is_sharp	y	h	y						
+has_a_blade_blades	y	m	y						
+is_a_plant	n	h	y (ps)						
+is_worn	n	h	y						
+is_thin	y	l	n						
+is_a_vegetable	y	h	y (ps)						
+does_fly	y	h	y						
+is_a_bird	y	h	y (ps)						
+has_a_tail	y	h	n						
+has_four_legs	y	h	n						
+has_roots	y	h	n						
+is_strong	n	l	for some						
+is_an_insect	y	h	y (ps)						
+is_tall	n	l	n						
+is_green	y	l	n						
+made_of_cotton	y	h	for some						

@@ -1,0 +1,33 @@
+
+-----
+Taxonomic cateogries with polysemous examples
+-----
+
+General remarks: It is hard to find a category with more than just one or two polysemous examples. We could try to use wordnet to extend the number of polysemous examples, but Wordnet polysemy might be too fine-grained. 
+
+Expectation: Nearest neighbors does not recognize polysemous examples, supervised approaches do
+
+> is_a_bird: crane (bird - tool) 
+> is_found_in_seas: animal - food (not a real taxonomic category, very close)
+> is_animal: possible (boring) way of testing animal - food polysemy. We do have previous work on this we can cite though (clustering approach vs another similarity-based approach)
+
+----
+Expected learnability of important/relevant/defining features
+----
+
+Expectation: Features that have an impact on the way entities interact in the world are well captured by embeddings. For some cases, specific features are captured allowing us to make fine-grained distinctions with classification that are not possible with similarity. 
+
+> is_dangerous: diverse group of things that should all share some sort of danger/threat/death/injury/fear context
+> does_kill: similar to is_dangerous
+> has_wheels: vehicles with wheels behave differently and are found in different situations than vehicles without wheels
+
+
+----
+No learnalbility
+----
+
+Expectation: Features that are not relevant for the way entities interact with the world are not learnable. 
+
+> colors
+> shapes 
+> fine-grained distinction not really relevant for use? E.g. Fruit/vegetable? Insects/spider?

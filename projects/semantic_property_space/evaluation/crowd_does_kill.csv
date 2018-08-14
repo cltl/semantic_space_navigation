@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-06:54:20-089001-loo-crowd_does_kill,0.8372093023255814,0.8307692307692308,0.84375,4
+word2vec_google_news-logistic_regression-default-loo-crowd_does_kill,0.8217054263565892,0.8153846153846154,0.828125,4
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-06:55:59-207904-loo-crowd_does_kill,0.8031496062992126,0.8095238095238095,0.796875,4
+word2vec_google_news-nearest_neighbors-1000-loo-crowd_does_kill,0.6991869918699187,0.7288135593220338,0.671875,4
+word2vec_google_news-nearest_neighbors-600-loo-crowd_does_kill,0.6727272727272727,0.8043478260869565,0.578125,4
+word2vec_google_news-nearest_neighbors-900-loo-crowd_does_kill,0.6722689075630253,0.7272727272727273,0.625,4
+word2vec_google_news-nearest_neighbors-700-loo-crowd_does_kill,0.6607142857142857,0.7708333333333334,0.578125,4
+word2vec_google_news-nearest_neighbors-800-loo-crowd_does_kill,0.6551724137931033,0.7307692307692307,0.59375,4
+word2vec_google_news-nearest_neighbors-500-loo-crowd_does_kill,0.6481481481481481,0.7954545454545454,0.546875,4
+word2vec_google_news-nearest_neighbors-400-loo-crowd_does_kill,0.6346153846153846,0.825,0.515625,4
+word2vec_google_news-nearest_neighbors-300-loo-crowd_does_kill,0.6122448979591837,0.8823529411764706,0.46875,4
+word2vec_google_news-nearest_neighbors-200-loo-crowd_does_kill,0.5434782608695653,0.8928571428571429,0.390625,4
+word2vec_google_news-nearest_neighbors-100-loo-crowd_does_kill,0.4146341463414634,0.9444444444444444,0.265625,4

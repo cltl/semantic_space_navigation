@@ -1,0 +1,3 @@
+,f1,p,r,oov
+word2vec_google_news-logistic_regression-default-imp_is_an_animal,0.9637681159420289,0.9637681159420289,0.9637681159420289,18
+word2vec_google_news-nearest_neighbors-100-imp_is_an_animal,0.27499999999999997,1.0,0.15942028985507245,18

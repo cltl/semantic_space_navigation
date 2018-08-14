@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-13:33:48-957609-loo-ci_is_used_in_cooking,0.984375,0.984375,0.984375,18
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-12:20:49-001721-loo-ci_is_used_in_cooking,0.9803921568627452,0.984251968503937,0.9765625,18
+word2vec_google_news-logistic_regression-default-loo-ci_is_used_in_cooking,0.9767441860465116,0.9692307692307692,0.984375,18
+word2vec_google_news-nearest_neighbors-900-loo-ci_is_used_in_cooking,0.29333333333333333,1.0,0.171875,18
+word2vec_google_news-nearest_neighbors-1000-loo-ci_is_used_in_cooking,0.29333333333333333,1.0,0.171875,18
+word2vec_google_news-nearest_neighbors-800-loo-ci_is_used_in_cooking,0.28187919463087246,1.0,0.1640625,18
+word2vec_google_news-nearest_neighbors-700-loo-ci_is_used_in_cooking,0.2702702702702703,1.0,0.15625,18
+word2vec_google_news-nearest_neighbors-600-loo-ci_is_used_in_cooking,0.2585034013605442,1.0,0.1484375,18
+word2vec_google_news-nearest_neighbors-400-loo-ci_is_used_in_cooking,0.2585034013605442,1.0,0.1484375,18
+word2vec_google_news-nearest_neighbors-500-loo-ci_is_used_in_cooking,0.2585034013605442,1.0,0.1484375,18
+word2vec_google_news-nearest_neighbors-200-loo-ci_is_used_in_cooking,0.2465753424657534,1.0,0.140625,18
+word2vec_google_news-nearest_neighbors-300-loo-ci_is_used_in_cooking,0.2465753424657534,1.0,0.140625,18
+word2vec_google_news-nearest_neighbors-100-loo-ci_is_used_in_cooking,0.2222222222222222,1.0,0.125,18

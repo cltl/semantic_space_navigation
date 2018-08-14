@@ -1,0 +1,15 @@
+is_found_in_seas,squid
+is_found_in_seas,giant_squid
+is_found_in_seas,Humboldt_squid
+is_found_in_seas,whale
+is_found_in_seas,squids
+is_found_in_seas,colossal_squid
+is_found_in_seas,jellyfish
+is_found_in_seas,Mesonychoteuthis_hamiltoni
+is_found_in_seas,tuna
+is_found_in_seas,anchovies
+is_found_in_seas,sperm_whale
+is_found_in_seas,Giant_squid
+is_found_in_seas,giant_squids
+is_found_in_seas,jumbo_squid
+is_found_in_seas,yellowfin

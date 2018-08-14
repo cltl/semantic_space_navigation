@@ -1,0 +1,14 @@
+,Will a classifier outperform nearest neighbors?,concepts captured by a classifier (and not nearest neighbors),Concepts not learned because we expect too little evidence,additional highly similar examples needed
+is_animal,yes,polysemous words ,"Possible exceptions (depending on the data): shrimp, lobster","yes, animals mentioned"
+is_food,yes,"polysemous words commonly referring to food: chicken, duck, sometimes, but uncommonly referring to food: kangaroo, moose, alligator, robin, crows, partridge",Possibly not found: grasshopper,x
+is_dangerous,yes,"words that are not in the majority category (I think most are weapons, but I expect the classifier to learn dangerous animals)","things that can be dangerous but are harmless in most contexts (e.g. razor, dangerous substances)","yes, tools or extend the search "
+does_kill,yes,dangerous animals as well ,No distinction between things that kill people and things that kill other animals (not included in the dataset) ,yes
+has_wheels,possibly,"possibly uncommon things not typically considered vehicles, wheelchair, carriage, skateboard, sledge","ferris wheel, things with steering wheels",yes
+is_black,no,"if single words are enough evidence to learn a color, we expect animals that can be black (or have a limited number of other colors) to be learned. If not, we expect the classifier to simply overgeneralize on the most dominant categories. ",overgeneralization on the most frequent class,possibly
+is_found_in_seas,possibly,"things in water can be distinguished from things not  found in water. We are not sure things in fresh water can be distinguished from sea water. There are some things that are associated stronger with seawater then fresh water, but this might not be enough. ",,"yes, seawater vs fresh water distinction"
+is_long,,,,
+is_red,no,possibly majority category (fruits),overgeneralization on the most frequent class (fruits),"yes,extend with other fruits"
+is_used_in_cooking,yes,"depending on data, apron probably not included, but successfully learn food and utensils, whereas nearest neighbors is probably drawn to food",no distinction between things used an end products,"extend with end products (pizza, burger, etc)"
+is_warm,,,,
+is_yellow,no,possibly majority class ,,x
+made_of_wood,no,"more specific, fine grained dataset needed, possibly pick up on specifications for furniture typically made of wood, but more likely to overgeneralize on furniture",,x

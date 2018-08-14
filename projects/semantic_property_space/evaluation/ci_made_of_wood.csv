@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-13:33:48-957609-loo-ci_made_of_wood,0.8452380952380953,0.8255813953488372,0.8658536585365854,8
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-12:20:49-001721-loo-ci_made_of_wood,0.8452380952380953,0.8255813953488372,0.8658536585365854,8
+word2vec_google_news-logistic_regression-default-loo-ci_made_of_wood,0.8433734939759037,0.8333333333333334,0.8536585365853658,8
+word2vec_google_news-nearest_neighbors-600-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-400-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-500-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-700-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-900-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-1000-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-800-loo-ci_made_of_wood,0.13636363636363635,1.0,0.07317073170731707,8
+word2vec_google_news-nearest_neighbors-300-loo-ci_made_of_wood,0.09302325581395349,1.0,0.04878048780487805,8
+word2vec_google_news-nearest_neighbors-200-loo-ci_made_of_wood,0.047619047619047616,1.0,0.024390243902439025,8
+word2vec_google_news-nearest_neighbors-100-loo-ci_made_of_wood,0.0,0.0,0.0,8

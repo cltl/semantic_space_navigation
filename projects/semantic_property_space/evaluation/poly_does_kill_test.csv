@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-nearest_neighbors-900-test-poly_does_kill_test,0.4716981132075472,0.8928571428571429,0.32051282051282054,3
+word2vec_google_news-nearest_neighbors-1000-test-poly_does_kill_test,0.4716981132075472,0.8928571428571429,0.32051282051282054,3
+word2vec_google_news-nearest_neighbors-700-test-poly_does_kill_test,0.4423076923076923,0.8846153846153846,0.2948717948717949,3
+word2vec_google_news-nearest_neighbors-600-test-poly_does_kill_test,0.4423076923076923,0.8846153846153846,0.2948717948717949,3
+word2vec_google_news-nearest_neighbors-800-test-poly_does_kill_test,0.4423076923076923,0.8846153846153846,0.2948717948717949,3
+word2vec_google_news-nearest_neighbors-500-test-poly_does_kill_test,0.4271844660194175,0.88,0.28205128205128205,3
+word2vec_google_news-nearest_neighbors-400-test-poly_does_kill_test,0.3999999999999999,0.9090909090909091,0.2564102564102564,3
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-16:08:55-773977-test-poly_does_kill_test,0.3469387755102041,0.85,0.21794871794871795,3
+word2vec_google_news-nearest_neighbors-300-test-poly_does_kill_test,0.3333333333333333,0.8888888888888888,0.20512820512820512,3
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-20:03:47-169034-test-poly_does_kill_test,0.32989690721649484,0.8421052631578947,0.20512820512820512,3
+word2vec_google_news-nearest_neighbors-200-test-poly_does_kill_test,0.3191489361702128,0.9375,0.19230769230769232,3
+word2vec_google_news-nearest_neighbors-100-test-poly_does_kill_test,0.2637362637362637,0.9230769230769231,0.15384615384615385,3
+word2vec_google_news-logistic_regression-default-test-poly_does_kill_test,0.20454545454545456,0.9,0.11538461538461539,3

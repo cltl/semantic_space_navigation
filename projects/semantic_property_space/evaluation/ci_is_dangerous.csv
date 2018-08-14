@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-logistic_regression-default-loo-ci_is_dangerous,0.8831908831908832,0.8707865168539326,0.8959537572254336,9
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-13:33:48-957609-loo-ci_is_dangerous,0.8774928774928775,0.8651685393258427,0.8901734104046243,9
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-12:20:49-001721-loo-ci_is_dangerous,0.8728323699421965,0.8728323699421965,0.8728323699421965,9
+word2vec_google_news-nearest_neighbors-900-loo-ci_is_dangerous,0.5811320754716981,0.8369565217391305,0.44508670520231214,9
+word2vec_google_news-nearest_neighbors-1000-loo-ci_is_dangerous,0.5811320754716981,0.8369565217391305,0.44508670520231214,9
+word2vec_google_news-nearest_neighbors-800-loo-ci_is_dangerous,0.5779467680608364,0.8444444444444444,0.4393063583815029,9
+word2vec_google_news-nearest_neighbors-700-loo-ci_is_dangerous,0.5670498084291188,0.8409090909090909,0.4277456647398844,9
+word2vec_google_news-nearest_neighbors-600-loo-ci_is_dangerous,0.5158730158730158,0.8227848101265823,0.37572254335260113,9
+word2vec_google_news-nearest_neighbors-500-loo-ci_is_dangerous,0.504,0.8181818181818182,0.36416184971098264,9
+word2vec_google_news-nearest_neighbors-400-loo-ci_is_dangerous,0.48582995951417,0.8108108108108109,0.3468208092485549,9
+word2vec_google_news-nearest_neighbors-300-loo-ci_is_dangerous,0.423728813559322,0.7936507936507936,0.28901734104046245,9
+word2vec_google_news-nearest_neighbors-200-loo-ci_is_dangerous,0.3788546255506608,0.7962962962962963,0.24855491329479767,9
+word2vec_google_news-nearest_neighbors-100-loo-ci_is_dangerous,0.25961538461538464,0.7714285714285715,0.15606936416184972,9

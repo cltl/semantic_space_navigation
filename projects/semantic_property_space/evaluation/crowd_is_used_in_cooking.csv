@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-logistic_regression-default-loo-crowd_is_used_in_cooking,0.961038961038961,0.925,1.0,11
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-06:55:59-207904-loo-crowd_is_used_in_cooking,0.961038961038961,0.925,1.0,11
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-19-06:54:20-089001-loo-crowd_is_used_in_cooking,0.961038961038961,0.925,1.0,11
+word2vec_google_news-nearest_neighbors-1000-loo-crowd_is_used_in_cooking,0.6545454545454547,1.0,0.4864864864864865,11
+word2vec_google_news-nearest_neighbors-700-loo-crowd_is_used_in_cooking,0.6296296296296297,1.0,0.4594594594594595,11
+word2vec_google_news-nearest_neighbors-900-loo-crowd_is_used_in_cooking,0.6296296296296297,1.0,0.4594594594594595,11
+word2vec_google_news-nearest_neighbors-800-loo-crowd_is_used_in_cooking,0.6296296296296297,1.0,0.4594594594594595,11
+word2vec_google_news-nearest_neighbors-600-loo-crowd_is_used_in_cooking,0.5769230769230769,1.0,0.40540540540540543,11
+word2vec_google_news-nearest_neighbors-500-loo-crowd_is_used_in_cooking,0.52,1.0,0.35135135135135137,11
+word2vec_google_news-nearest_neighbors-400-loo-crowd_is_used_in_cooking,0.4583333333333333,1.0,0.2972972972972973,11
+word2vec_google_news-nearest_neighbors-300-loo-crowd_is_used_in_cooking,0.4255319148936171,1.0,0.2702702702702703,11
+word2vec_google_news-nearest_neighbors-200-loo-crowd_is_used_in_cooking,0.35555555555555557,1.0,0.21621621621621623,11
+word2vec_google_news-nearest_neighbors-100-loo-crowd_is_used_in_cooking,0.2380952380952381,1.0,0.13513513513513514,11

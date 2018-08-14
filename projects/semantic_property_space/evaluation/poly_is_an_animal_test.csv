@@ -1,0 +1,14 @@
+,f1,p,r,oov
+word2vec_google_news-logistic_regression-default-test-poly_is_an_animal_test,0.8787878787878788,1.0,0.7837837837837838,0
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-20:02:21-356478-test-poly_is_an_animal_test,0.8787878787878788,1.0,0.7837837837837838,0
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-18-16:07:33-536607-test-poly_is_an_animal_test,0.8787878787878788,1.0,0.7837837837837838,0
+word2vec_google_news-nearest_neighbors-1000-test-poly_is_an_animal_test,0.52,1.0,0.35135135135135137,0
+word2vec_google_news-nearest_neighbors-900-test-poly_is_an_animal_test,0.4255319148936171,1.0,0.2702702702702703,0
+word2vec_google_news-nearest_neighbors-700-test-poly_is_an_animal_test,0.391304347826087,1.0,0.24324324324324326,0
+word2vec_google_news-nearest_neighbors-500-test-poly_is_an_animal_test,0.391304347826087,1.0,0.24324324324324326,0
+word2vec_google_news-nearest_neighbors-600-test-poly_is_an_animal_test,0.391304347826087,1.0,0.24324324324324326,0
+word2vec_google_news-nearest_neighbors-800-test-poly_is_an_animal_test,0.391304347826087,1.0,0.24324324324324326,0
+word2vec_google_news-nearest_neighbors-400-test-poly_is_an_animal_test,0.391304347826087,1.0,0.24324324324324326,0
+word2vec_google_news-nearest_neighbors-300-test-poly_is_an_animal_test,0.35555555555555557,1.0,0.21621621621621623,0
+word2vec_google_news-nearest_neighbors-100-test-poly_is_an_animal_test,0.2380952380952381,1.0,0.13513513513513514,0
+word2vec_google_news-nearest_neighbors-200-test-poly_is_an_animal_test,0.2380952380952381,1.0,0.13513513513513514,0

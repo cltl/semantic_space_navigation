@@ -1,0 +1,13 @@
+,f1,p,r,oov
+word2vec_google_news-neural_net_classification-default-shuff-2018-07-10-11:01:02-166631-imp_has_wheels,0.9152542372881356,0.9310344827586207,0.9,8
+word2vec_google_news-logistic_regression-default-imp_has_wheels,0.912280701754386,0.9629629629629629,0.8666666666666667,8
+word2vec_google_news-nearest_neighbors-900-imp_has_wheels,0.8679245283018869,1.0,0.7666666666666667,8
+word2vec_google_news-nearest_neighbors-1000-imp_has_wheels,0.8679245283018869,1.0,0.7666666666666667,8
+word2vec_google_news-nearest_neighbors-800-imp_has_wheels,0.8679245283018869,1.0,0.7666666666666667,8
+word2vec_google_news-nearest_neighbors-700-imp_has_wheels,0.8,1.0,0.6666666666666666,8
+word2vec_google_news-nearest_neighbors-500-imp_has_wheels,0.8,1.0,0.6666666666666666,8
+word2vec_google_news-nearest_neighbors-600-imp_has_wheels,0.8,1.0,0.6666666666666666,8
+word2vec_google_news-nearest_neighbors-400-imp_has_wheels,0.7499999999999999,1.0,0.6,8
+word2vec_google_news-nearest_neighbors-300-imp_has_wheels,0.6956521739130436,1.0,0.5333333333333333,8
+word2vec_google_news-nearest_neighbors-200-imp_has_wheels,0.6956521739130436,1.0,0.5333333333333333,8
+word2vec_google_news-nearest_neighbors-100-imp_has_wheels,0.6666666666666666,1.0,0.5,8
