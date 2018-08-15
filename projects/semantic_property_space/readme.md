@@ -5,11 +5,11 @@ This repository contains preliminary code to investigate to what extent word emb
 [insert reference]
 
 
-If you cite our paper, please also refer to the creators of the CSLB dataset:
+If you make use of the data and/or annotations described in this paper, please also refer to the creators of the CSLB dataset:
 
 Devereux, B.J., Tyler, L.K., Geertzen, J., Randall, B. (2014). The Centre for Speech, Language and the Brain (CSLB) Concept Property Norms. Behavior Research Methods, 46(4), pp 1119-1127. DOI: 10.3758/s13428-013-0420-4.
 
-If you have questions, please contact Pia Sommerauer (pia.sommerauer@live.com). The documentation is still in progress.
+If you have questions, please contact Pia Sommerauer (pia.sommerauer@live.com) or Antske Fokkens (antske.fokkens@vu.nl). The documentation is still in progress.
 
 ## Experiments:
 
@@ -73,10 +73,6 @@ e.g. results/word2vec_google_news/neural_net/default/fruit_test.txt
     - Word2vec skip-gram (model_type: 'sgns')
     - PPMI (model_type: 'ppmi')
     - PPMI reduced with SVD (model_type: 'svd')
-
-
-
-
 
 ## Instructions for feature implication annotation:
 
