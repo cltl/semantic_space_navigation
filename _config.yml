@@ -16,7 +16,7 @@
 title: Semantic Space Navigation
 email: tools.cltl@vu.nl
 description: A Collection of Tools and Datasets for Research on Distributional Semantic Models
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/hide" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CLTLVU
 github_username: cltl 
