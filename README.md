@@ -6,6 +6,10 @@ This is a repository meant to support research on distributional semantic models
 
 ### Feature Norm Dataset (Sommerauer and Fokkens, 2018)
 
+Full reference:
+
+Pia Sommerauer and Antske Fokkens. Firearms and Tigers are Dangerous, Kitchen Knives and Zebras are Not: Testing whether Word Embeddings Can Tell. In: <i>Proceedings of Analyzing and interpreting neural networks for NLP</i>. EMNLP Workshop. Bruxelles, 1 November 2018.
+
 The subdirectory related to this paper can be found [here](https://cltl.github.io/semantic_space_navigation/projects/semantic_property_space/)
 
 
