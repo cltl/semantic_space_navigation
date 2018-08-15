@@ -6,4 +6,6 @@ This is a repository meant to support research on distributional semantic models
 
 ### Feature Norm Dataset (Sommerauer and Fokkens, 2018)
 
+The subdirectory related to this paper can be found [here](semantic_space_navigation/projects/semantic_property_space/README.md)
+
 
