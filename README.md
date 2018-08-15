@@ -4,6 +4,6 @@ This is a repository meant to support research on distributional semantic models
 
 ## PREVIOUS WORK REPOSITORIES
 
-# Feature Norm Dataset (Sommerauer and Fokkens, 2018)
+### Feature Norm Dataset (Sommerauer and Fokkens, 2018)
 
 
