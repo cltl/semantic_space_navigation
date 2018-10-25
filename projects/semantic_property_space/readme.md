@@ -13,14 +13,19 @@ If you have questions, please contact Pia Sommerauer (pia.sommerauer@live.com) o
 
 ## Experiments:
 
-- learn features with logistic regression: logistic_regression.py
-- learn features with a neural network: neural_net.py
-- predict features via the nearest neighbor of the centroid of its positive
-  examples: nearest_neighbors.py
+All scripts to run the experiments described in the paper can be found in experiments/.
+
+The directory includes scripts to:
+
+- learn features with logistic regression: `logistic_regression.py`
+- learn features with a neural network: `neural_net.py`
+- predict features via the nearest neighbor of the centroid of its positive examples: `nearest_neighbors.py`
+- calculate the average similarity of all concepts in a dataset: `get_average_cosines.py`
+- get the distance of the words in a dataset from the centroid of all positive examples: `get_cosines_centriod.py`
   
   ### Running experiments
   
-  (See example script: example_experiments.sh)
+)
 
 
   python logistic_regression.py [path_to_model] [model_name] [model_type] [feature]
