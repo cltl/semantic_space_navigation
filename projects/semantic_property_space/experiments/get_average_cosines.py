@@ -90,12 +90,18 @@ def main():
     data = '../data/experiment/'
     results = '../results/'
 
+
     if feature == 'all':
         files =  glob.glob(data+'*-pos.txt')
-        print(files)
-        features = [f.split('/')[-1].split('.')[0].split('-')[0] for f in files]
+        features = [f.split('/')[-1].split('.')[0].split('-')[0] for f in files\
+        if ('train' not in f) and ('test' not in f)]
+    elif feature == 'train':
+        files =  glob.glob(data+'*-pos.txt')
+        features = [f.split('/')[-1].split('.')[0].split('-')[0] for f in files\
+        if ('train' not in f) and ('test' not in f)]
     else:
         features = [feature]
+
 
     if os.path.isfile(results+experiment_name+'/'+model_name+'.txt'):
 

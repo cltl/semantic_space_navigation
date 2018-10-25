@@ -1,0 +1,4 @@
+bear
+table
+camel
+rat

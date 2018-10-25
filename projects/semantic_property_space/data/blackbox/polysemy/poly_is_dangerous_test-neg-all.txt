@@ -1,0 +1,8 @@
+varmint_rifle
+blender
+muzzle_loading_rifle
+insecticide_sprays
+handguns
+puff_adder
+cocked_pistol
+firearms

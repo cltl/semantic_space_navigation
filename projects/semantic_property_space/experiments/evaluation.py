@@ -122,15 +122,14 @@ def main():
 
     if eval == 'loo':
 
-        features = [feature for feature in features if feature.split('_')[-1] !=\
-         'test' and not feature.split('_')[0].startswith('poly') and not \
-         feature.split('_')[0].startswith('ci') ]
+        features = [feature for feature in features if (feature.split('_')[-1] !=\
+         'test') and (feature.split('_')[-1] != 'train')]
         #features = [feature for feature in features if feature.split('_')[-1] !=\
          #'test' and feature.split('_')[0].startswith('poly') ]
         print(features)
     elif eval == 'test':
         print('test')
-        features = [feature for feature in features if feature.split('_')[-1] == 'test' and 'poly_' in feature]
+        features = [feature for feature in features if feature.split('_')[-1] == 'test']
         #print(features)
 
 

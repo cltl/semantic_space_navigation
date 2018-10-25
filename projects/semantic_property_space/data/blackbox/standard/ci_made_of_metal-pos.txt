@@ -1,0 +1,10 @@
+barge
+bench
+buggy
+arrow
+table
+rolls_royce
+telephone
+stool
+kettle
+whisk

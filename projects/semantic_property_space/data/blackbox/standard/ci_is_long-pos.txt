@@ -1,0 +1,10 @@
+hose
+snake
+gherkin
+bench
+tongs
+carrot
+kite
+comb
+coach
+veil

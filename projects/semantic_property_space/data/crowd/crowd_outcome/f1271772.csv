@@ -1,0 +1,461 @@
+_unit_id,_created_at,_golden,_id,_missed,_started_at,_tainted,_channel,_trust,_worker_id,_country,_region,_city,_ip,does_the_description_apply_to_what_is_described,concept,does_the_description_apply_to_what_is_described_gold,does_the_description_apply_to_what_is_described_gold_reason,identifier,property
+1749645880,5/30/2018 22:07:20,true,3716344528,,5/30/2018 22:06:11,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,raisin,no,"Raisins are dried fruits, they do not have blades.",description69,has_a_blade_blades
+1749645880,5/30/2018 22:09:23,true,3716349938,,5/30/2018 22:09:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,raisin,no,"Raisins are dried fruits, they do not have blades.",description69,has_a_blade_blades
+1749645881,5/30/2018 21:59:51,true,3716322703,,5/30/2018 21:59:15,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,housefly,yes,Houseflies are insects. This is a correct description.,description230,is_an_insect
+1749645881,5/30/2018 22:04:11,true,3716335137,,5/30/2018 22:02:26,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,housefly,yes,Houseflies are insects. This is a correct description.,description230,is_an_insect
+1749645881,5/30/2018 22:12:12,true,3716357400,,5/30/2018 22:11:43,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,housefly,yes,Houseflies are insects. This is a correct description.,description230,is_an_insect
+1749645881,5/30/2018 22:12:21,true,3716357936,,5/30/2018 22:10:11,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,housefly,yes,Houseflies are insects. This is a correct description.,description230,is_an_insect
+1749645883,5/30/2018 22:10:28,true,3716352696,,5/30/2018 22:10:05,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,goldfish,"possibly
+no","It is not normal for a goldfish to be big (compared to other fish). The answer should be `no', but we keep 'possibly' to account for the comparative aspect of something being big or large.",description675,is_big_large
+1749645883,5/30/2018 22:12:21,true,3716357941,,5/30/2018 22:10:11,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,goldfish,"possibly
+no","It is not normal for a goldfish to be big (compared to other fish). The answer should be `no', but we keep 'possibly' to account for the comparative aspect of something being big or large.",description675,is_big_large
+1749645883,5/30/2018 22:16:03,true,3716366872,,5/30/2018 22:13:18,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,goldfish,"possibly
+no","It is not normal for a goldfish to be big (compared to other fish). The answer should be `no', but we keep 'possibly' to account for the comparative aspect of something being big or large.",description675,is_big_large
+1749645884,5/30/2018 22:13:43,true,3716361207,,5/30/2018 22:07:06,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,seaweed,"possibly
+no","Though some seaweed can be white, this is not a typical or normal color for seaweed. Both `possibly' or `no' are acceptable here.",description647,is_white
+1749645884,5/30/2018 22:17:08,true,3716369260,,5/30/2018 22:16:48,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,possibly,seaweed,"possibly
+no","Though some seaweed can be white, this is not a typical or normal color for seaweed. Both `possibly' or `no' are acceptable here.",description647,is_white
+1749645885,5/30/2018 21:53:00,true,3716305352,,5/30/2018 21:47:38,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,gerbil,yes,"A gerbil is an animal that has eyes, when healthy.",description300,has_eyes
+1749645885,5/30/2018 22:04:11,true,3716335131,,5/30/2018 22:02:26,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,gerbil,yes,"A gerbil is an animal that has eyes, when healthy.",description300,has_eyes
+1749645886,5/30/2018 22:00:30,true,3716324152,,5/30/2018 21:59:52,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,cannon,"yes
+mostly","Cannons can be used (and are meant to be used) as deadly weapons, though some cannons used for other purposes exist.",description471,does_kill
+1749645886,5/30/2018 22:03:24,true,3716332421,,5/30/2018 22:00:14,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,cannon,"yes
+mostly","Cannons can be used (and are meant to be used) as deadly weapons, though some cannons used for other purposes exist.",description471,does_kill
+1749645887,5/30/2018 21:59:51,true,3716322695,,5/30/2018 21:59:15,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,canary,yes,Canaries are birds that lay eggs.,description119,does_lay_eggs
+1749645889,5/30/2018 22:13:07,true,3716359821,,5/30/2018 22:12:54,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,porsche,no,A porsche cannot be consumed and therefore not have a sweet taste.,description392,is_sweet_(taste)
+1749645889,5/30/2018 22:16:55,true,3716368877,,5/30/2018 22:13:22,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,porsche,no,A porsche cannot be consumed and therefore not have a sweet taste.,description392,is_sweet_(taste)
+1749645889,5/30/2018 22:17:38,true,3716370169,,5/30/2018 22:15:12,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,porsche,no,A porsche cannot be consumed and therefore not have a sweet taste.,description392,is_sweet_(taste)
+1749645890,5/30/2018 21:59:28,true,3716321590,,5/30/2018 21:59:06,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,mostly,beer,"yes
+mostly","Beer can come in multiple colors, but it is typically yellow-ish. Mostly is the best answer.",description237,is_yellow
+1749645891,5/30/2018 22:05:07,true,3716338182,,5/30/2018 22:04:49,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,camel,yes,"Camels are animals that, when healthy, have four legs.",description418,has_four_legs
+1749645891,5/30/2018 22:05:25,true,3716339349,,5/30/2018 22:04:25,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,camel,yes,"Camels are animals that, when healthy, have four legs.",description418,has_four_legs
+1749645891,5/30/2018 22:15:53,true,3716366481,,5/30/2018 22:15:36,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,camel,yes,"Camels are animals that, when healthy, have four legs.",description418,has_four_legs
+1749645891,5/30/2018 22:15:55,true,3716366587,,5/30/2018 22:15:05,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,camel,yes,"Camels are animals that, when healthy, have four legs.",description418,has_four_legs
+1749645892,5/30/2018 22:08:45,true,3716348247,,5/30/2018 22:08:28,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,bat_(sporting),no,A sporting device bat does not have wings.,description705,has_wings
+1749645892,5/30/2018 22:18:03,true,3716371152,,5/30/2018 22:17:44,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,bat_(sporting),no,A sporting device bat does not have wings.,description705,has_wings
+1749645892,5/30/2018 22:18:20,true,3716371738,,5/30/2018 22:17:44,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,bat_(sporting),no,A sporting device bat does not have wings.,description705,has_wings
+1749645893,5/30/2018 22:03:06,true,3716331331,,5/30/2018 22:02:41,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,knickers,"mostly
+possibly","Many, if not most, knickers are made of cotton, though they are also made of other materials. If you consider cotton to be the most common material for knickers, your answer should be `mostly', otherwise `possibly' is the best answer.",description690,made_of_cotton
+1749645893,5/30/2018 22:08:55,true,3716348653,,5/30/2018 22:07:26,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,knickers,"mostly
+possibly","Many, if not most, knickers are made of cotton, though they are also made of other materials. If you consider cotton to be the most common material for knickers, your answer should be `mostly', otherwise `possibly' is the best answer.",description690,made_of_cotton
+1749645895,5/30/2018 22:00:09,true,3716323514,,5/30/2018 21:58:51,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,cushion,no,"Cushions are not made of metal, nor do they have large components made of metal. A metal cushion would not be considered `normal circumstances'.",description492,made_of_metal
+1749645895,5/30/2018 22:13:43,true,3716361199,,5/30/2018 22:07:06,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,cushion,no,"Cushions are not made of metal, nor do they have large components made of metal. A metal cushion would not be considered `normal circumstances'.",description492,made_of_metal
+1749645895,5/30/2018 22:15:32,true,3716365690,,5/30/2018 22:05:31,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,cushion,no,"Cushions are not made of metal, nor do they have large components made of metal. A metal cushion would not be considered `normal circumstances'.",description492,made_of_metal
+1749645896,5/30/2018 21:48:00,true,3716292232,,5/30/2018 21:41:31,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,sycamore,yes,Sycamore is a tree that has leaves. The same rule applies as for activities: a normal healthy sycamore will have leaves in the right seasons.,description551,has_leaves
+1749645896,5/30/2018 22:17:41,true,3716370280,,5/30/2018 22:17:25,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,sycamore,yes,Sycamore is a tree that has leaves. The same rule applies as for activities: a normal healthy sycamore will have leaves in the right seasons.,description551,has_leaves
+1749645897,5/30/2018 22:09:48,true,3716350847,,5/30/2018 22:09:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,bow_(weapon),no,A bow does not have roots.,description6,has_roots
+1749645898,5/30/2018 22:13:43,true,3716361204,,5/30/2018 22:07:06,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,cockerel,yes,Cockerels are animals.,description252,is_an_animal
+1749645898,5/30/2018 22:16:57,true,3716368936,,5/30/2018 22:16:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,cockerel,yes,Cockerels are animals.,description252,is_an_animal
+1749645899,5/30/2018 22:08:27,true,3716347512,,5/30/2018 22:07:35,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,submarine,"yes
+mostly","It is probably highly uncommon for a submarine not to have an engine, both 'yes' and 'mostly' are considered correct.",description434,has_an_engine
+1749645900,5/30/2018 21:53:00,true,3716305354,,5/30/2018 21:47:38,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,knickers,possibly,"Knickers can have many colors, they can be brown, but this is not particularly standard.",description114,is_brown
+1749645900,5/30/2018 22:05:28,true,3716339519,,5/30/2018 22:04:14,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,knickers,possibly,"Knickers can have many colors, they can be brown, but this is not particularly standard.",description114,is_brown
+1749645900,5/30/2018 22:08:38,true,3716347987,,5/30/2018 22:05:34,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,knickers,possibly,"Knickers can have many colors, they can be brown, but this is not particularly standard.",description114,is_brown
+1749645900,5/30/2018 22:14:07,true,3716362177,,5/30/2018 22:13:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,knickers,possibly,"Knickers can have many colors, they can be brown, but this is not particularly standard.",description114,is_brown
+1749645901,5/30/2018 21:53:00,true,3716305355,,5/30/2018 21:47:38,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,lamb,"yes
+mostly
+possibly","Lambs are baby sheep, so one can argue that they are small. Some may say that they differ in size or that this depends on what they are compared to.",description709,is_small
+1749645901,5/30/2018 22:09:42,true,3716350691,,5/30/2018 22:09:24,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,lamb,"yes
+mostly
+possibly","Lambs are baby sheep, so one can argue that they are small. Some may say that they differ in size or that this depends on what they are compared to.",description709,is_small
+1749645901,5/30/2018 22:16:23,true,3716367640,,5/30/2018 22:14:58,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,lamb,"yes
+mostly
+possibly","Lambs are baby sheep, so one can argue that they are small. Some may say that they differ in size or that this depends on what they are compared to.",description709,is_small
+1749645901,5/30/2018 22:16:38,true,3716368177,,5/30/2018 22:15:57,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,lamb,"yes
+mostly
+possibly","Lambs are baby sheep, so one can argue that they are small. Some may say that they differ in size or that this depends on what they are compared to.",description709,is_small
+1749645902,5/30/2018 21:58:01,true,3716318050,,5/30/2018 21:55:41,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,herring,no,A herring is an animal and not a plant or tree. It can thus not have roots.,description82,has_roots
+1749645902,5/30/2018 22:10:04,true,3716351473,,5/30/2018 22:09:43,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,herring,no,A herring is an animal and not a plant or tree. It can thus not have roots.,description82,has_roots
+1749645902,5/30/2018 22:14:44,true,3716363730,,5/30/2018 22:10:45,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,no,herring,no,A herring is an animal and not a plant or tree. It can thus not have roots.,description82,has_roots
+1749645902,5/30/2018 22:16:46,true,3716368520,,5/30/2018 22:15:56,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,herring,no,A herring is an animal and not a plant or tree. It can thus not have roots.,description82,has_roots
+1749645903,5/30/2018 21:53:00,true,3716305356,,5/30/2018 21:47:38,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,fir,yes,A fir is a tree that has roots.,description53,has_roots
+1749645903,5/30/2018 22:04:11,true,3716335129,,5/30/2018 22:02:26,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,fir,yes,A fir is a tree that has roots.,description53,has_roots
+1749645903,5/30/2018 22:06:23,true,3716342094,,5/30/2018 22:05:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,fir,yes,A fir is a tree that has roots.,description53,has_roots
+1749645904,5/30/2018 22:12:53,true,3716359266,,5/30/2018 22:12:23,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,biscuit,yes,"Biscuits are food and can, under normal circumstances, be eaten. Cases of them having gone bad, being poisonous, etc. are not considered normal circumstances.",description129,is_eaten_edible
+1749645904,5/30/2018 22:18:05,true,3716371201,,5/30/2018 22:17:41,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,biscuit,yes,"Biscuits are food and can, under normal circumstances, be eaten. Cases of them having gone bad, being poisonous, etc. are not considered normal circumstances.",description129,is_eaten_edible
+1749645905,5/30/2018 22:12:54,true,3716359303,,5/30/2018 22:10:29,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,daffodil,"yes
+mostly
+possibly","Flower farmers grow daffodils.  This is a property of all flowers (preferred answer is `yes'). Mostly and possibly are considered correct, because one may contrast `being grown' to `occurring in the wild'.",description707,is_grown
+1749645905,5/30/2018 22:13:20,true,3716360454,,5/30/2018 22:08:40,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,daffodil,"yes
+mostly
+possibly","Flower farmers grow daffodils.  This is a property of all flowers (preferred answer is `yes'). Mostly and possibly are considered correct, because one may contrast `being grown' to `occurring in the wild'.",description707,is_grown
+1749645905,5/30/2018 22:14:39,true,3716363618,,5/30/2018 22:14:18,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,daffodil,"yes
+mostly
+possibly","Flower farmers grow daffodils.  This is a property of all flowers (preferred answer is `yes'). Mostly and possibly are considered correct, because one may contrast `being grown' to `occurring in the wild'.",description707,is_grown
+1749645905,5/30/2018 22:17:51,true,3716370696,,5/30/2018 22:17:13,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,daffodil,"yes
+mostly
+possibly","Flower farmers grow daffodils.  This is a property of all flowers (preferred answer is `yes'). Mostly and possibly are considered correct, because one may contrast `being grown' to `occurring in the wild'.",description707,is_grown
+1749645905,5/30/2018 22:18:17,true,3716371690,,5/30/2018 22:16:27,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,daffodil,"yes
+mostly
+possibly","Flower farmers grow daffodils.  This is a property of all flowers (preferred answer is `yes'). Mostly and possibly are considered correct, because one may contrast `being grown' to `occurring in the wild'.",description707,is_grown
+1749645906,5/30/2018 21:55:34,true,3716311852,,5/30/2018 21:53:06,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,accordion,"yes
+mostly",Accordions are musical instruments that generally make a loud sound.,description314,is_noisy_loud
+1749645906,5/30/2018 22:13:50,true,3716361438,,5/30/2018 22:13:09,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,accordion,"yes
+mostly",Accordions are musical instruments that generally make a loud sound.,description314,is_noisy_loud
+1749645906,5/30/2018 22:17:39,true,3716370218,,5/30/2018 22:17:09,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,mostly,accordion,"yes
+mostly",Accordions are musical instruments that generally make a loud sound.,description314,is_noisy_loud
+1749645907,5/30/2018 21:48:00,true,3716292219,,5/30/2018 21:41:31,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,eel,yes,Eel are fish with eyes (when healthy).,description98,has_eyes
+1749645907,5/30/2018 22:14:55,true,3716364072,,5/30/2018 22:14:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,eel,yes,Eel are fish with eyes (when healthy).,description98,has_eyes
+1749645907,5/30/2018 22:17:08,true,3716369298,,5/30/2018 22:16:09,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,eel,yes,Eel are fish with eyes (when healthy).,description98,has_eyes
+1749645908,5/30/2018 22:14:16,true,3716362682,,5/30/2018 22:13:52,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,biscuit,no,"Biscuits are food, not clothes.",description427,is_clothing
+1749645908,5/30/2018 22:14:39,true,3716363610,,5/30/2018 22:14:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,biscuit,no,"Biscuits are food, not clothes.",description427,is_clothing
+1749645908,5/30/2018 22:15:55,true,3716366584,,5/30/2018 22:15:05,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,biscuit,no,"Biscuits are food, not clothes.",description427,is_clothing
+1749646330,5/30/2018 22:14:55,false,3716364075,,5/30/2018 22:14:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,swan,,,test1,has_eyes
+1749646330,5/30/2018 22:17:39,false,3716370224,,5/30/2018 22:17:09,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,swan,,,test1,has_eyes
+1749646330,5/30/2018 22:20:41,false,3716377107,,5/30/2018 22:16:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,swan,,,test1,has_eyes
+1749646331,5/30/2018 21:58:01,false,3716318047,,5/30/2018 21:55:41,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,locust,,,test2,does_swim
+1749646331,5/30/2018 21:59:28,false,3716321585,,5/30/2018 21:59:06,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,locust,,,test2,does_swim
+1749646331,5/30/2018 22:01:03,false,3716325714,,5/30/2018 22:00:31,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,locust,,,test2,does_swim
+1749646332,5/30/2018 22:03:06,false,3716331328,,5/30/2018 22:02:41,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,snake,,,test3,is_long
+1749646332,5/30/2018 22:03:24,false,3716332441,,5/30/2018 22:00:14,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,snake,,,test3,is_long
+1749646332,5/30/2018 22:04:45,false,3716337005,,5/30/2018 22:03:16,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,snake,,,test3,is_long
+1749646333,5/30/2018 22:15:11,false,3716364828,,5/30/2018 22:14:56,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,paper,,,test4,is_white
+1749646333,5/30/2018 22:17:41,false,3716370311,,5/30/2018 22:17:25,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,paper,,,test4,is_white
+1749646333,5/30/2018 22:17:51,false,3716370706,,5/30/2018 22:17:13,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,paper,,,test4,is_white
+1749646334,5/30/2018 22:08:45,false,3716348241,,5/30/2018 22:08:28,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,raspberry,,,test5,is_small
+1749646334,5/30/2018 22:10:54,false,3716353705,,5/30/2018 22:09:53,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,raspberry,,,test5,is_small
+1749646334,5/30/2018 22:17:38,false,3716370183,,5/30/2018 22:15:12,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,raspberry,,,test5,is_small
+1749646335,5/30/2018 22:14:39,false,3716363620,,5/30/2018 22:14:18,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,possibly,melon ,,,test6,is_small
+1749646335,5/30/2018 22:14:39,false,3716363621,,5/30/2018 22:14:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,melon ,,,test6,is_small
+1749646335,5/30/2018 22:17:08,false,3716369256,,5/30/2018 22:16:48,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,possibly,melon ,,,test6,is_small
+1749646336,5/30/2018 22:08:27,false,3716347508,,5/30/2018 22:07:35,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,minnow,,,test7,does_swim
+1749646336,5/30/2018 22:09:48,false,3716350851,,5/30/2018 22:09:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,minnow,,,test7,does_swim
+1749646336,5/30/2018 22:13:20,false,3716360457,,5/30/2018 22:08:40,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,minnow,,,test7,does_swim
+1749646337,5/30/2018 22:15:11,false,3716364835,,5/30/2018 22:14:56,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,bat_(sporting),,,test8,is_an_animal
+1749646337,5/30/2018 22:17:51,false,3716370689,,5/30/2018 22:17:13,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,bat_(sporting),,,test8,is_an_animal
+1749646337,5/30/2018 22:20:41,false,3716377120,,5/30/2018 22:16:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,bat_(sporting),,,test8,is_an_animal
+1749646338,5/30/2018 22:16:57,false,3716368931,,5/30/2018 22:16:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,pumpkin,,,test9,is_pink
+1749646338,5/30/2018 22:18:03,false,3716371149,,5/30/2018 22:17:44,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,pumpkin,,,test9,is_pink
+1749646338,5/30/2018 22:18:20,false,3716371744,,5/30/2018 22:17:44,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,pumpkin,,,test9,is_pink
+1749646339,5/30/2018 22:07:34,false,3716345140,,5/30/2018 22:06:25,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,pin,,,test10,is_small
+1749646339,5/30/2018 22:08:55,false,3716348658,,5/30/2018 22:07:26,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,pin,,,test10,is_small
+1749646339,5/30/2018 22:16:23,false,3716367644,,5/30/2018 22:14:58,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,mostly,pin,,,test10,is_small
+1749646340,5/30/2018 22:16:57,false,3716368929,,5/30/2018 22:16:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,leotard,,,test11,is_worn
+1749646340,5/30/2018 22:18:03,false,3716371144,,5/30/2018 22:17:44,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,leotard,,,test11,is_worn
+1749646340,5/30/2018 22:18:11,false,3716371462,,5/30/2018 22:17:56,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,leotard,,,test11,is_worn
+1749646341,5/30/2018 22:04:10,false,3716335054,,5/30/2018 22:03:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,millipede,,,test12,has_legs
+1749646341,5/30/2018 22:04:20,false,3716335506,,5/30/2018 22:03:31,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,millipede,,,test12,has_legs
+1749646341,5/30/2018 22:05:28,false,3716339521,,5/30/2018 22:04:14,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,millipede,,,test12,has_legs
+1749646342,5/30/2018 22:10:04,false,3716351465,,5/30/2018 22:09:43,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,organ_(musical instrument),,,test13,has_keys
+1749646342,5/30/2018 22:13:50,false,3716361446,,5/30/2018 22:13:09,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,organ_(musical instrument),,,test13,has_keys
+1749646342,5/30/2018 22:17:08,false,3716369301,,5/30/2018 22:16:09,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,organ_(musical instrument),,,test13,has_keys
+1749646343,5/30/2018 22:14:07,false,3716362181,,5/30/2018 22:13:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,prune,,,test14,is_edible
+1749646343,5/30/2018 22:14:16,false,3716362680,,5/30/2018 22:13:52,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,prune,,,test14,is_edible
+1749646343,5/30/2018 22:17:08,false,3716369261,,5/30/2018 22:16:48,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,prune,,,test14,is_edible
+1749646344,5/30/2018 22:12:53,false,3716359263,,5/30/2018 22:12:23,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,razor_blade,,,test15,made_of_glass
+1749646344,5/30/2018 22:12:54,false,3716359315,,5/30/2018 22:10:29,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,razor_blade,,,test15,made_of_glass
+1749646344,5/30/2018 22:17:22,false,3716369636,,5/30/2018 22:16:41,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,razor_blade,,,test15,made_of_glass
+1749646345,5/30/2018 22:16:15,false,3716367272,,5/30/2018 22:15:12,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,partridge,,,test16,has_a_beak
+1749646345,5/30/2018 22:18:05,false,3716371205,,5/30/2018 22:17:41,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,partridge,,,test16,has_a_beak
+1749646345,5/30/2018 22:18:20,false,3716371763,,5/30/2018 22:17:44,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,partridge,,,test16,has_a_beak
+1749646346,5/30/2018 22:16:15,false,3716367297,,5/30/2018 22:15:12,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,parakeet,,,test17,is_an_animal
+1749646346,5/30/2018 22:17:41,false,3716370325,,5/30/2018 22:17:25,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,parakeet,,,test17,is_an_animal
+1749646346,5/30/2018 22:18:05,false,3716371187,,5/30/2018 22:17:41,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,parakeet,,,test17,is_an_animal
+1749646347,5/30/2018 22:09:06,false,3716349245,,5/30/2018 22:08:46,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,pansy,,,test18,is_a_plant
+1749646347,5/30/2018 22:13:07,false,3716359841,,5/30/2018 22:12:54,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,pansy,,,test18,is_a_plant
+1749646347,5/30/2018 22:15:53,false,3716366483,,5/30/2018 22:15:36,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,pansy,,,test18,is_a_plant
+1749646348,5/30/2018 22:00:09,false,3716323510,,5/30/2018 21:58:51,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,flounder,,,test19,does_fly
+1749646348,5/30/2018 22:02:39,false,3716329818,,5/30/2018 22:01:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,flounder,,,test19,does_fly
+1749646348,5/30/2018 22:03:14,false,3716331829,,5/30/2018 22:02:10,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,flounder,,,test19,does_fly
+1749646349,5/30/2018 22:08:45,false,3716348250,,5/30/2018 22:08:28,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,biscuit,,,test20,is_grown
+1749646349,5/30/2018 22:10:54,false,3716353711,,5/30/2018 22:09:53,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,biscuit,,,test20,is_grown
+1749646349,5/30/2018 22:17:38,false,3716370194,,5/30/2018 22:15:12,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,biscuit,,,test20,is_grown
+1749646350,5/30/2018 22:10:28,false,3716352701,,5/30/2018 22:10:05,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,dragonfly,,,test21,does_swim
+1749646350,5/30/2018 22:13:13,false,3716360215,,5/30/2018 22:12:15,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,dragonfly,,,test21,does_swim
+1749646350,5/30/2018 22:18:17,false,3716371693,,5/30/2018 22:16:27,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,no,dragonfly,,,test21,does_swim
+1749646351,5/30/2018 22:16:57,false,3716368934,,5/30/2018 22:16:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,lamb,,,test22,is_grown
+1749646351,5/30/2018 22:18:05,false,3716371192,,5/30/2018 22:17:41,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,lamb,,,test22,is_grown
+1749646351,5/30/2018 22:18:20,false,3716371754,,5/30/2018 22:17:44,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,lamb,,,test22,is_grown
+1749646352,5/30/2018 22:00:09,false,3716323503,,5/30/2018 21:58:51,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,marigold,,,test23,does_live_in_water
+1749646352,5/30/2018 22:02:39,false,3716329819,,5/30/2018 22:01:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,marigold,,,test23,does_live_in_water
+1749646352,5/30/2018 22:03:14,false,3716331807,,5/30/2018 22:02:10,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,marigold,,,test23,does_live_in_water
+1749646353,5/30/2018 22:13:15,false,3716360279,,5/30/2018 22:12:55,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,tongs,,,test24,is_a_tool
+1749646353,5/30/2018 22:16:03,false,3716366874,,5/30/2018 22:13:18,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,tongs,,,test24,is_a_tool
+1749646353,5/30/2018 22:16:55,false,3716368868,,5/30/2018 22:13:22,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,tongs,,,test24,is_a_tool
+1749646354,5/30/2018 22:00:09,false,3716323506,,5/30/2018 21:58:51,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,castle,,,description1,made_of_metal
+1749646354,5/30/2018 22:02:39,false,3716329816,,5/30/2018 22:01:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,castle,,,description1,made_of_metal
+1749646354,5/30/2018 22:03:14,false,3716331817,,5/30/2018 22:02:10,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,castle,,,description1,made_of_metal
+1749646355,5/30/2018 22:14:07,false,3716362184,,5/30/2018 22:13:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,microscope,,,description2,has_legs
+1749646355,5/30/2018 22:14:16,false,3716362679,,5/30/2018 22:13:52,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,microscope,,,description2,has_legs
+1749646355,5/30/2018 22:17:08,false,3716369258,,5/30/2018 22:16:48,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,microscope,,,description2,has_legs
+1749646356,5/30/2018 22:09:06,false,3716349252,,5/30/2018 22:08:46,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,butterfly,,,description3,has_eyes
+1749646356,5/30/2018 22:13:07,false,3716359807,,5/30/2018 22:12:54,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,butterfly,,,description3,has_eyes
+1749646356,5/30/2018 22:15:53,false,3716366479,,5/30/2018 22:15:36,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,butterfly,,,description3,has_eyes
+1749646357,5/30/2018 22:05:07,false,3716338163,,5/30/2018 22:04:49,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,elephant,,,description4,is_black
+1749646357,5/30/2018 22:06:07,false,3716341389,,5/30/2018 22:05:30,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,elephant,,,description4,is_black
+1749646357,5/30/2018 22:15:32,false,3716365700,,5/30/2018 22:05:31,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,elephant,,,description4,is_black
+1749646358,5/30/2018 22:10:04,false,3716351469,,5/30/2018 22:09:43,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,raisin,,,description5,is_circular_round
+1749646358,5/30/2018 22:13:50,false,3716361451,,5/30/2018 22:13:09,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,raisin,,,description5,is_circular_round
+1749646358,5/30/2018 22:17:08,false,3716369303,,5/30/2018 22:16:09,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,raisin,,,description5,is_circular_round
+1749646359,5/30/2018 22:10:04,false,3716351455,,5/30/2018 22:09:43,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,clam,,,description6,has_eyes
+1749646359,5/30/2018 22:13:50,false,3716361455,,5/30/2018 22:13:09,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,clam,,,description6,has_eyes
+1749646359,5/30/2018 22:16:46,false,3716368525,,5/30/2018 22:15:56,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,possibly,clam,,,description6,has_eyes
+1749646360,5/30/2018 22:16:15,false,3716367265,,5/30/2018 22:15:12,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,budgie,,,description7,is_a_mammal
+1749646360,5/30/2018 22:17:41,false,3716370295,,5/30/2018 22:17:25,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,budgie,,,description7,is_a_mammal
+1749646360,5/30/2018 22:18:05,false,3716371197,,5/30/2018 22:17:41,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,budgie,,,description7,is_a_mammal
+1749646361,5/30/2018 22:05:07,false,3716338166,,5/30/2018 22:04:49,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,hook,,,description8,made_of_wood
+1749646361,5/30/2018 22:06:07,false,3716341376,,5/30/2018 22:05:30,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,hook,,,description8,made_of_wood
+1749646361,5/30/2018 22:15:32,false,3716365692,,5/30/2018 22:05:31,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,hook,,,description8,made_of_wood
+1749646362,5/30/2018 22:09:42,false,3716350689,,5/30/2018 22:09:24,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,millipede,,,description9,has_eyes
+1749646362,5/30/2018 22:12:12,false,3716357388,,5/30/2018 22:11:43,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,millipede,,,description9,has_eyes
+1749646362,5/30/2018 22:16:46,false,3716368507,,5/30/2018 22:15:56,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,millipede,,,description9,has_eyes
+1749646363,5/30/2018 22:14:55,false,3716364068,,5/30/2018 22:14:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,rock,,,description10,is_hard
+1749646363,5/30/2018 22:16:39,false,3716368210,,5/30/2018 22:14:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,rock,,,description10,is_hard
+1749646363,5/30/2018 22:18:24,false,3716371879,,5/30/2018 22:16:57,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,rock,,,description10,is_hard
+1749646364,5/30/2018 21:50:16,false,3716297950,,5/30/2018 21:48:12,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,rattlesnake,,,description11,does_eat
+1749646364,5/30/2018 21:55:34,false,3716311860,,5/30/2018 21:53:06,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,rattlesnake,,,description11,does_eat
+1749646364,5/30/2018 22:00:30,false,3716324156,,5/30/2018 21:59:52,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,rattlesnake,,,description11,does_eat
+1749646365,5/30/2018 22:05:07,false,3716338172,,5/30/2018 22:04:49,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,cricket,,,description12,has_wings
+1749646365,5/30/2018 22:06:07,false,3716341384,,5/30/2018 22:05:30,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,cricket,,,description12,has_wings
+1749646365,5/30/2018 22:15:32,false,3716365694,,5/30/2018 22:05:31,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,cricket,,,description12,has_wings
+1749646366,5/30/2018 21:58:43,false,3716319878,,5/30/2018 21:58:07,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,swimsuit,,,description13,is_a_tool
+1749646366,5/30/2018 22:01:38,false,3716327220,,5/30/2018 22:01:04,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,swimsuit,,,description13,is_a_tool
+1749646366,5/30/2018 22:02:08,false,3716328312,,5/30/2018 21:59:29,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,swimsuit,,,description13,is_a_tool
+1749646367,5/30/2018 22:09:06,false,3716349249,,5/30/2018 22:08:46,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,kiwi_fruit,,,description14,is_sweet_(taste)
+1749646367,5/30/2018 22:13:07,false,3716359816,,5/30/2018 22:12:54,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,kiwi_fruit,,,description14,is_sweet_(taste)
+1749646367,5/30/2018 22:17:38,false,3716370177,,5/30/2018 22:15:12,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,kiwi_fruit,,,description14,is_sweet_(taste)
+1749646368,5/30/2018 22:04:48,false,3716337197,,5/30/2018 22:04:20,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,clamp,,,description15,made_of_plastic
+1749646368,5/30/2018 22:05:25,false,3716339364,,5/30/2018 22:04:25,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,clamp,,,description15,made_of_plastic
+1749646368,5/30/2018 22:05:33,false,3716339721,,5/30/2018 22:04:46,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,clamp,,,description15,made_of_plastic
+1749646369,5/30/2018 22:08:45,false,3716348254,,5/30/2018 22:08:28,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,giraffe,,,description16,has_leaves
+1749646369,5/30/2018 22:10:54,false,3716353715,,5/30/2018 22:09:53,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,giraffe,,,description16,has_leaves
+1749646369,5/30/2018 22:17:38,false,3716370189,,5/30/2018 22:15:12,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,giraffe,,,description16,has_leaves
+1749646370,5/30/2018 21:58:01,false,3716318039,,5/30/2018 21:55:41,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,sunflower,,,description18,does_protect
+1749646370,5/30/2018 21:59:28,false,3716321593,,5/30/2018 21:59:06,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,sunflower,,,description18,does_protect
+1749646370,5/30/2018 22:01:03,false,3716325723,,5/30/2018 22:00:31,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,sunflower,,,description18,does_protect
+1749646371,5/30/2018 22:09:23,false,3716349940,,5/30/2018 22:09:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,coach_(vehicle),,,description20,made_of_plastic
+1749646371,5/30/2018 22:11:38,false,3716356027,,5/30/2018 22:11:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,coach_(vehicle),,,description20,made_of_plastic
+1749646371,5/30/2018 22:16:38,false,3716368181,,5/30/2018 22:15:57,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,coach_(vehicle),,,description20,made_of_plastic
+1749646372,5/30/2018 21:58:43,false,3716319888,,5/30/2018 21:58:07,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,prune,,,description21,has_roots
+1749646372,5/30/2018 22:01:38,false,3716327209,,5/30/2018 22:01:04,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,prune,,,description21,has_roots
+1749646372,5/30/2018 22:02:08,false,3716328308,,5/30/2018 21:59:29,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,prune,,,description21,has_roots
+1749646373,5/30/2018 22:10:28,false,3716352690,,5/30/2018 22:10:05,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,deckchair,,,description22,made_of_fabric_cloth_material
+1749646373,5/30/2018 22:13:13,false,3716360184,,5/30/2018 22:12:15,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,deckchair,,,description22,made_of_fabric_cloth_material
+1749646373,5/30/2018 22:18:17,false,3716371694,,5/30/2018 22:16:27,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,mostly,deckchair,,,description22,made_of_fabric_cloth_material
+1749646374,5/30/2018 22:03:06,false,3716331337,,5/30/2018 22:02:41,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,helicopter,,,description23,is_noisy_loud
+1749646374,5/30/2018 22:03:24,false,3716332426,,5/30/2018 22:00:14,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,helicopter,,,description23,is_noisy_loud
+1749646374,5/30/2018 22:04:45,false,3716337012,,5/30/2018 22:03:16,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,helicopter,,,description23,is_noisy_loud
+1749646375,5/30/2018 22:12:53,false,3716359269,,5/30/2018 22:12:23,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,possibly,hose,,,description24,made_of_metal
+1749646375,5/30/2018 22:12:54,false,3716359320,,5/30/2018 22:10:29,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,hose,,,description24,made_of_metal
+1749646375,5/30/2018 22:17:08,false,3716369306,,5/30/2018 22:16:09,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,hose,,,description24,made_of_metal
+1749646376,5/30/2018 22:09:42,false,3716350676,,5/30/2018 22:09:24,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,pencil,,,description25,is_for_children
+1749646376,5/30/2018 22:12:12,false,3716357406,,5/30/2018 22:11:43,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,pencil,,,description25,is_for_children
+1749646376,5/30/2018 22:16:46,false,3716368512,,5/30/2018 22:15:56,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,mostly,pencil,,,description25,is_for_children
+1749646377,5/30/2018 21:58:43,false,3716319882,,5/30/2018 21:58:07,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,wheel,,,description27,has_a_seat_seats
+1749646377,5/30/2018 22:01:38,false,3716327214,,5/30/2018 22:01:04,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,wheel,,,description27,has_a_seat_seats
+1749646377,5/30/2018 22:02:08,false,3716328306,,5/30/2018 21:59:29,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,wheel,,,description27,has_a_seat_seats
+1749646378,5/30/2018 22:07:34,false,3716345133,,5/30/2018 22:06:25,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,gorilla,,,description28,has_a_tail
+1749646378,5/30/2018 22:08:55,false,3716348661,,5/30/2018 22:07:26,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,gorilla,,,description28,has_a_tail
+1749646378,5/30/2018 22:16:23,false,3716367647,,5/30/2018 22:14:58,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,no,gorilla,,,description28,has_a_tail
+1749646379,5/30/2018 22:04:48,false,3716337203,,5/30/2018 22:04:20,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,mat,,,description29,made_of_plastic
+1749646379,5/30/2018 22:05:25,false,3716339361,,5/30/2018 22:04:25,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,mat,,,description29,made_of_plastic
+1749646379,5/30/2018 22:05:33,false,3716339719,,5/30/2018 22:04:46,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,mat,,,description29,made_of_plastic
+1749646380,5/30/2018 22:06:23,false,3716342087,,5/30/2018 22:05:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,banjo,,,description30,is_noisy_loud
+1749646380,5/30/2018 22:07:20,false,3716344520,,5/30/2018 22:06:11,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,banjo,,,description30,is_noisy_loud
+1749646380,5/30/2018 22:08:38,false,3716347978,,5/30/2018 22:05:34,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,banjo,,,description30,is_noisy_loud
+1749646381,5/30/2018 22:07:34,false,3716345138,,5/30/2018 22:06:25,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,spade,,,description31,is_small
+1749646381,5/30/2018 22:08:55,false,3716348656,,5/30/2018 22:07:26,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,spade,,,description31,is_small
+1749646381,5/30/2018 22:16:23,false,3716367655,,5/30/2018 22:14:58,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,possibly,spade,,,description31,is_small
+1749646382,5/30/2018 22:12:53,false,3716359272,,5/30/2018 22:12:23,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,rollerskate,,,description32,has_a_seat_seats
+1749646382,5/30/2018 22:12:54,false,3716359311,,5/30/2018 22:10:29,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,rollerskate,,,description32,has_a_seat_seats
+1749646382,5/30/2018 22:17:22,false,3716369661,,5/30/2018 22:16:41,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,rollerskate,,,description32,has_a_seat_seats
+1749646383,5/30/2018 22:15:11,false,3716364822,,5/30/2018 22:14:56,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,wolf,,,description33,is_fast
+1749646383,5/30/2018 22:17:39,false,3716370220,,5/30/2018 22:17:09,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,mostly,wolf,,,description33,is_fast
+1749646383,5/30/2018 22:20:41,false,3716377115,,5/30/2018 22:16:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,wolf,,,description33,is_fast
+1749646384,5/30/2018 22:14:39,false,3716363615,,5/30/2018 22:14:18,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,knickers,,,description34,is_used_in_cooking
+1749646384,5/30/2018 22:14:39,false,3716363617,,5/30/2018 22:14:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,knickers,,,description34,is_used_in_cooking
+1749646384,5/30/2018 22:18:24,false,3716371877,,5/30/2018 22:16:57,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,knickers,,,description34,is_used_in_cooking
+1749646385,5/30/2018 22:04:48,false,3716337207,,5/30/2018 22:04:20,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,tricycle,,,description35,made_of_glass
+1749646385,5/30/2018 22:05:25,false,3716339357,,5/30/2018 22:04:25,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,tricycle,,,description35,made_of_glass
+1749646385,5/30/2018 22:05:33,false,3716339723,,5/30/2018 22:04:46,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,tricycle,,,description35,made_of_glass
+1749646386,5/30/2018 21:58:01,false,3716318042,,5/30/2018 21:55:41,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,ring_(jewellery),,,description36,is_worn
+1749646386,5/30/2018 21:59:28,false,3716321602,,5/30/2018 21:59:06,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,ring_(jewellery),,,description36,is_worn
+1749646386,5/30/2018 22:01:03,false,3716325716,,5/30/2018 22:00:31,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,ring_(jewellery),,,description36,is_worn
+1749646387,5/30/2018 22:09:23,false,3716349948,,5/30/2018 22:09:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,owl,,,description37,has_four_legs
+1749646387,5/30/2018 22:11:38,false,3716356023,,5/30/2018 22:11:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,owl,,,description37,has_four_legs
+1749646387,5/30/2018 22:15:53,false,3716366482,,5/30/2018 22:15:36,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,owl,,,description37,has_four_legs
+1749646388,5/30/2018 22:06:23,false,3716342084,,5/30/2018 22:05:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,sycamore,,,description38,is_a_plant
+1749646388,5/30/2018 22:07:20,false,3716344524,,5/30/2018 22:06:11,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,sycamore,,,description38,is_a_plant
+1749646388,5/30/2018 22:08:38,false,3716347992,,5/30/2018 22:05:34,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,sycamore,,,description38,is_a_plant
+1749646389,5/30/2018 22:14:55,false,3716364073,,5/30/2018 22:14:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,heron,,,description39,has_claws
+1749646389,5/30/2018 22:16:39,false,3716368216,,5/30/2018 22:14:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,heron,,,description39,has_claws
+1749646389,5/30/2018 22:17:39,false,3716370219,,5/30/2018 22:17:09,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,heron,,,description39,has_claws
+1749646390,5/30/2018 22:08:45,false,3716348244,,5/30/2018 22:08:28,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,van,,,description40,has_a_seat_seats
+1749646390,5/30/2018 22:10:54,false,3716353723,,5/30/2018 22:09:53,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,van,,,description40,has_a_seat_seats
+1749646390,5/30/2018 22:16:23,false,3716367651,,5/30/2018 22:14:58,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,van,,,description40,has_a_seat_seats
+1749646391,5/30/2018 21:50:16,false,3716297949,,5/30/2018 21:48:12,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,cider,,,description41,is_eaten_edible
+1749646391,5/30/2018 21:55:34,false,3716311856,,5/30/2018 21:53:06,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,cider,,,description41,is_eaten_edible
+1749646391,5/30/2018 22:00:30,false,3716324150,,5/30/2018 21:59:52,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,cider,,,description41,is_eaten_edible
+1749646392,5/30/2018 22:09:42,false,3716350686,,5/30/2018 22:09:24,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,trowel,,,description42,is_useful
+1749646392,5/30/2018 22:12:12,false,3716357394,,5/30/2018 22:11:43,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,trowel,,,description42,is_useful
+1749646392,5/30/2018 22:16:46,false,3716368499,,5/30/2018 22:15:56,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,trowel,,,description42,is_useful
+1749646393,5/30/2018 22:14:39,false,3716363614,,5/30/2018 22:14:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,cauliflower,,,description43,is_circular_round
+1749646393,5/30/2018 22:14:39,false,3716363624,,5/30/2018 22:14:18,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,possibly,cauliflower,,,description43,is_circular_round
+1749646393,5/30/2018 22:18:24,false,3716371876,,5/30/2018 22:16:57,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,mostly,cauliflower,,,description43,is_circular_round
+1749646394,5/30/2018 22:08:27,false,3716347509,,5/30/2018 22:07:35,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,certificate,,,description44,made_of_metal
+1749646394,5/30/2018 22:09:48,false,3716350856,,5/30/2018 22:09:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,certificate,,,description44,made_of_metal
+1749646394,5/30/2018 22:13:20,false,3716360451,,5/30/2018 22:08:40,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,certificate,,,description44,made_of_metal
+1749646395,5/30/2018 22:04:10,false,3716335058,,5/30/2018 22:03:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,tangerine,,,description45,has_skin_peel
+1749646395,5/30/2018 22:04:20,false,3716335513,,5/30/2018 22:03:31,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,tangerine,,,description45,has_skin_peel
+1749646395,5/30/2018 22:05:28,false,3716339525,,5/30/2018 22:04:14,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,tangerine,,,description45,has_skin_peel
+1749646396,5/30/2018 22:13:15,false,3716360268,,5/30/2018 22:12:55,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,blueberry,,,description46,has_a_stalk_stem
+1749646396,5/30/2018 22:16:03,false,3716366863,,5/30/2018 22:13:18,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,blueberry,,,description46,has_a_stalk_stem
+1749646396,5/30/2018 22:16:55,false,3716368874,,5/30/2018 22:13:22,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,blueberry,,,description46,has_a_stalk_stem
+1749646397,5/30/2018 22:05:07,false,3716338177,,5/30/2018 22:04:49,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,kettle,,,description47,is_electric
+1749646397,5/30/2018 22:06:07,false,3716341381,,5/30/2018 22:05:30,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,kettle,,,description47,is_electric
+1749646397,5/30/2018 22:15:32,false,3716365697,,5/30/2018 22:05:31,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,mostly,kettle,,,description47,is_electric
+1749646398,5/30/2018 22:13:15,false,3716360285,,5/30/2018 22:12:55,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,carrot,,,description48,has_leaves
+1749646398,5/30/2018 22:16:03,false,3716366869,,5/30/2018 22:13:18,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,carrot,,,description48,has_leaves
+1749646398,5/30/2018 22:16:55,false,3716368865,,5/30/2018 22:13:22,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,carrot,,,description48,has_leaves
+1749646399,5/30/2018 22:06:23,false,3716342090,,5/30/2018 22:05:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,pamphlet,,,description49,is_food
+1749646399,5/30/2018 22:07:20,false,3716344531,,5/30/2018 22:06:11,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,pamphlet,,,description49,is_food
+1749646399,5/30/2018 22:08:38,false,3716348001,,5/30/2018 22:05:34,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,pamphlet,,,description49,is_food
+1749646400,5/30/2018 22:14:39,false,3716363623,,5/30/2018 22:14:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,lobster,,,description50,has_claws
+1749646400,5/30/2018 22:14:39,false,3716363626,,5/30/2018 22:14:18,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,lobster,,,description50,has_claws
+1749646400,5/30/2018 22:18:24,false,3716371878,,5/30/2018 22:16:57,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,lobster,,,description50,has_claws
+1749646401,5/30/2018 22:14:55,false,3716364070,,5/30/2018 22:14:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,ferry,,,description51,has_a_seat_seats
+1749646401,5/30/2018 22:16:39,false,3716368223,,5/30/2018 22:14:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,ferry,,,description51,has_a_seat_seats
+1749646401,5/30/2018 22:17:39,false,3716370223,,5/30/2018 22:17:09,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,ferry,,,description51,has_a_seat_seats
+1749646402,5/30/2018 22:10:04,false,3716351461,,5/30/2018 22:09:43,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,boots,,,description52,has_legs
+1749646402,5/30/2018 22:13:50,false,3716361442,,5/30/2018 22:13:09,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,boots,,,description52,has_legs
+1749646402,5/30/2018 22:17:08,false,3716369305,,5/30/2018 22:16:09,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,boots,,,description52,has_legs
+1749646403,5/30/2018 22:08:27,false,3716347511,,5/30/2018 22:07:35,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,skunk,,,description53,is_brown
+1749646403,5/30/2018 22:09:48,false,3716350860,,5/30/2018 22:09:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,skunk,,,description53,is_brown
+1749646403,5/30/2018 22:13:20,false,3716360458,,5/30/2018 22:08:40,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,skunk,,,description53,is_brown
+1749646404,5/30/2018 22:16:57,false,3716368933,,5/30/2018 22:16:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,chain,,,description54,is_tasty
+1749646404,5/30/2018 22:18:03,false,3716371138,,5/30/2018 22:17:44,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,chain,,,description54,is_tasty
+1749646404,5/30/2018 22:18:20,false,3716371733,,5/30/2018 22:17:44,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,chain,,,description54,is_tasty
+1749646405,5/30/2018 22:14:07,false,3716362186,,5/30/2018 22:13:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,prawn,,,description55,is_strong
+1749646405,5/30/2018 22:14:16,false,3716362684,,5/30/2018 22:13:52,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,prawn,,,description55,is_strong
+1749646405,5/30/2018 22:17:08,false,3716369259,,5/30/2018 22:16:48,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,prawn,,,description55,is_strong
+1749646406,5/30/2018 22:09:06,false,3716349251,,5/30/2018 22:08:46,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,hair,,,description56,has_feathers
+1749646406,5/30/2018 22:13:07,false,3716359832,,5/30/2018 22:12:54,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,hair,,,description56,has_feathers
+1749646406,5/30/2018 22:15:53,false,3716366477,,5/30/2018 22:15:36,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,hair,,,description56,has_feathers
+1749646407,5/30/2018 21:50:16,false,3716297953,,5/30/2018 21:48:12,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,cigarette,,,description57,does_smell_is_smelly
+1749646407,5/30/2018 21:55:34,false,3716311865,,5/30/2018 21:53:06,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,cigarette,,,description57,does_smell_is_smelly
+1749646407,5/30/2018 22:00:30,false,3716324154,,5/30/2018 21:59:52,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,cigarette,,,description57,does_smell_is_smelly
+1749646408,5/30/2018 22:04:10,false,3716335064,,5/30/2018 22:03:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,cradle,,,description58,made_of_metal
+1749646408,5/30/2018 22:04:20,false,3716335518,,5/30/2018 22:03:31,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,cradle,,,description58,made_of_metal
+1749646408,5/30/2018 22:05:28,false,3716339523,,5/30/2018 22:04:14,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,cradle,,,description58,made_of_metal
+1749646409,5/30/2018 22:09:23,false,3716349934,,5/30/2018 22:09:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,cigarette,,,description59,is_brown
+1749646409,5/30/2018 22:11:38,false,3716356028,,5/30/2018 22:11:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,cigarette,,,description59,is_brown
+1749646409,5/30/2018 22:16:38,false,3716368185,,5/30/2018 22:15:57,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,cigarette,,,description59,is_brown
+1749646410,5/30/2018 22:09:23,false,3716349943,,5/30/2018 22:09:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,carrot,,,description60,is_circular_round
+1749646410,5/30/2018 22:11:38,false,3716356029,,5/30/2018 22:11:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,carrot,,,description60,is_circular_round
+1749646410,5/30/2018 22:16:38,false,3716368191,,5/30/2018 22:15:57,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,carrot,,,description60,is_circular_round
+1749646411,5/30/2018 22:14:07,false,3716362187,,5/30/2018 22:13:16,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,grater,,,description61,does_live_in_water
+1749646411,5/30/2018 22:14:16,false,3716362686,,5/30/2018 22:13:52,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,grater,,,description61,does_live_in_water
+1749646411,5/30/2018 22:17:22,false,3716369641,,5/30/2018 22:16:41,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,grater,,,description61,does_live_in_water
+1749646412,5/30/2018 22:04:48,false,3716337186,,5/30/2018 22:04:20,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,turnip,,,description62,does_kill
+1749646412,5/30/2018 22:05:25,false,3716339354,,5/30/2018 22:04:25,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,turnip,,,description62,does_kill
+1749646412,5/30/2018 22:05:33,false,3716339716,,5/30/2018 22:04:46,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,turnip,,,description62,does_kill
+1749646413,5/30/2018 22:13:15,false,3716360262,,5/30/2018 22:12:55,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,walrus,,,description63,has_eyes
+1749646413,5/30/2018 22:16:03,false,3716366866,,5/30/2018 22:13:18,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,walrus,,,description63,has_eyes
+1749646413,5/30/2018 22:16:55,false,3716368871,,5/30/2018 22:13:22,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,walrus,,,description63,has_eyes
+1749646414,5/30/2018 22:03:06,false,3716331333,,5/30/2018 22:02:41,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,pear,,,description64,is_circular_round
+1749646414,5/30/2018 22:03:24,false,3716332436,,5/30/2018 22:00:14,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,pear,,,description64,is_circular_round
+1749646414,5/30/2018 22:04:45,false,3716337019,,5/30/2018 22:03:16,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,pear,,,description64,is_circular_round
+1749646415,5/30/2018 22:07:34,false,3716345136,,5/30/2018 22:06:25,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,mosquito,,,description65,is_an_animal
+1749646415,5/30/2018 22:08:55,false,3716348659,,5/30/2018 22:07:26,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,mosquito,,,description65,is_an_animal
+1749646415,5/30/2018 22:16:39,false,3716368232,,5/30/2018 22:14:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,no,mosquito,,,description65,is_an_animal
+1749646416,5/30/2018 22:00:09,false,3716323499,,5/30/2018 21:58:51,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,arm,,,description66,is_black
+1749646416,5/30/2018 22:02:39,false,3716329811,,5/30/2018 22:01:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,arm,,,description66,is_black
+1749646416,5/30/2018 22:03:14,false,3716331823,,5/30/2018 22:02:10,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,arm,,,description66,is_black
+1749646417,5/30/2018 22:04:10,false,3716335051,,5/30/2018 22:03:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,grater,,,description67,is_useful
+1749646417,5/30/2018 22:04:20,false,3716335522,,5/30/2018 22:03:31,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,grater,,,description67,is_useful
+1749646417,5/30/2018 22:05:28,false,3716339517,,5/30/2018 22:04:14,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,grater,,,description67,is_useful
+1749646418,5/30/2018 22:16:15,false,3716367282,,5/30/2018 22:15:12,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,mostly,dates,,,description68,is_healthy
+1749646418,5/30/2018 22:17:41,false,3716370286,,5/30/2018 22:17:25,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,dates,,,description68,is_healthy
+1749646418,5/30/2018 22:17:51,false,3716370704,,5/30/2018 22:17:13,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,dates,,,description68,is_healthy
+1749646419,5/30/2018 22:08:27,false,3716347510,,5/30/2018 22:07:35,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,banana,,,description69,is_healthy
+1749646419,5/30/2018 22:09:48,false,3716350866,,5/30/2018 22:09:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,banana,,,description69,is_healthy
+1749646419,5/30/2018 22:13:20,false,3716360448,,5/30/2018 22:08:40,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,banana,,,description69,is_healthy
+1749646420,5/30/2018 21:58:01,false,3716318044,,5/30/2018 21:55:41,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,apricot,,,description70,is_circular_round
+1749646420,5/30/2018 21:59:28,false,3716321597,,5/30/2018 21:59:06,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,apricot,,,description70,is_circular_round
+1749646420,5/30/2018 22:01:03,false,3716325720,,5/30/2018 22:00:31,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,apricot,,,description70,is_circular_round
+1749646421,5/30/2018 21:58:43,false,3716319873,,5/30/2018 21:58:07,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,kite,,,description71,made_of_fabric_cloth_material
+1749646421,5/30/2018 22:01:38,false,3716327205,,5/30/2018 22:01:04,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,kite,,,description71,made_of_fabric_cloth_material
+1749646421,5/30/2018 22:02:08,false,3716328310,,5/30/2018 21:59:29,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,mostly,kite,,,description71,made_of_fabric_cloth_material
+1749646422,5/30/2018 22:10:28,false,3716352682,,5/30/2018 22:10:05,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,pen,,,description72,does_protect
+1749646422,5/30/2018 22:13:13,false,3716360175,,5/30/2018 22:12:15,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,pen,,,description72,does_protect
+1749646422,5/30/2018 22:18:17,false,3716371691,,5/30/2018 22:16:27,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,no,pen,,,description72,does_protect
+1749646423,5/30/2018 22:15:11,false,3716364832,,5/30/2018 22:14:56,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,brandy,,,description73,is_tasty
+1749646423,5/30/2018 22:17:51,false,3716370701,,5/30/2018 22:17:13,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,brandy,,,description73,is_tasty
+1749646423,5/30/2018 22:20:41,false,3716377125,,5/30/2018 22:16:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,brandy,,,description73,is_tasty
+1749646424,5/30/2018 22:09:42,false,3716350681,,5/30/2018 22:09:24,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,bowl,,,description74,made_of_glass
+1749646424,5/30/2018 22:12:12,false,3716357412,,5/30/2018 22:11:43,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,bowl,,,description74,made_of_glass
+1749646424,5/30/2018 22:16:38,false,3716368187,,5/30/2018 22:15:57,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,possibly,bowl,,,description74,made_of_glass
+1749646425,5/30/2018 21:50:16,false,3716297952,,5/30/2018 21:48:12,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,saw,,,description75,made_of_plastic
+1749646425,5/30/2018 21:55:34,false,3716311854,,5/30/2018 21:53:06,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,saw,,,description75,made_of_plastic
+1749646425,5/30/2018 22:00:30,false,3716324148,,5/30/2018 21:59:52,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,saw,,,description75,made_of_plastic
+1749646426,5/30/2018 22:12:53,false,3716359260,,5/30/2018 22:12:23,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,flounder,,,description76,does_live_in_water
+1749646426,5/30/2018 22:12:54,false,3716359307,,5/30/2018 22:10:29,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,flounder,,,description76,does_live_in_water
+1749646426,5/30/2018 22:17:22,false,3716369654,,5/30/2018 22:16:41,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,no,flounder,,,description76,does_live_in_water
+1749646427,5/30/2018 22:06:23,false,3716342092,,5/30/2018 22:05:08,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,banjo,,,description77,made_of_metal
+1749646427,5/30/2018 22:07:20,false,3716344534,,5/30/2018 22:06:11,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,banjo,,,description77,made_of_metal
+1749646427,5/30/2018 22:08:38,false,3716347998,,5/30/2018 22:05:34,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,banjo,,,description77,made_of_metal
+1749646428,5/30/2018 22:03:06,false,3716331339,,5/30/2018 22:02:41,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,bean,,,description78,is_white
+1749646428,5/30/2018 22:03:24,false,3716332431,,5/30/2018 22:00:14,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,possibly,bean,,,description78,is_white
+1749646428,5/30/2018 22:04:45,false,3716336997,,5/30/2018 22:03:16,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,possibly,bean,,,description78,is_white
+1749646429,5/30/2018 22:10:28,false,3716352677,,5/30/2018 22:10:05,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,mussel,,,description79,is_white
+1749646429,5/30/2018 22:13:13,false,3716360196,,5/30/2018 22:12:15,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,mussel,,,description79,is_white
+1749646429,5/30/2018 22:18:17,false,3716371692,,5/30/2018 22:16:27,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,no,mussel,,,description79,is_white
+1749683586,5/30/2018 22:02:39,true,3716329814,,5/30/2018 22:01:40,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,prune,yes,Prunes are dried plums meant for consumption,test14,is_edible
+1749683586,5/30/2018 22:04:11,true,3716335134,,5/30/2018 22:02:26,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,prune,yes,Prunes are dried plums meant for consumption,test14,is_edible
+1749684309,5/30/2018 22:05:33,true,3716339722,,5/30/2018 22:04:46,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,partridge,yes,A partridge is a bird that has a beak.,test16,has_a_beak
+1749684309,5/30/2018 22:14:44,true,3716363741,,5/30/2018 22:10:45,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,partridge,yes,A partridge is a bird that has a beak.,test16,has_a_beak
+1749685232,5/30/2018 21:53:00,true,3716305353,,5/30/2018 21:47:38,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,marigold,no,Marigold are flowers that have their roots in earth (they are not waterflowers).,test23,does_live_in_water
+1749685232,5/30/2018 22:13:43,true,3716361202,true,5/30/2018 22:07:06,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,yes,marigold,no,Marigold are flowers that have their roots in earth (they are not waterflowers).,test23,does_live_in_water
+1749685232,5/30/2018 22:15:55,true,3716366585,,5/30/2018 22:15:05,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,no,marigold,no,Marigold are flowers that have their roots in earth (they are not waterflowers).,test23,does_live_in_water
+1749685383,5/30/2018 22:04:45,true,3716336985,,5/30/2018 22:03:16,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,minnow,yes,A minnow is a small fish.,test7,does_swim
+1749685383,5/30/2018 22:12:21,true,3716357942,,5/30/2018 22:10:11,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,minnow,yes,A minnow is a small fish.,test7,does_swim
+1749685383,5/30/2018 22:14:44,true,3716363734,,5/30/2018 22:10:45,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,minnow,yes,A minnow is a small fish.,test7,does_swim
+1749697666,5/30/2018 22:01:38,true,3716327201,,5/30/2018 22:01:04,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,biscuit,no,"Biscuits are baked, they do not grow and can therefore not be grown.",test20,is_grown
+1749697666,5/30/2018 22:13:43,true,3716361201,,5/30/2018 22:07:06,false,elite,0.8571,44565214,USA,CA,Fremont,72.52.125.84,no,biscuit,no,"Biscuits are baked, they do not grow and can therefore not be grown.",test20,is_grown
+1749698272,5/30/2018 22:09:06,true,3716349247,,5/30/2018 22:08:46,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,melon ,"possibly
+no","Melon are not small fruits, but one may argue they vary in size.",test6,is_small
+1749698272,5/30/2018 22:11:38,true,3716356032,,5/30/2018 22:11:00,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,melon ,"possibly
+no","Melon are not small fruits, but one may argue they vary in size.",test6,is_small
+1749698272,5/30/2018 22:18:24,true,3716371880,,5/30/2018 22:16:57,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,melon ,"possibly
+no","Melon are not small fruits, but one may argue they vary in size.",test6,is_small
+1749699896,5/30/2018 21:59:51,true,3716322690,,5/30/2018 21:59:15,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,flounder,no,Flounders are fish and do not fly.,test19,does_fly
+1749701781,5/30/2018 21:48:00,true,3716292235,true,5/30/2018 21:41:31,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,mostly,snake,yes,The shape of snakes is long.,test3,is_long
+1749701781,5/30/2018 22:15:55,true,3716366582,,5/30/2018 22:15:05,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,snake,yes,The shape of snakes is long.,test3,is_long
+1749701781,5/30/2018 22:16:39,true,3716368241,,5/30/2018 22:14:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,snake,yes,The shape of snakes is long.,test3,is_long
+1749702425,5/30/2018 22:12:21,true,3716357939,,5/30/2018 22:10:11,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,millipede,yes,These animals are known for having many legs.,test12,has_legs
+1749702425,5/30/2018 22:13:15,true,3716360274,,5/30/2018 22:12:55,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,millipede,yes,These animals are known for having many legs.,test12,has_legs
+1749703367,5/30/2018 22:12:21,true,3716357938,,5/30/2018 22:10:11,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,tongs,yes,"Tongs can be used to seize, grab or lift things.",test24,is_a_tool
+1749703367,5/30/2018 22:16:15,true,3716367290,,5/30/2018 22:15:12,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,tongs,yes,"Tongs can be used to seize, grab or lift things.",test24,is_a_tool
+1749704166,5/30/2018 22:06:07,true,3716341395,,5/30/2018 22:05:30,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,lamb,no,"Lambs grow, but they are not `grown' in the way that plants, flowers, fruits or nuts are. If anything sheep (and lams) are bred, but they are not grown.",test22,is_grown
+1749713251,5/30/2018 21:58:43,true,3716319885,,5/30/2018 21:58:07,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,locust,no,A locust is not an animal that swims.,test2,does_swim
+1749713251,5/30/2018 22:04:48,true,3716337192,,5/30/2018 22:04:20,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,locust,no,A locust is not an animal that swims.,test2,does_swim
+1749714672,5/30/2018 22:14:44,true,3716363737,true,5/30/2018 22:10:45,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,paper,"mostly
+possibly","Not all paper is white, but it is a relatively typical color for paper. Mostly and possibly are both correct options.",test4,is_white
+1749714672,5/30/2018 22:18:11,true,3716371453,,5/30/2018 22:17:56,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,mostly,paper,"mostly
+possibly","Not all paper is white, but it is a relatively typical color for paper. Mostly and possibly are both correct options.",test4,is_white
+1749714918,5/30/2018 21:59:51,true,3716322699,,5/30/2018 21:59:15,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,pansy,yes,A pansy is a plant.,test18,is_a_plant
+1749714918,5/30/2018 22:02:08,true,3716328316,,5/30/2018 21:59:29,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,pansy,yes,A pansy is a plant.,test18,is_a_plant
+1749719990,5/30/2018 21:48:00,true,3716292239,,5/30/2018 21:41:31,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,leotard,yes,A leotard is a piece of clothing and thus (meant to be) worn.,test11,is_worn
+1749719990,5/30/2018 22:15:11,true,3716364838,,5/30/2018 22:14:56,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,leotard,yes,A leotard is a piece of clothing and thus (meant to be) worn.,test11,is_worn
+1749719990,5/30/2018 22:17:22,true,3716369648,,5/30/2018 22:16:41,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,leotard,yes,A leotard is a piece of clothing and thus (meant to be) worn.,test11,is_worn
+1749721260,5/30/2018 21:50:16,true,3716297951,,5/30/2018 21:48:12,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,swan,yes,A healthy swan has eyes.,test1,has_eyes
+1749725588,5/30/2018 22:04:10,true,3716335062,true,5/30/2018 22:03:07,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,possibly,pin,"yes
+mostly","Pins are generally small objects. The answer should be 'yes', we also count 'mostly' correct, in case some workers have encountered non-small pins.",test10,is_small
+1749725588,5/30/2018 22:20:41,true,3716377130,,5/30/2018 22:16:41,false,elite,1.0,31690646,CAN,BC,Vancouver,64.85.32.137,yes,pin,"yes
+mostly","Pins are generally small objects. The answer should be 'yes', we also count 'mostly' correct, in case some workers have encountered non-small pins.",test10,is_small
+1749726591,5/30/2018 22:01:03,true,3716325709,,5/30/2018 22:00:31,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,no,dragonfly,"possibly
+no","Dragonflies live near the water, their larvae swim, but they themselves do not.",test21,does_swim
+1749749223,5/30/2018 21:48:00,true,3716292226,,5/30/2018 21:41:31,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,no,pumpkin,no,"Under normal circumstances, pumpkins are not pink.",test9,is_pink
+1749749223,5/30/2018 22:13:13,true,3716360206,,5/30/2018 22:12:15,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,no,pumpkin,no,"Under normal circumstances, pumpkins are not pink.",test9,is_pink
+1749753198,5/30/2018 21:59:51,true,3716322707,,5/30/2018 21:59:15,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,parakeet,yes,This a correct classification of a parakeet.,test17,is_an_animal
+1749753198,5/30/2018 22:10:54,true,3716353719,,5/30/2018 22:09:53,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,parakeet,yes,This a correct classification of a parakeet.,test17,is_an_animal
+1749753198,5/30/2018 22:14:44,true,3716363739,,5/30/2018 22:10:45,false,bitcoinget,0.8571,43573569,USA,AZ,Phoenix,172.241.112.3,yes,parakeet,yes,This a correct classification of a parakeet.,test17,is_an_animal
+1749753198,5/30/2018 22:15:55,true,3716366589,,5/30/2018 22:15:05,false,neodev,1.0,41746613,GBR,H3,Leeds,90.241.30.116,yes,parakeet,yes,This a correct classification of a parakeet.,test17,is_an_animal
+1749753340,5/30/2018 22:03:14,true,3716331812,,5/30/2018 22:02:10,false,elite,0.9333,29463692,IRL,04,Cork,95.45.68.111,yes,raspberry,"yes
+mostly",Raspberries are considered to be small fruits.,test5,is_small
+1749753340,5/30/2018 22:04:11,true,3716335127,,5/30/2018 22:02:26,false,elite,1.0,44556201,USA,NY,New York,195.181.168.208,yes,raspberry,"yes
+mostly",Raspberries are considered to be small fruits.,test5,is_small
+1749753340,5/30/2018 22:04:20,true,3716335510,,5/30/2018 22:03:31,false,elite,1.0,44578607,USA,NY,New York,192.81.214.96,yes,raspberry,"yes
+mostly",Raspberries are considered to be small fruits.,test5,is_small
+1749753340,5/30/2018 22:07:34,true,3716345142,,5/30/2018 22:06:25,false,instagc,0.9667,27770607,USA,TX,El Paso,68.201.53.229,yes,raspberry,"yes
+mostly",Raspberries are considered to be small fruits.,test5,is_small

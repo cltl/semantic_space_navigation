@@ -160,12 +160,20 @@ def main():
 
 
     data = '../data/experiment/'
-    print(test)
 
-    if features == 'all':
-        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')]
+
+    if (features  == 'train') and (test == 'test'):
+        features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_train-pos.txt')])
+        test_features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_test-pos.txt')])
+        print(test_features)
+
+    elif (features == 'all') and (test == 'loo'):
+        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')\
+        if (not 'train' in f) and (not 'test' in f)]
+
     else:
         features = [features]
+
 
     model = load_model(path_to_model, model_type)
 
@@ -193,7 +201,8 @@ def main():
                 results_to_file(words, predictions, model_name, experiment_name, feat, par=par)
             else:
                 feature_train = feat
-                words, predictions = logistic_regression_classification(model, feature_train, test, subset = None)
+                feature_test = test_features[no]
+                words, predictions = logistic_regression_classification(model, feature_train, feature_test, subset = None)
                 par = par + '-test'
                 results_to_file(words, predictions, model_name, experiment_name, test, par)
         else:

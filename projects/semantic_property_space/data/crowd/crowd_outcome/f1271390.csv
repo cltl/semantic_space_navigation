@@ -1,0 +1,794 @@
+_unit_id,_created_at,_golden,_id,_missed,_started_at,_tainted,_channel,_trust,_worker_id,_country,_region,_city,_ip,does_the_description_apply_to_what_is_described,concept,does_the_description_apply_to_what_is_described_gold,identifier,property
+1747782098,5/29/2018 20:52:29,false,3713205892,,5/29/2018 20:51:01,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,yes,flamingo,,description1,has_eyes
+1747782098,5/29/2018 20:53:46,false,3713208374,,5/29/2018 20:50:57,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,yes,flamingo,,description1,has_eyes
+1747782098,5/29/2018 20:57:15,false,3713214114,,5/29/2018 20:56:32,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,flamingo,,description1,has_eyes
+1747782099,5/29/2018 20:47:58,false,3713197104,,5/29/2018 20:47:26,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,helicopter,,description2,is_noisy_loud
+1747782099,5/29/2018 20:48:45,false,3713198462,,5/29/2018 20:47:40,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,helicopter,,description2,is_noisy_loud
+1747782099,5/29/2018 20:50:59,false,3713202910,,5/29/2018 20:49:22,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,helicopter,,description2,is_noisy_loud
+1747782100,5/29/2018 20:51:32,false,3713203937,,5/29/2018 20:50:45,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,ashtray,,description3,is_useful
+1747782100,5/29/2018 20:51:45,false,3713204280,,5/29/2018 20:50:49,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,ashtray,,description3,is_useful
+1747782100,5/29/2018 20:52:28,false,3713205860,,5/29/2018 20:50:49,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,ashtray,,description3,is_useful
+1747782101,5/29/2018 20:50:47,false,3713202551,,5/29/2018 20:50:29,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,yacht,,description4,is_fast
+1747782101,5/29/2018 20:51:29,false,3713203832,,5/29/2018 20:50:23,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,yacht,,description4,is_fast
+1747782101,5/29/2018 20:52:25,false,3713205748,,5/29/2018 20:50:20,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,yacht,,description4,is_fast
+1747782102,5/29/2018 20:47:58,false,3713197090,,5/29/2018 20:47:26,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,lemonade,,description5,is_yellow
+1747782102,5/29/2018 20:48:45,false,3713198456,,5/29/2018 20:47:40,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,lemonade,,description5,is_yellow
+1747782102,5/29/2018 20:50:59,false,3713202904,,5/29/2018 20:49:22,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,lemonade,,description5,is_yellow
+1747782103,5/29/2018 20:52:11,false,3713205204,,5/29/2018 20:51:33,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,bow_(weapon),,description6,has_roots
+1747782103,5/29/2018 20:54:52,false,3713210189,,5/29/2018 20:52:10,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,no,bow_(weapon),,description6,has_roots
+1747782103,5/29/2018 22:24:24,false,3713400065,,5/29/2018 22:24:08,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,bow_(weapon),,description6,has_roots
+1747782104,5/29/2018 20:51:38,false,3713204088,,5/29/2018 20:51:04,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,scythe,,description7,is_dangerous
+1747782104,5/29/2018 20:52:50,false,3713206593,,5/29/2018 20:51:06,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,yes,scythe,,description7,is_dangerous
+1747782104,5/29/2018 20:55:30,false,3713211426,,5/29/2018 20:51:02,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,scythe,,description7,is_dangerous
+1747782105,5/29/2018 20:53:10,false,3713207190,,5/29/2018 20:51:21,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,yes,spinach,,description8,is_a_plant
+1747782105,5/29/2018 20:53:54,false,3713208554,,5/29/2018 20:51:25,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,spinach,,description8,is_a_plant
+1747782105,5/29/2018 20:55:10,false,3713210841,,5/29/2018 20:54:28,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,spinach,,description8,is_a_plant
+1747782106,5/29/2018 20:52:53,false,3713206661,,5/29/2018 20:52:27,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,crab,,description9,is_tasty
+1747782106,5/29/2018 20:52:55,false,3713206699,,5/29/2018 20:52:25,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,crab,,description9,is_tasty
+1747782106,5/29/2018 20:53:02,false,3713206879,,5/29/2018 20:52:25,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,crab,,description9,is_tasty
+1747782107,5/29/2018 20:52:23,false,3713205690,,5/29/2018 20:51:40,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,bullet,,description10,is_long
+1747782107,5/29/2018 20:52:25,false,3713205779,,5/29/2018 20:51:46,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,bullet,,description10,is_long
+1747782107,5/29/2018 22:25:05,false,3713401440,,5/29/2018 22:24:46,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,bullet,,description10,is_long
+1747782108,5/29/2018 20:50:47,false,3713202553,,5/29/2018 20:50:29,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,artichoke,,description11,is_tasty
+1747782108,5/29/2018 20:51:29,false,3713203829,,5/29/2018 20:50:23,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,artichoke,,description11,is_tasty
+1747782108,5/29/2018 20:52:25,false,3713205757,,5/29/2018 20:50:20,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,artichoke,,description11,is_tasty
+1747782109,5/29/2018 20:48:45,false,3713198439,,5/29/2018 20:48:00,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,lobster,,description12,has_claws
+1747782109,5/29/2018 20:49:48,false,3713200669,,5/29/2018 20:48:48,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,lobster,,description12,has_claws
+1747782109,5/29/2018 20:50:37,false,3713202276,,5/29/2018 20:48:06,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,lobster,,description12,has_claws
+1747782110,5/29/2018 20:53:10,false,3713207188,,5/29/2018 20:51:21,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,prune,,description13,has_a_stalk_stem
+1747782110,5/29/2018 20:53:54,false,3713208556,,5/29/2018 20:51:25,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,no,prune,,description13,has_a_stalk_stem
+1747782110,5/29/2018 20:55:10,false,3713210840,,5/29/2018 20:54:28,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,prune,,description13,has_a_stalk_stem
+1747782111,5/29/2018 20:52:30,false,3713205939,,5/29/2018 20:51:47,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,no,bone,,description14,made_of_glass
+1747782111,5/29/2018 20:53:01,false,3713206874,,5/29/2018 20:51:47,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,bone,,description14,made_of_glass
+1747782111,5/29/2018 20:53:12,false,3713207254,,5/29/2018 20:51:48,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,no,bone,,description14,made_of_glass
+1747782112,5/29/2018 20:51:38,false,3713204083,,5/29/2018 20:51:04,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,pipe_(smoking),,description15,made_of_wood
+1747782112,5/29/2018 20:52:50,false,3713206602,,5/29/2018 20:51:06,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,yes,pipe_(smoking),,description15,made_of_wood
+1747782112,5/29/2018 20:55:30,false,3713211428,,5/29/2018 20:51:02,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,no,pipe_(smoking),,description15,made_of_wood
+1747782113,5/29/2018 20:48:45,false,3713198433,,5/29/2018 20:48:00,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,garlic,,description16,is_circular_round
+1747782113,5/29/2018 20:49:48,false,3713200646,,5/29/2018 20:48:48,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,garlic,,description16,is_circular_round
+1747782113,5/29/2018 20:50:37,false,3713202277,,5/29/2018 20:48:06,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,garlic,,description16,is_circular_round
+1747782114,5/29/2018 20:52:30,false,3713205940,,5/29/2018 20:51:47,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,apricot,,description17,is_circular_round
+1747782114,5/29/2018 20:53:01,false,3713206871,,5/29/2018 20:51:47,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,apricot,,description17,is_circular_round
+1747782114,5/29/2018 20:53:12,false,3713207256,,5/29/2018 20:51:48,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,apricot,,description17,is_circular_round
+1747782115,5/29/2018 20:50:47,false,3713202555,,5/29/2018 20:50:29,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,banjo,,description18,made_of_metal
+1747782115,5/29/2018 20:51:29,false,3713203834,,5/29/2018 20:50:23,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,banjo,,description18,made_of_metal
+1747782115,5/29/2018 20:52:25,false,3713205743,,5/29/2018 20:50:20,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,banjo,,description18,made_of_metal
+1747782116,5/29/2018 20:51:46,false,3713204329,,5/29/2018 20:50:43,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,spider,,description19,has_fur_hair
+1747782116,5/29/2018 20:52:29,false,3713205930,,5/29/2018 20:50:38,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,spider,,description19,has_fur_hair
+1747782116,5/29/2018 20:52:49,false,3713206560,,5/29/2018 20:50:35,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,spider,,description19,has_fur_hair
+1747782117,5/29/2018 20:49:53,false,3713200859,,5/29/2018 20:49:21,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,spanner,,description20,is_heavy
+1747782117,5/29/2018 20:50:21,false,3713201819,,5/29/2018 20:49:47,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,spanner,,description20,is_heavy
+1747782117,5/29/2018 20:50:27,false,3713202067,,5/29/2018 20:49:44,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,spanner,,description20,is_heavy
+1747782118,5/29/2018 20:51:32,false,3713203939,,5/29/2018 20:50:45,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,locust,,description21,does_swim
+1747782118,5/29/2018 20:51:45,false,3713204273,,5/29/2018 20:50:49,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,locust,,description21,does_swim
+1747782118,5/29/2018 20:52:28,false,3713205869,,5/29/2018 20:50:49,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,locust,,description21,does_swim
+1747782119,5/29/2018 20:52:53,false,3713206665,,5/29/2018 20:52:27,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,anchor,,description22,made_of_wood
+1747782119,5/29/2018 20:52:55,false,3713206695,,5/29/2018 20:52:25,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,anchor,,description22,made_of_wood
+1747782119,5/29/2018 20:53:02,false,3713206882,,5/29/2018 20:52:25,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,anchor,,description22,made_of_wood
+1747782120,5/29/2018 20:51:54,false,3713204713,,5/29/2018 20:50:50,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,cider,,description23,is_tasty
+1747782120,5/29/2018 20:52:33,false,3713205986,,5/29/2018 20:50:50,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,cider,,description23,is_tasty
+1747782120,5/29/2018 22:24:07,false,3713399600,,5/29/2018 22:23:47,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,cider,,description23,is_tasty
+1747782121,5/29/2018 20:50:44,false,3713202442,,5/29/2018 20:50:11,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,shrimp,,description24,is_an_animal
+1747782121,5/29/2018 20:51:46,false,3713204335,,5/29/2018 20:50:12,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,shrimp,,description24,is_an_animal
+1747782121,5/29/2018 20:52:28,false,3713205867,,5/29/2018 20:52:14,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,shrimp,,description24,is_an_animal
+1747782122,5/29/2018 20:51:46,false,3713204317,,5/29/2018 20:50:43,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,belt,,description25,is_worn
+1747782122,5/29/2018 20:52:29,false,3713205932,,5/29/2018 20:50:38,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,belt,,description25,is_worn
+1747782122,5/29/2018 20:52:49,false,3713206553,,5/29/2018 20:50:35,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,belt,,description25,is_worn
+1747782123,5/29/2018 20:52:11,false,3713205217,,5/29/2018 20:51:33,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,lips,,description26,is_soft
+1747782123,5/29/2018 20:54:52,false,3713210184,,5/29/2018 20:52:10,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,yes,lips,,description26,is_soft
+1747782123,5/29/2018 22:24:24,false,3713400066,,5/29/2018 22:24:08,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,lips,,description26,is_soft
+1747782124,5/29/2018 20:52:30,false,3713205937,,5/29/2018 20:51:47,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,cheetah,,description27,is_grown
+1747782124,5/29/2018 20:53:01,false,3713206877,,5/29/2018 20:51:47,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,cheetah,,description27,is_grown
+1747782124,5/29/2018 20:53:12,false,3713207252,,5/29/2018 20:51:48,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,no,cheetah,,description27,is_grown
+1747782125,5/29/2018 20:52:11,false,3713205213,,5/29/2018 20:51:33,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,oak,,description28,does_grow
+1747782125,5/29/2018 20:55:11,false,3713210868,,5/29/2018 20:52:12,false,elite,1.0,44174761,EGY,08,Gîza,41.34.137.57,yes,oak,,description28,does_grow
+1747782125,5/29/2018 22:24:24,false,3713400067,,5/29/2018 22:24:08,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,oak,,description28,does_grow
+1747782126,5/29/2018 20:52:27,false,3713205850,,5/29/2018 20:51:57,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,hose,,description29,made_of_metal
+1747782126,5/29/2018 20:52:28,false,3713205886,,5/29/2018 20:51:53,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,no,hose,,description29,made_of_metal
+1747782126,5/29/2018 20:53:31,false,3713207888,,5/29/2018 20:51:55,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,hose,,description29,made_of_metal
+1747782127,5/29/2018 20:52:17,false,3713205501,,5/29/2018 20:51:37,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,rifle,,description30,is_small
+1747782127,5/29/2018 20:52:21,false,3713205645,,5/29/2018 20:51:34,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,rifle,,description30,is_small
+1747782127,5/29/2018 22:24:45,false,3713400742,,5/29/2018 22:24:25,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,rifle,,description30,is_small
+1747782128,5/29/2018 20:52:17,false,3713205498,,5/29/2018 20:51:37,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,salmon,,description31,is_small
+1747782128,5/29/2018 20:52:21,false,3713205642,,5/29/2018 20:51:34,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,salmon,,description31,is_small
+1747782128,5/29/2018 22:24:45,false,3713400737,,5/29/2018 22:24:25,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,salmon,,description31,is_small
+1747782129,5/29/2018 20:50:27,false,3713202072,,5/29/2018 20:49:55,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,kiwi_fruit,,description32,is_small
+1747782129,5/29/2018 20:50:51,false,3713202678,,5/29/2018 20:49:50,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,kiwi_fruit,,description32,is_small
+1747782129,5/29/2018 20:51:51,false,3713204480,,5/29/2018 20:49:49,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,kiwi_fruit,,description32,is_small
+1747782130,5/29/2018 20:52:15,false,3713205423,,5/29/2018 20:50:53,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,clock,,description33,is_noisy_loud
+1747782130,5/29/2018 20:52:38,false,3713206187,,5/29/2018 20:50:53,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,yes,clock,,description33,is_noisy_loud
+1747782130,5/29/2018 20:53:16,false,3713207422,,5/29/2018 20:50:53,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,clock,,description33,is_noisy_loud
+1747782131,5/29/2018 20:52:27,false,3713205852,,5/29/2018 20:51:57,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,whale,,description34,has_legs
+1747782131,5/29/2018 20:52:28,false,3713205880,,5/29/2018 20:51:53,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,no,whale,,description34,has_legs
+1747782131,5/29/2018 20:53:31,false,3713207900,,5/29/2018 20:51:55,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,whale,,description34,has_legs
+1747782132,5/29/2018 20:51:54,false,3713204708,,5/29/2018 20:50:50,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,apricot,,description35,has_pips_seeds
+1747782132,5/29/2018 20:52:33,false,3713205982,,5/29/2018 20:50:50,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,apricot,,description35,has_pips_seeds
+1747782132,5/29/2018 22:24:07,false,3713399611,,5/29/2018 22:23:47,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,apricot,,description35,has_pips_seeds
+1747782133,5/29/2018 20:49:53,false,3713200861,,5/29/2018 20:49:21,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,giraffe,,description36,has_leaves
+1747782133,5/29/2018 20:50:21,false,3713201808,,5/29/2018 20:49:47,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,giraffe,,description36,has_leaves
+1747782133,5/29/2018 20:50:27,false,3713202070,,5/29/2018 20:49:44,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,giraffe,,description36,has_leaves
+1747782134,5/29/2018 20:52:15,false,3713205431,,5/29/2018 20:50:53,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,poppy,,description37,does_smell_is_smelly
+1747782134,5/29/2018 20:52:38,false,3713206182,,5/29/2018 20:50:53,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,poppy,,description37,does_smell_is_smelly
+1747782134,5/29/2018 20:53:16,false,3713207426,,5/29/2018 20:50:53,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,poppy,,description37,does_smell_is_smelly
+1747782135,5/29/2018 20:50:27,false,3713202077,,5/29/2018 20:49:55,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,cradle,,description38,made_of_wood
+1747782135,5/29/2018 20:50:51,false,3713202671,,5/29/2018 20:49:50,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,cradle,,description38,made_of_wood
+1747782135,5/29/2018 20:51:51,false,3713204504,,5/29/2018 20:49:49,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,cradle,,description38,made_of_wood
+1747782136,5/29/2018 20:52:25,false,3713205755,,5/29/2018 20:51:11,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,corn,,description39,is_circular_round
+1747782136,5/29/2018 20:52:42,false,3713206382,,5/29/2018 20:51:15,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,no,corn,,description39,is_circular_round
+1747782136,5/29/2018 20:53:46,false,3713208371,,5/29/2018 20:52:27,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,corn,,description39,is_circular_round
+1747782137,5/29/2018 20:50:27,false,3713202064,,5/29/2018 20:49:55,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,currant,,description40,is_grown
+1747782137,5/29/2018 20:50:51,false,3713202675,,5/29/2018 20:49:50,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,currant,,description40,is_grown
+1747782137,5/29/2018 20:51:51,false,3713204490,,5/29/2018 20:49:49,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,currant,,description40,is_grown
+1747782138,5/29/2018 20:52:17,false,3713205505,,5/29/2018 20:51:37,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,comb,,description41,is_long
+1747782138,5/29/2018 20:52:21,false,3713205648,,5/29/2018 20:51:34,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,comb,,description41,is_long
+1747782138,5/29/2018 22:24:45,false,3713400720,,5/29/2018 22:24:25,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,comb,,description41,is_long
+1747782139,5/29/2018 20:50:44,false,3713202448,,5/29/2018 20:50:11,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,gorilla,,description42,is_big_large
+1747782139,5/29/2018 20:51:46,false,3713204331,,5/29/2018 20:50:12,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,gorilla,,description42,is_big_large
+1747782139,5/29/2018 20:52:28,false,3713205858,,5/29/2018 20:52:14,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,gorilla,,description42,is_big_large
+1747782140,5/29/2018 20:47:58,false,3713197093,,5/29/2018 20:47:26,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,rose,,description43,is_yellow
+1747782140,5/29/2018 20:48:45,false,3713198459,,5/29/2018 20:47:40,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,rose,,description43,is_yellow
+1747782140,5/29/2018 20:50:59,false,3713202912,,5/29/2018 20:49:22,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,no,rose,,description43,is_yellow
+1747782141,5/29/2018 20:49:53,false,3713200858,,5/29/2018 20:49:21,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,kite,,description44,is_long
+1747782141,5/29/2018 20:50:21,false,3713201816,,5/29/2018 20:49:47,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,kite,,description44,is_long
+1747782141,5/29/2018 20:50:27,false,3713202076,,5/29/2018 20:49:44,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,kite,,description44,is_long
+1747782142,5/29/2018 20:52:55,false,3713206700,,5/29/2018 20:52:25,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,centipede,,description45,is_green
+1747782142,5/29/2018 20:53:02,false,3713206883,,5/29/2018 20:52:25,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,centipede,,description45,is_green
+1747782142,5/29/2018 20:55:26,false,3713211343,,5/29/2018 20:52:22,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,no,centipede,,description45,is_green
+1747782143,5/29/2018 20:51:02,false,3713203004,,5/29/2018 20:50:29,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,nut,,description46,is_grown
+1747782143,5/29/2018 20:51:09,false,3713203187,,5/29/2018 20:50:30,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,nut,,description46,is_grown
+1747782143,5/29/2018 20:52:09,false,3713205124,,5/29/2018 20:50:33,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,nut,,description46,is_grown
+1747782144,5/29/2018 20:51:54,false,3713204697,,5/29/2018 20:50:50,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,apricotis_red,,description47,is_green
+1747782144,5/29/2018 20:52:33,false,3713205979,,5/29/2018 20:50:50,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,no,apricotis_red,,description47,is_green
+1747782144,5/29/2018 22:24:07,false,3713399605,,5/29/2018 22:23:47,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,apricotis_red,,description47,is_green
+1747782145,5/29/2018 20:52:29,false,3713205895,,5/29/2018 20:51:01,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,yes,carnation,,description48,does_grow
+1747782145,5/29/2018 20:53:46,false,3713208373,,5/29/2018 20:50:57,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,yes,carnation,,description48,does_grow
+1747782145,5/29/2018 20:57:15,false,3713214116,,5/29/2018 20:56:32,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,carnation,,description48,does_grow
+1747782146,5/29/2018 20:49:19,false,3713199690,,5/29/2018 20:48:47,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,horse,,description49,is_fast
+1747782146,5/29/2018 20:50:28,false,3713202087,,5/29/2018 20:49:24,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,horse,,description49,is_fast
+1747782146,5/29/2018 20:58:17,false,3713215776,,5/29/2018 20:56:24,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,horse,,description49,is_fast
+1747782147,5/29/2018 20:48:45,false,3713198437,,5/29/2018 20:48:00,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,harpsichord,,description50,made_of_wood
+1747782147,5/29/2018 20:49:48,false,3713200679,,5/29/2018 20:48:48,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,harpsichord,,description50,made_of_wood
+1747782147,5/29/2018 20:50:37,false,3713202275,,5/29/2018 20:48:06,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,harpsichord,,description50,made_of_wood
+1747782148,5/29/2018 20:52:11,false,3713205221,,5/29/2018 20:51:33,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,peacock,,description51,is_big_large
+1747782148,5/29/2018 20:54:52,false,3713210194,,5/29/2018 20:52:10,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,yes,peacock,,description51,is_big_large
+1747782148,5/29/2018 22:24:24,false,3713400068,,5/29/2018 22:24:08,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,peacock,,description51,is_big_large
+1747782149,5/29/2018 20:53:00,false,3713206800,,5/29/2018 20:52:03,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,bench,,description52,made_of_metal
+1747782149,5/29/2018 20:55:11,false,3713210871,,5/29/2018 20:52:12,false,elite,1.0,44174761,EGY,08,Gîza,41.34.137.57,yes,bench,,description52,made_of_metal
+1747782149,5/29/2018 22:25:23,false,3713401936,,5/29/2018 22:25:06,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,bench,,description52,made_of_metal
+1747782150,5/29/2018 20:51:38,false,3713204089,,5/29/2018 20:51:04,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,fir,,description53,has_roots
+1747782150,5/29/2018 20:52:50,false,3713206609,,5/29/2018 20:51:06,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,yes,fir,,description53,has_roots
+1747782150,5/29/2018 20:55:30,false,3713211430,,5/29/2018 20:51:02,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,fir,,description53,has_roots
+1747782151,5/29/2018 20:52:23,false,3713205689,,5/29/2018 20:51:40,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,prune,,description54,has_roots
+1747782151,5/29/2018 20:52:25,false,3713205768,,5/29/2018 20:51:46,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,prune,,description54,has_roots
+1747782151,5/29/2018 22:25:05,false,3713401433,,5/29/2018 22:24:46,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,prune,,description54,has_roots
+1747782152,5/29/2018 20:49:19,false,3713199691,,5/29/2018 20:48:47,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,bean,,description55,is_brown
+1747782152,5/29/2018 20:50:28,false,3713202090,,5/29/2018 20:49:24,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,bean,,description55,is_brown
+1747782152,5/29/2018 20:58:17,false,3713215778,,5/29/2018 20:56:24,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,bean,,description55,is_brown
+1747782153,5/29/2018 20:52:25,false,3713205745,,5/29/2018 20:51:11,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,dragonfly,,description56,has_feathers
+1747782153,5/29/2018 20:52:42,false,3713206391,,5/29/2018 20:51:15,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,yes,dragonfly,,description56,has_feathers
+1747782153,5/29/2018 20:53:46,false,3713208363,,5/29/2018 20:52:27,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,dragonfly,,description56,has_feathers
+1747782154,5/29/2018 20:52:25,false,3713205742,,5/29/2018 20:51:11,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,cannon,,description57,has_a_handle_handles
+1747782154,5/29/2018 20:52:42,false,3713206388,,5/29/2018 20:51:15,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,yes,cannon,,description57,has_a_handle_handles
+1747782154,5/29/2018 20:53:46,false,3713208370,,5/29/2018 20:52:27,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,cannon,,description57,has_a_handle_handles
+1747782155,5/29/2018 20:51:02,false,3713202999,,5/29/2018 20:50:29,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,umbrella,,description58,does_protect
+1747782155,5/29/2018 20:51:09,false,3713203193,,5/29/2018 20:50:30,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,umbrella,,description58,does_protect
+1747782155,5/29/2018 20:52:09,false,3713205114,,5/29/2018 20:50:33,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,umbrella,,description58,does_protect
+1747782156,5/29/2018 20:52:15,false,3713205426,,5/29/2018 20:50:53,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,banana,,description59,is_brown
+1747782156,5/29/2018 20:52:38,false,3713206185,,5/29/2018 20:50:53,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,banana,,description59,is_brown
+1747782156,5/29/2018 20:53:16,false,3713207429,,5/29/2018 20:50:53,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,banana,,description59,is_brown
+1747782157,5/29/2018 20:51:32,false,3713203941,,5/29/2018 20:50:45,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,grater,,description60,made_of_plastic
+1747782157,5/29/2018 20:51:45,false,3713204267,,5/29/2018 20:50:49,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,grater,,description60,made_of_plastic
+1747782157,5/29/2018 20:52:28,false,3713205855,,5/29/2018 20:50:49,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,grater,,description60,made_of_plastic
+1747782158,5/29/2018 20:51:32,false,3713203936,,5/29/2018 20:50:45,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,rolls_royce,,description61,has_teeth
+1747782158,5/29/2018 20:51:45,false,3713204270,,5/29/2018 20:50:49,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,rolls_royce,,description61,has_teeth
+1747782158,5/29/2018 20:52:28,false,3713205863,,5/29/2018 20:50:49,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,no,rolls_royce,,description61,has_teeth
+1747782159,5/29/2018 20:50:44,false,3713202444,,5/29/2018 20:50:11,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,grasshopper,,description62,is_used_in_cooking
+1747782159,5/29/2018 20:51:46,false,3713204327,,5/29/2018 20:50:12,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,grasshopper,,description62,is_used_in_cooking
+1747782159,5/29/2018 22:24:07,false,3713399608,,5/29/2018 22:23:47,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,grasshopper,,description62,is_used_in_cooking
+1747782160,5/29/2018 20:53:13,false,3713207293,,5/29/2018 20:52:18,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,sledge,,description63,is_big_large
+1747782160,5/29/2018 20:53:33,false,3713207955,,5/29/2018 20:52:18,false,elite,1.0,44358563,VEN,"","",190.198.251.149,no,sledge,,description63,is_big_large
+1747782160,5/29/2018 20:58:30,false,3713216073,,5/29/2018 20:56:32,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,no,sledge,,description63,is_big_large
+1747782161,5/29/2018 20:51:02,false,3713203007,,5/29/2018 20:50:29,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,bellows,,description64,has_leaves
+1747782161,5/29/2018 20:51:09,false,3713203195,,5/29/2018 20:50:30,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,bellows,,description64,has_leaves
+1747782161,5/29/2018 20:52:09,false,3713205120,,5/29/2018 20:50:33,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,bellows,,description64,has_leaves
+1747782162,5/29/2018 20:53:13,false,3713207304,,5/29/2018 20:52:18,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,bin,,description65,made_of_cotton
+1747782162,5/29/2018 20:53:33,false,3713207962,,5/29/2018 20:52:18,false,elite,1.0,44358563,VEN,"","",190.198.251.149,no,bin,,description65,made_of_cotton
+1747782162,5/29/2018 20:55:26,false,3713211338,,5/29/2018 20:52:22,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,no,bin,,description65,made_of_cotton
+1747782163,5/29/2018 20:52:30,false,3713205935,,5/29/2018 20:51:47,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,no,currant,,description66,has_skin_peel
+1747782163,5/29/2018 20:53:01,false,3713206876,,5/29/2018 20:51:47,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,currant,,description66,has_skin_peel
+1747782163,5/29/2018 20:53:12,false,3713207260,,5/29/2018 20:51:48,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,no,currant,,description66,has_skin_peel
+1747782164,5/29/2018 20:48:45,false,3713198435,,5/29/2018 20:48:00,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,hoe,,description67,made_of_plastic
+1747782164,5/29/2018 20:49:48,false,3713200690,,5/29/2018 20:48:48,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,hoe,,description67,made_of_plastic
+1747782164,5/29/2018 20:50:37,false,3713202273,,5/29/2018 20:48:06,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,hoe,,description67,made_of_plastic
+1747782165,5/29/2018 20:52:23,false,3713205688,,5/29/2018 20:51:40,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,train,,description68,is_a_vehicle
+1747782165,5/29/2018 20:52:25,false,3713205787,,5/29/2018 20:51:46,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,train,,description68,is_a_vehicle
+1747782165,5/29/2018 22:25:05,false,3713401427,,5/29/2018 22:24:46,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,train,,description68,is_a_vehicle
+1747782166,5/29/2018 20:53:10,false,3713207212,,5/29/2018 20:52:12,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,raisin,,description69,has_a_blade_blades
+1747782166,5/29/2018 20:55:12,false,3713210875,,5/29/2018 20:54:37,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,raisin,,description69,has_a_blade_blades
+1747782166,5/29/2018 20:58:30,false,3713216062,,5/29/2018 20:56:32,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,no,raisin,,description69,has_a_blade_blades
+1747782167,5/29/2018 20:51:02,false,3713203001,,5/29/2018 20:50:29,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,mayonnaise,,description70,is_eaten_edible
+1747782167,5/29/2018 20:51:09,false,3713203198,,5/29/2018 20:50:30,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,mayonnaise,,description70,is_eaten_edible
+1747782167,5/29/2018 20:52:09,false,3713205129,,5/29/2018 20:50:33,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,mayonnaise,,description70,is_eaten_edible
+1747782168,5/29/2018 20:53:00,false,3713206805,,5/29/2018 20:52:03,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,flamingo,,description71,does_lay_eggs
+1747782168,5/29/2018 20:53:10,false,3713207216,,5/29/2018 20:52:12,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,flamingo,,description71,does_lay_eggs
+1747782168,5/29/2018 22:25:23,false,3713401933,,5/29/2018 22:25:06,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,flamingo,,description71,does_lay_eggs
+1747782169,5/29/2018 20:51:46,false,3713204325,,5/29/2018 20:50:43,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,heron,,description72,is_an_animal
+1747782169,5/29/2018 20:52:29,false,3713205927,,5/29/2018 20:50:38,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,heron,,description72,is_an_animal
+1747782169,5/29/2018 20:52:49,false,3713206556,,5/29/2018 20:50:35,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,heron,,description72,is_an_animal
+1747782170,5/29/2018 20:51:46,false,3713204332,,5/29/2018 20:50:43,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,tuba,,description73,is_expensive
+1747782170,5/29/2018 20:52:29,false,3713205923,,5/29/2018 20:50:38,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,tuba,,description73,is_expensive
+1747782170,5/29/2018 20:52:49,false,3713206551,,5/29/2018 20:50:35,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,tuba,,description73,is_expensive
+1747782171,5/29/2018 20:50:47,false,3713202559,,5/29/2018 20:50:29,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,squirrel,,description74,has_eyes
+1747782171,5/29/2018 20:51:29,false,3713203826,,5/29/2018 20:50:23,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,squirrel,,description74,has_eyes
+1747782171,5/29/2018 20:52:25,false,3713205751,,5/29/2018 20:50:20,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,squirrel,,description74,has_eyes
+1747782172,5/29/2018 20:53:13,false,3713207297,,5/29/2018 20:52:18,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,cabbagehas_eyes,,description75,has_roots
+1747782172,5/29/2018 20:56:11,false,3713212420,,5/29/2018 20:54:37,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,cabbagehas_eyes,,description75,has_roots
+1747782172,5/30/2018 12:19:05,false,3714800461,,5/30/2018 12:15:38,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,no,cabbagehas_eyes,,description75,has_roots
+1747782173,5/29/2018 20:52:28,false,3713205862,,5/29/2018 20:52:14,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,pine,,description76,is_brown
+1747782173,5/29/2018 20:53:10,false,3713207198,,5/29/2018 20:52:12,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,pine,,description76,is_brown
+1747782173,5/29/2018 20:56:11,false,3713212423,,5/29/2018 20:54:37,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,pine,,description76,is_brown
+1747782174,5/29/2018 20:53:00,false,3713206820,,5/29/2018 20:52:03,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,sofa,,description77,has_a_seat_seats
+1747782174,5/29/2018 20:55:11,false,3713210872,,5/29/2018 20:52:12,false,elite,1.0,44174761,EGY,08,Gîza,41.34.137.57,yes,sofa,,description77,has_a_seat_seats
+1747782174,5/29/2018 22:25:23,false,3713401935,,5/29/2018 22:25:06,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,sofa,,description77,has_a_seat_seats
+1747782175,5/29/2018 20:50:44,false,3713202446,,5/29/2018 20:50:11,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,bear,,description78,has_four_legs
+1747782175,5/29/2018 20:51:46,false,3713204324,,5/29/2018 20:50:12,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,bear,,description78,has_four_legs
+1747782175,5/29/2018 20:52:28,false,3713205871,,5/29/2018 20:52:14,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,bear,,description78,has_four_legs
+1747782176,5/29/2018 20:47:58,false,3713197097,,5/29/2018 20:47:26,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,octopus,,description79,does_eat
+1747782176,5/29/2018 20:48:45,false,3713198468,,5/29/2018 20:47:40,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,octopus,,description79,does_eat
+1747782176,5/29/2018 20:50:59,false,3713202901,,5/29/2018 20:49:22,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,octopus,,description79,does_eat
+1747782177,5/29/2018 20:50:27,false,3713202069,,5/29/2018 20:49:55,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,coach_(vehicle),,description80,is_hard
+1747782177,5/29/2018 20:50:51,false,3713202680,,5/29/2018 20:49:50,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,coach_(vehicle),,description80,is_hard
+1747782177,5/29/2018 20:51:51,false,3713204497,,5/29/2018 20:49:49,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,coach_(vehicle),,description80,is_hard
+1747782178,5/29/2018 20:52:55,false,3713206697,,5/29/2018 20:52:25,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,belt,,description81,is_circular_round
+1747782178,5/29/2018 20:53:33,false,3713207971,,5/29/2018 20:52:18,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,belt,,description81,is_circular_round
+1747782178,5/29/2018 20:55:26,false,3713211330,,5/29/2018 20:52:22,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,yes,belt,,description81,is_circular_round
+1747782179,5/29/2018 20:53:00,false,3713206810,,5/29/2018 20:52:03,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,herring,,description82,has_roots
+1747782179,5/29/2018 20:55:11,false,3713210870,,5/29/2018 20:52:12,false,elite,1.0,44174761,EGY,08,Gîza,41.34.137.57,no,herring,,description82,has_roots
+1747782179,5/29/2018 22:25:23,false,3713401934,,5/29/2018 22:25:06,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,herring,,description82,has_roots
+1747782180,5/29/2018 20:52:29,false,3713205900,,5/29/2018 20:51:01,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,minnow,,description83,is_long
+1747782180,5/29/2018 20:53:46,false,3713208372,,5/29/2018 20:50:57,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,no,minnow,,description83,is_long
+1747782180,5/29/2018 20:57:15,false,3713214115,,5/29/2018 20:56:32,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,minnow,,description83,is_long
+1747782181,5/29/2018 20:52:23,false,3713205691,,5/29/2018 20:51:40,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,satchel,,description84,is_found_in_seas
+1747782181,5/29/2018 20:52:25,false,3713205774,,5/29/2018 20:51:46,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,satchel,,description84,is_found_in_seas
+1747782181,5/29/2018 22:25:05,false,3713401443,,5/29/2018 22:24:46,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,satchel,,description84,is_found_in_seas
+1747782182,5/29/2018 20:53:10,false,3713207187,,5/29/2018 20:51:21,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,yes,lorry,,description85,is_heavy
+1747782182,5/29/2018 20:53:54,false,3713208555,,5/29/2018 20:51:25,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,lorry,,description85,is_heavy
+1747782182,5/29/2018 20:55:10,false,3713210843,,5/29/2018 20:54:28,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,lorry,,description85,is_heavy
+1747782183,5/29/2018 20:49:53,false,3713200856,,5/29/2018 20:49:21,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,glue,,description86,is_strong
+1747782183,5/29/2018 20:50:21,false,3713201813,,5/29/2018 20:49:47,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,glue,,description86,is_strong
+1747782183,5/29/2018 20:50:27,false,3713202065,,5/29/2018 20:49:44,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,glue,,description86,is_strong
+1747782184,5/29/2018 20:52:29,false,3713205898,,5/29/2018 20:51:01,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,cauliflower,,description87,is_circular_round
+1747782184,5/29/2018 20:53:46,false,3713208369,,5/29/2018 20:50:57,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,no,cauliflower,,description87,is_circular_round
+1747782184,5/29/2018 20:57:15,false,3713214119,,5/29/2018 20:56:32,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,cauliflower,,description87,is_circular_round
+1747782185,5/29/2018 20:52:15,false,3713205420,,5/29/2018 20:50:53,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,bikini,,description88,is_colourful
+1747782185,5/29/2018 20:52:38,false,3713206176,,5/29/2018 20:50:53,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,bikini,,description88,is_colourful
+1747782185,5/29/2018 20:53:16,false,3713207432,,5/29/2018 20:50:53,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,bikini,,description88,is_colourful
+1747782186,5/29/2018 20:53:10,false,3713207192,,5/29/2018 20:51:21,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,pencil,,description89,made_of_plastic
+1747782186,5/29/2018 20:53:54,false,3713208553,,5/29/2018 20:51:25,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,no,pencil,,description89,made_of_plastic
+1747782186,5/29/2018 20:55:10,false,3713210842,,5/29/2018 20:54:28,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,pencil,,description89,made_of_plastic
+1747782187,5/29/2018 20:51:38,false,3713204085,,5/29/2018 20:51:04,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,ferry,,description90,made_of_wood
+1747782187,5/29/2018 20:52:50,false,3713206597,,5/29/2018 20:51:06,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,no,ferry,,description90,made_of_wood
+1747782187,5/29/2018 20:55:30,false,3713211423,,5/29/2018 20:51:02,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,no,ferry,,description90,made_of_wood
+1747782188,5/29/2018 20:52:27,false,3713205854,,5/29/2018 20:51:57,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,hamster,,description91,is_for_children
+1747782188,5/29/2018 20:52:28,false,3713205883,,5/29/2018 20:51:53,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,hamster,,description91,is_for_children
+1747782188,5/29/2018 20:53:31,false,3713207896,,5/29/2018 20:51:55,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,hamster,,description91,is_for_children
+1747782189,5/29/2018 20:51:54,false,3713204716,,5/29/2018 20:50:50,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,apron,,description92,has_a_handle_handles
+1747782189,5/29/2018 20:52:33,false,3713205991,,5/29/2018 20:50:50,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,apron,,description92,has_a_handle_handles
+1747782189,5/29/2018 20:54:52,false,3713210198,,5/29/2018 20:52:10,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,no,apron,,description92,has_a_handle_handles
+1747782190,5/29/2018 20:53:10,false,3713207202,,5/29/2018 20:52:12,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,napkin,,description93,is_circular_round
+1747782190,5/29/2018 20:56:11,false,3713212429,,5/29/2018 20:54:37,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,napkin,,description93,is_circular_round
+1747782190,5/30/2018 12:19:05,false,3714800457,,5/30/2018 12:15:38,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,no,napkin,,description93,is_circular_round
+1747782191,5/29/2018 20:49:19,false,3713199692,,5/29/2018 20:48:47,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,perfume,,description94,does_smell_is_smelly
+1747782191,5/29/2018 20:50:28,false,3713202084,,5/29/2018 20:49:24,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,perfume,,description94,does_smell_is_smelly
+1747782191,5/29/2018 20:58:17,false,3713215777,,5/29/2018 20:56:24,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,perfume,,description94,does_smell_is_smelly
+1747782192,5/29/2018 20:52:17,false,3713205495,,5/29/2018 20:51:37,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,crayfish,,description95,is_a_vegetable
+1747782192,5/29/2018 20:52:21,false,3713205651,,5/29/2018 20:51:34,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,crayfish,,description95,is_a_vegetable
+1747782192,5/29/2018 22:24:45,false,3713400732,,5/29/2018 22:24:25,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,crayfish,,description95,is_a_vegetable
+1747782193,5/29/2018 20:52:25,false,3713205749,,5/29/2018 20:51:11,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,pamphlet,,description96,is_food
+1747782193,5/29/2018 20:52:42,false,3713206379,,5/29/2018 20:51:15,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,no,pamphlet,,description96,is_food
+1747782193,5/29/2018 20:53:46,false,3713208367,,5/29/2018 20:52:27,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,pamphlet,,description96,is_food
+1747782194,5/29/2018 20:49:19,false,3713199689,,5/29/2018 20:48:47,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,hair,,description97,has_feathers
+1747782194,5/29/2018 20:50:28,false,3713202079,,5/29/2018 20:49:24,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,hair,,description97,has_feathers
+1747782194,5/29/2018 20:58:17,false,3713215772,,5/29/2018 20:56:24,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,hair,,description97,has_feathers
+1747782195,5/29/2018 20:52:27,false,3713205857,,5/29/2018 20:51:57,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,eel,,description98,has_eyes
+1747782195,5/29/2018 20:52:28,false,3713205875,,5/29/2018 20:51:53,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,eel,,description98,has_eyes
+1747782195,5/29/2018 20:53:31,false,3713207904,,5/29/2018 20:51:55,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,yes,eel,,description98,has_eyes
+1747782196,5/29/2018 20:52:53,false,3713206658,,5/29/2018 20:52:27,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,knickers,,description99,is_useful
+1747782196,5/29/2018 20:53:00,false,3713206809,,5/29/2018 20:52:27,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,knickers,,description99,is_useful
+1747782196,5/29/2018 20:53:02,false,3713206880,,5/29/2018 20:52:25,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,knickers,,description99,is_useful
+1747782197,5/29/2018 20:53:13,false,3713207309,,5/29/2018 20:52:18,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,comb,,description100,is_useful
+1747782197,5/29/2018 20:53:33,false,3713207967,,5/29/2018 20:52:18,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,comb,,description100,is_useful
+1747782197,5/29/2018 20:55:26,false,3713211334,,5/29/2018 20:52:22,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,yes,comb,,description100,is_useful
+1747946990,5/29/2018 20:48:45,true,3713198465,,5/29/2018 20:47:40,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:49:07,true,3713199307,,5/29/2018 20:46:00,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:49:41,true,3713200414,,5/29/2018 20:48:17,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:49:45,true,3713200579,,5/29/2018 20:48:17,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:49:46,true,3713200657,,5/29/2018 20:47:52,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:41,true,3713202386,,5/29/2018 20:49:26,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:44,true,3713202451,,5/29/2018 20:50:11,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:46,true,3713202528,,5/29/2018 20:46:07,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:48,true,3713202569,,5/29/2018 20:48:17,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:53,true,3713202744,,5/29/2018 20:47:18,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:50:58,true,3713202895,,5/29/2018 20:49:02,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:51:02,true,3713202997,,5/29/2018 20:50:29,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:51:06,true,3713203101,,5/29/2018 20:46:17,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:51:12,true,3713203328,,5/29/2018 20:49:43,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:51:39,true,3713204105,true,5/29/2018 20:49:13,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:51:45,true,3713204312,,5/29/2018 20:49:14,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:52:27,true,3713205851,,5/29/2018 20:51:57,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:52:33,true,3713205976,,5/29/2018 20:50:50,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:52:57,true,3713206732,,5/29/2018 20:51:30,false,elite,1.0,29463692,IRL,04,Cork,95.45.68.111,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:53:48,true,3713208466,,5/29/2018 20:50:05,false,neodev,0.8,44260134,VEN,20,San Cristóbal,201.208.46.70,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:54:02,true,3713208823,,5/29/2018 20:52:13,false,elite,1.0,44190044,USA,NY,New York,159.89.230.179,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:55:25,true,3713211290,,5/29/2018 20:52:11,false,elite,0.8,43960286,VEN,15,San Antonio De Los Altos,200.82.204.43,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:55:37,true,3713211638,,5/29/2018 20:50:36,false,neodev,0.8,41129156,VEN,25,Caracas,190.39.201.149,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:56:08,true,3713212352,,5/29/2018 20:48:00,false,neodev,1.0,44014331,EGY,11,Cairo,105.32.102.132,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:56:28,true,3713213004,,5/29/2018 20:50:53,false,neodev,1.0,43699457,VEN,25,Caracas,186.90.60.190,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:56:30,true,3713213057,,5/29/2018 20:49:21,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:56:56,true,3713213581,,5/29/2018 20:52:34,false,elite,0.8,43650019,BRA,07,Brasilia,179.95.6.153,no,raisin,no,description69,has_a_blade_blades
+1747946990,5/29/2018 20:59:40,true,3713218597,,5/29/2018 20:59:17,false,neodev,1.0,43985758,EGY,11,Cairo,41.47.127.154,no,raisin,no,description69,has_a_blade_blades
+1747980351,5/29/2018 20:47:58,true,3713197100,,5/29/2018 20:47:26,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:49:21,true,3713199775,,5/29/2018 20:47:00,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:49:45,true,3713200581,,5/29/2018 20:48:17,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:10,true,3713201430,,5/29/2018 20:46:04,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:19,true,3713201769,,5/29/2018 20:47:45,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:27,true,3713202073,,5/29/2018 20:49:44,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:33,true,3713202228,,5/29/2018 20:45:58,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:53,true,3713202751,,5/29/2018 20:47:18,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:50:58,true,3713202897,,5/29/2018 20:49:02,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:52:24,true,3713205737,,5/29/2018 20:48:51,false,elite,1.0,43913593,,,"",102.166.17.15,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:52:42,true,3713206385,,5/29/2018 20:51:15,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:53:13,true,3713207290,,5/29/2018 20:52:18,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:53:14,true,3713207342,true,5/29/2018 20:49:28,false,clixsense,0.8,44496691,VEN,13,Barquisimeto,181.208.63.246,yes,porsche,no,description188,is_small
+1747980351,5/29/2018 20:53:19,true,3713207515,,5/29/2018 20:50:44,false,neodev,1.0,44530146,EGY,"","",197.39.146.203,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:53:26,true,3713207676,,5/29/2018 20:47:02,false,neodev,1.0,43719304,VEN,04,Maracay,186.92.146.20,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:54:00,true,3713208752,true,5/29/2018 20:48:44,false,elite,0.8,44231434,USA,NY,Flushing,206.189.180.136,yes,porsche,no,description188,is_small
+1747980351,5/29/2018 20:54:05,true,3713208912,true,5/29/2018 20:51:54,false,clixsense,0.8,39773483,UKR,07,Kharkiv,178.165.121.183,yes,porsche,no,description188,is_small
+1747980351,5/29/2018 20:55:36,true,3713211602,,5/29/2018 20:50:18,false,neodev,1.0,37041000,VEN,25,Caracas,190.77.56.255,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:55:38,true,3713211674,,5/29/2018 20:51:17,false,clixsense,1.0,41399716,BRA,27,Sao Paulo,201.6.228.217,no,porsche,no,description188,is_small
+1747980351,5/29/2018 20:56:56,true,3713213586,true,5/29/2018 20:52:34,false,elite,0.8,43650019,BRA,07,Brasilia,179.95.6.153,yes,porsche,no,description188,is_small
+1747980351,5/29/2018 20:57:25,true,3713214368,,5/29/2018 20:52:17,false,neodev,1.0,42312098,VEN,04,Maracay,190.37.91.132,no,porsche,no,description188,is_small
+1747994962,5/29/2018 20:48:45,true,3713198438,,5/29/2018 20:48:00,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:48:48,true,3713198527,,5/29/2018 20:47:15,false,elite,1.0,43705844,VEN,25,Caracas,186.167.250.0,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:15,true,3713201632,,5/29/2018 20:46:57,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:46,true,3713202523,,5/29/2018 20:46:07,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:50,true,3713202662,,5/29/2018 20:46:50,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:51,true,3713202684,,5/29/2018 20:48:28,false,neodev,0.8,44265529,VEN,20,San Cristóbal,186.93.252.86,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:53,true,3713202748,,5/29/2018 20:47:18,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:50:55,true,3713202782,,5/29/2018 20:49:46,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:51:06,true,3713203095,,5/29/2018 20:46:17,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:51:39,true,3713204093,,5/29/2018 20:49:13,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:52:09,true,3713205117,,5/29/2018 20:50:33,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:52:17,true,3713205464,,5/29/2018 20:48:37,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:52:24,true,3713205728,,5/29/2018 20:48:51,false,elite,1.0,43913593,,,"",102.166.17.15,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:52:25,true,3713205746,,5/29/2018 20:50:20,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:53:03,true,3713206910,,5/29/2018 20:50:36,false,neodev,0.8,43191711,EGY,"","",156.201.227.21,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:53:19,true,3713207523,,5/29/2018 20:50:44,false,neodev,1.0,44530146,EGY,"","",197.39.146.203,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:53:29,true,3713207829,,5/29/2018 20:49:01,false,neodev,1.0,35150745,VEN,23,Maracaibo,201.211.5.53,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:54:02,true,3713208821,,5/29/2018 20:52:13,false,elite,1.0,44190044,USA,NY,New York,159.89.230.179,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:54:30,true,3713209666,,5/29/2018 20:51:44,false,neodev,0.8,44280295,VEN,"","",186.89.102.23,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:55:03,true,3713210604,,5/29/2018 20:49:34,false,clixsense,1.0,44303978,EGY,11,Cairo,41.237.24.120,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:56:26,true,3713212941,,5/29/2018 20:50:00,false,neodev,0.8,43978092,VEN,25,Caracas,186.167.243.36,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 20:57:25,true,3713214356,,5/29/2018 20:52:17,false,neodev,1.0,42312098,VEN,04,Maracay,190.37.91.132,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 22:25:05,true,3713401437,,5/29/2018 22:24:46,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,housefly,yes,description230,is_an_insect
+1747994962,5/29/2018 22:30:23,true,3713413969,,5/29/2018 22:29:22,false,instagc,0.8,13842059,USA,NY,New York,68.132.243.237,yes,housefly,yes,description230,is_an_insect
+1747994962,5/30/2018 12:19:05,true,3714800451,,5/30/2018 12:15:38,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,yes,housefly,yes,description230,is_an_insect
+1748000857,5/29/2018 20:47:23,true,3713195913,,5/29/2018 20:46:42,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:47:34,true,3713196313,,5/29/2018 20:46:30,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:49:07,true,3713199313,true,5/29/2018 20:46:00,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:49:45,true,3713200587,,5/29/2018 20:48:17,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:50:09,true,3713201409,,5/29/2018 20:48:27,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:50:15,true,3713201634,,5/29/2018 20:46:57,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:50:28,true,3713202093,,5/29/2018 20:49:24,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:50:50,true,3713202655,,5/29/2018 20:46:50,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:51:32,true,3713203924,,5/29/2018 20:49:58,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:51:39,true,3713204099,,5/29/2018 20:49:13,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:51:45,true,3713204310,,5/29/2018 20:49:14,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:51:53,true,3713204636,,5/29/2018 20:49:53,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:52:38,true,3713206180,,5/29/2018 20:50:53,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:52:57,true,3713206728,,5/29/2018 20:51:30,false,elite,1.0,29463692,IRL,04,Cork,95.45.68.111,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:11,true,3713207247,,5/29/2018 20:50:28,false,neodev,0.8,42493826,EGY,"","",196.136.9.235,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:14,true,3713207370,,5/29/2018 20:51:31,false,elite,1.0,34958034,SRB,00,Belgrade,24.135.110.20,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:26,true,3713207681,,5/29/2018 20:47:02,false,neodev,1.0,43719304,VEN,04,Maracay,186.92.146.20,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:29,true,3713207820,,5/29/2018 20:49:01,false,neodev,1.0,35150745,VEN,23,Maracaibo,201.211.5.53,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:46,true,3713208376,,5/29/2018 20:50:57,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:53:54,true,3713208557,,5/29/2018 20:51:25,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:54:02,true,3713208822,,5/29/2018 20:52:13,false,elite,1.0,44190044,USA,NY,New York,159.89.230.179,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:54:07,true,3713208970,true,5/29/2018 20:51:22,false,elite,0.8,44113607,VEN,23,Maracaibo,201.248.102.148,yes,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:54:30,true,3713209653,,5/29/2018 20:51:44,false,neodev,0.8,44280295,VEN,"","",186.89.102.23,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:54:48,true,3713210088,,5/29/2018 20:51:27,false,neodev,1.0,44021504,EGY,17,Assiut,41.238.18.235,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:55:03,true,3713210598,,5/29/2018 20:49:34,false,clixsense,1.0,44303978,EGY,11,Cairo,41.237.24.120,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:55:05,true,3713210657,,5/29/2018 20:54:22,false,neodev,0.8,43531815,CHL,12,Santiago,181.160.204.195,no,goldfish,no,description675,is_big_large
+1748000857,5/29/2018 20:55:25,true,3713211297,,5/29/2018 20:52:11,false,elite,0.8,43960286,VEN,15,San Antonio De Los Altos,200.82.204.43,no,goldfish,no,description675,is_big_large
+1748010775,5/29/2018 20:47:23,true,3713195895,,5/29/2018 20:46:42,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:47:34,true,3713196308,,5/29/2018 20:46:30,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:49:21,true,3713199780,,5/29/2018 20:47:00,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:49:41,true,3713200416,,5/29/2018 20:48:17,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:18,true,3713201746,,5/29/2018 20:48:49,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:19,true,3713201770,true,5/29/2018 20:47:45,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,yes,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:21,true,3713201812,,5/29/2018 20:49:47,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:29,true,3713202136,,5/29/2018 20:48:25,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:29,true,3713202143,,5/29/2018 20:49:22,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:33,true,3713202231,,5/29/2018 20:45:58,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:48,true,3713202572,,5/29/2018 20:46:30,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:50:50,true,3713202659,,5/29/2018 20:46:50,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:51:32,true,3713203928,,5/29/2018 20:49:58,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:51:53,true,3713204641,,5/29/2018 20:49:53,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:52:20,true,3713205620,,5/29/2018 20:48:02,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:52:24,true,3713205731,,5/29/2018 20:48:51,false,elite,1.0,43913593,,,"",102.166.17.15,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:52:24,true,3713205735,true,5/29/2018 20:51:01,false,elite,0.8,36569740,COL,"","",186.170.132.193,yes,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:53:14,true,3713207377,,5/29/2018 20:51:31,false,elite,1.0,34958034,SRB,00,Belgrade,24.135.110.20,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:53:33,true,3713207946,,5/29/2018 20:50:52,false,elite,0.8,43715502,VEN,18,Guanare,186.93.134.234,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:53:43,true,3713208277,,5/29/2018 20:52:02,false,neodev,1.0,43649464,COL,34,Bogota,181.61.161.41,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:54:00,true,3713208760,,5/29/2018 20:48:44,false,elite,0.8,44231434,USA,NY,Flushing,206.189.180.136,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:54:48,true,3713210102,,5/29/2018 20:51:27,false,neodev,1.0,44021504,EGY,17,Assiut,41.238.18.235,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:55:03,true,3713210611,,5/29/2018 20:49:34,false,clixsense,1.0,44303978,EGY,11,Cairo,41.237.24.120,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:55:05,true,3713210667,,5/29/2018 20:54:22,false,neodev,0.8,43531815,CHL,12,Santiago,181.160.204.195,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:55:26,true,3713211354,,5/29/2018 20:51:25,false,neodev,1.0,43835109,VEN,07,Valencia,190.201.236.144,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:56:28,true,3713213006,,5/29/2018 20:50:53,false,neodev,1.0,43699457,VEN,25,Caracas,186.90.60.190,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:58:56,true,3713217055,,5/29/2018 20:52:28,false,neodev,1.0,42510096,VEN,04,Maracay,190.37.66.84,no,seaweed,no,description647,is_white
+1748010775,5/29/2018 20:59:40,true,3713218593,,5/29/2018 20:59:17,false,neodev,1.0,43985758,EGY,11,Cairo,41.47.127.154,no,seaweed,no,description647,is_white
+1748025546,5/29/2018 20:48:04,true,3713197347,,5/29/2018 20:45:57,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:49:07,true,3713199311,,5/29/2018 20:46:00,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:49:46,true,3713200620,,5/29/2018 20:47:52,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:50:33,true,3713202237,,5/29/2018 20:45:58,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:50:48,true,3713202566,,5/29/2018 20:48:17,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:51:06,true,3713203105,,5/29/2018 20:46:17,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:51:54,true,3713204717,,5/29/2018 20:46:42,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:52:05,true,3713205014,,5/29/2018 20:51:38,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:52:20,true,3713205616,,5/29/2018 20:48:02,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:52:53,true,3713206653,,5/29/2018 20:52:27,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:52:57,true,3713206734,,5/29/2018 20:51:30,false,elite,1.0,29463692,IRL,04,Cork,95.45.68.111,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:54:30,true,3713209656,,5/29/2018 20:51:44,false,neodev,0.8,44280295,VEN,"","",186.89.102.23,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:54:51,true,3713210180,,5/29/2018 20:50:56,false,elite,1.0,44473604,VEN,25,Caracas,186.167.244.43,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:55:20,true,3713211248,,5/29/2018 20:51:47,false,elite,0.8,44088126,EGY,01,Mansoura,156.198.22.204,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:55:25,true,3713211294,true,5/29/2018 20:52:11,false,elite,0.8,43960286,VEN,15,San Antonio De Los Altos,200.82.204.43,no,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:55:37,true,3713211633,,5/29/2018 20:50:36,false,neodev,0.8,41129156,VEN,25,Caracas,190.39.201.149,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:57:28,true,3713214467,,5/29/2018 20:47:10,false,clixsense,1.0,44277803,VEN,25,Caracas,190.74.91.202,yes,gerbil,yes,description300,has_eyes
+1748025546,5/29/2018 20:59:40,true,3713218591,,5/29/2018 20:59:17,false,neodev,1.0,43985758,EGY,11,Cairo,41.47.127.154,yes,gerbil,yes,description300,has_eyes
+1748026867,5/29/2018 20:47:23,true,3713195900,,5/29/2018 20:46:42,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:48:04,true,3713197352,,5/29/2018 20:45:57,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:48:48,true,3713198535,,5/29/2018 20:47:15,false,elite,1.0,43705844,VEN,25,Caracas,186.167.250.0,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:49:41,true,3713200420,,5/29/2018 20:48:17,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:09,true,3713201404,,5/29/2018 20:48:27,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:10,true,3713201427,,5/29/2018 20:46:04,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:15,true,3713201631,,5/29/2018 20:46:57,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:29,true,3713202130,,5/29/2018 20:48:25,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:29,true,3713202146,,5/29/2018 20:49:22,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:33,true,3713202235,,5/29/2018 20:45:58,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:50:55,true,3713202784,,5/29/2018 20:49:46,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:51:45,true,3713204304,,5/29/2018 20:49:14,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:51:46,true,3713204321,true,5/29/2018 20:50:43,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:51:53,true,3713204643,,5/29/2018 20:49:53,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:51:54,true,3713204706,,5/29/2018 20:46:42,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:52:13,true,3713205358,,5/29/2018 20:50:31,false,clixsense,0.8,31791015,MAR,50,Berrechid,41.251.216.67,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:52:17,true,3713205479,,5/29/2018 20:48:37,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:52:20,true,3713205608,,5/29/2018 20:48:02,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:53:03,true,3713206919,,5/29/2018 20:50:36,false,neodev,0.8,43191711,EGY,"","",156.201.227.21,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:53:26,true,3713207690,,5/29/2018 20:47:02,false,neodev,1.0,43719304,VEN,04,Maracay,186.92.146.20,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:54:48,true,3713210097,,5/29/2018 20:51:27,false,neodev,1.0,44021504,EGY,17,Assiut,41.238.18.235,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:56:26,true,3713212942,,5/29/2018 20:50:00,false,neodev,0.8,43978092,VEN,25,Caracas,186.167.243.36,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:56:28,true,3713213008,,5/29/2018 20:50:53,false,neodev,1.0,43699457,VEN,25,Caracas,186.90.60.190,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 20:56:30,true,3713213060,,5/29/2018 20:49:21,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,yes,cannon,yes,description471,does_kill
+1748026867,5/29/2018 22:30:23,true,3713413974,,5/29/2018 22:29:22,false,instagc,0.8,13842059,USA,NY,New York,68.132.243.237,yes,cannon,yes,description471,does_kill
+1748028356,5/29/2018 20:50:18,true,3713201757,,5/29/2018 20:48:49,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:50:46,true,3713202533,,5/29/2018 20:46:07,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:50:48,true,3713202563,,5/29/2018 20:48:17,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:51:45,true,3713204276,,5/29/2018 20:50:49,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:52:17,true,3713205508,true,5/29/2018 20:51:37,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,no,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:53:01,true,3713206878,true,5/29/2018 20:51:47,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:53:33,true,3713207943,,5/29/2018 20:50:52,false,elite,0.8,43715502,VEN,18,Guanare,186.93.134.234,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:54:00,true,3713208764,,5/29/2018 20:48:44,false,elite,0.8,44231434,USA,NY,Flushing,206.189.180.136,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:54:30,true,3713209662,true,5/29/2018 20:51:44,false,neodev,0.8,44280295,VEN,"","",186.89.102.23,no,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:55:20,true,3713211244,true,5/29/2018 20:51:47,false,elite,0.8,44088126,EGY,01,Mansoura,156.198.22.204,no,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:55:38,true,3713211670,,5/29/2018 20:51:17,false,clixsense,1.0,41399716,BRA,27,Sao Paulo,201.6.228.217,yes,tongs,yes,description148,is_long
+1748028356,5/29/2018 20:56:28,true,3713213013,,5/29/2018 20:50:53,false,neodev,1.0,43699457,VEN,25,Caracas,186.90.60.190,yes,tongs,yes,description148,is_long
+1748028497,5/29/2018 20:47:34,true,3713196298,,5/29/2018 20:46:30,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:48:04,true,3713197345,,5/29/2018 20:45:57,false,elite,0.8571,44310560,COL,"","",186.154.120.78,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:48:48,true,3713198542,,5/29/2018 20:47:15,false,elite,1.0,43705844,VEN,25,Caracas,186.167.250.0,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:49:21,true,3713199770,,5/29/2018 20:47:00,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:18,true,3713201753,,5/29/2018 20:48:49,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:29,true,3713202134,,5/29/2018 20:48:25,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:33,true,3713202233,,5/29/2018 20:45:58,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:48,true,3713202571,,5/29/2018 20:48:17,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:48,true,3713202582,,5/29/2018 20:46:30,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:50:58,true,3713202899,,5/29/2018 20:49:02,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:51:12,true,3713203324,,5/29/2018 20:49:43,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:51:32,true,3713203926,,5/29/2018 20:49:58,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:51:32,true,3713203934,,5/29/2018 20:50:45,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:51:39,true,3713204102,,5/29/2018 20:49:13,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:52:20,true,3713205612,,5/29/2018 20:48:02,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:52:57,true,3713206730,,5/29/2018 20:51:30,false,elite,1.0,29463692,IRL,04,Cork,95.45.68.111,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:53:00,true,3713206816,,5/29/2018 20:52:03,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:53:03,true,3713206923,,5/29/2018 20:50:36,false,neodev,0.8,43191711,EGY,"","",156.201.227.21,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:53:26,true,3713207669,,5/29/2018 20:47:02,false,neodev,1.0,43719304,VEN,04,Maracay,186.92.146.20,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:53:27,true,3713207718,,5/29/2018 20:51:16,false,elite,0.8,34334155,VEN,13,Barquisimeto,200.84.165.69,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:53:33,true,3713207942,true,5/29/2018 20:50:52,false,elite,0.8,43715502,VEN,18,Guanare,186.93.134.234,no,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:54:11,true,3713209084,,5/29/2018 20:51:59,false,neodev,1.0,43281967,VEN,07,Valencia,190.203.57.181,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:55:20,true,3713211246,,5/29/2018 20:51:47,false,elite,0.8,44088126,EGY,01,Mansoura,156.198.22.204,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:55:25,true,3713211292,,5/29/2018 20:52:11,false,elite,0.8,43960286,VEN,15,San Antonio De Los Altos,200.82.204.43,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 20:56:28,true,3713213010,,5/29/2018 20:50:53,false,neodev,1.0,43699457,VEN,25,Caracas,186.90.60.190,yes,canary,yes,description119,does_lay_eggs
+1748028497,5/29/2018 22:25:23,true,3713401937,,5/29/2018 22:25:06,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,canary,yes,description119,does_lay_eggs
+1748028593,5/29/2018 20:49:46,true,3713200645,,5/29/2018 20:47:52,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:50:10,true,3713201425,,5/29/2018 20:46:04,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:50:46,true,3713202526,,5/29/2018 20:46:07,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:50:50,true,3713202665,,5/29/2018 20:46:50,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:50:53,true,3713202746,true,5/29/2018 20:47:18,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,yes,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:51:06,true,3713203113,true,5/29/2018 20:46:17,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:52:05,true,3713205019,,5/29/2018 20:51:38,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:52:13,true,3713205354,,5/29/2018 20:50:31,false,clixsense,0.8,31791015,MAR,50,Berrechid,41.251.216.67,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:52:24,true,3713205725,,5/29/2018 20:48:51,false,elite,1.0,43913593,,,"",102.166.17.15,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:52:29,true,3713205888,,5/29/2018 20:51:01,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:53:11,true,3713207240,,5/29/2018 20:50:28,false,neodev,0.8,42493826,EGY,"","",196.136.9.235,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:53:14,true,3713207333,,5/29/2018 20:49:28,false,clixsense,0.8,44496691,VEN,13,Barquisimeto,181.208.63.246,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:53:14,true,3713207383,,5/29/2018 20:51:31,false,elite,1.0,34958034,SRB,00,Belgrade,24.135.110.20,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:53:33,true,3713207944,,5/29/2018 20:50:52,false,elite,0.8,43715502,VEN,18,Guanare,186.93.134.234,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:53:48,true,3713208462,,5/29/2018 20:50:05,false,neodev,0.8,44260134,VEN,20,San Cristóbal,201.208.46.70,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:54:05,true,3713208931,,5/29/2018 20:51:54,false,clixsense,0.8,39773483,UKR,07,Kharkiv,178.165.121.183,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:54:39,true,3713209922,,5/29/2018 20:49:14,false,neodev,0.8,38777123,VEN,"","",190.78.48.40,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:55:05,true,3713210660,,5/29/2018 20:54:22,false,neodev,0.8,43531815,CHL,12,Santiago,181.160.204.195,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:55:26,true,3713211325,,5/29/2018 20:52:22,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,no,dragonfly,no,description56,has_feathers
+1748028593,5/29/2018 20:56:26,true,3713212945,,5/29/2018 20:50:00,false,neodev,0.8,43978092,VEN,25,Caracas,186.167.243.36,no,dragonfly,no,description56,has_feathers
+1748028778,5/29/2018 20:47:23,true,3713195907,,5/29/2018 20:46:42,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:48:04,true,3713197350,,5/29/2018 20:45:57,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:09,true,3713201406,,5/29/2018 20:48:27,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:19,true,3713201771,,5/29/2018 20:47:45,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:41,true,3713202383,,5/29/2018 20:49:26,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:48,true,3713202577,,5/29/2018 20:46:30,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:51,true,3713202681,,5/29/2018 20:48:28,false,neodev,0.8,44265529,VEN,20,San Cristóbal,186.93.252.86,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:51,true,3713202682,,5/29/2018 20:49:50,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:50:53,true,3713202741,,5/29/2018 20:47:18,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:51:54,true,3713204712,,5/29/2018 20:46:42,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:52:13,true,3713205347,,5/29/2018 20:50:31,false,clixsense,0.8,31791015,MAR,50,Berrechid,41.251.216.67,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:52:20,true,3713205604,,5/29/2018 20:48:02,false,neodev,1.0,41841415,VEN,25,Caracas,190.74.84.134,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:52:25,true,3713205753,,5/29/2018 20:51:11,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:53:11,true,3713207242,,5/29/2018 20:50:28,false,neodev,0.8,42493826,EGY,"","",196.136.9.235,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:53:24,true,3713207634,,5/29/2018 20:48:48,false,clixsense,0.8,42440998,EGY,06,Alexandria,197.34.93.132,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:54:00,true,3713208748,,5/29/2018 20:48:44,false,elite,0.8,44231434,USA,NY,Flushing,206.189.180.136,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:54:27,true,3713209549,,5/29/2018 20:51:54,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:54:29,true,3713209586,,5/29/2018 20:52:25,false,elite,0.8,41953706,MEX,30,Veracruz,177.247.70.220,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:54:51,true,3713210177,,5/29/2018 20:50:56,false,elite,1.0,44473604,VEN,25,Caracas,186.167.244.43,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:55:20,true,3713211251,,5/29/2018 20:51:47,false,elite,0.8,44088126,EGY,01,Mansoura,156.198.22.204,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:55:26,true,3713211358,,5/29/2018 20:51:25,false,neodev,1.0,43835109,VEN,07,Valencia,190.201.236.144,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:55:30,true,3713211431,,5/29/2018 20:51:02,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:56:08,true,3713212353,,5/29/2018 20:48:00,false,neodev,1.0,44014331,EGY,11,Cairo,105.32.102.132,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 20:58:56,true,3713217067,,5/29/2018 20:52:28,false,neodev,1.0,42510096,VEN,04,Maracay,190.37.66.84,no,porsche,no,description392,is_sweet_(taste)
+1748028778,5/29/2018 22:24:45,true,3713400728,,5/29/2018 22:24:25,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,porsche,no,description392,is_sweet_(taste)
+1748028922,5/29/2018 20:47:23,true,3713195919,,5/29/2018 20:46:42,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:49:21,true,3713199778,,5/29/2018 20:47:00,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:49:48,true,3713200658,,5/29/2018 20:48:48,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:10,true,3713201422,,5/29/2018 20:46:04,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:29,true,3713202137,,5/29/2018 20:48:25,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:46,true,3713202530,,5/29/2018 20:46:07,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:48,true,3713202580,,5/29/2018 20:46:30,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:50,true,3713202668,,5/29/2018 20:46:50,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:50:51,true,3713202686,true,5/29/2018 20:48:28,false,neodev,0.8,44265529,VEN,20,San Cristóbal,186.93.252.86,no,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:51:54,true,3713204701,,5/29/2018 20:46:42,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:52:21,true,3713205639,true,5/29/2018 20:51:34,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,no,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:53:12,true,3713207258,,5/29/2018 20:51:48,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:53:24,true,3713207618,,5/29/2018 20:48:48,false,clixsense,0.8,42440998,EGY,06,Alexandria,197.34.93.132,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:53:29,true,3713207834,,5/29/2018 20:49:01,false,neodev,1.0,35150745,VEN,23,Maracaibo,201.211.5.53,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:53:43,true,3713208271,,5/29/2018 20:52:02,false,neodev,1.0,43649464,COL,34,Bogota,181.61.161.41,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:54:05,true,3713208925,,5/29/2018 20:51:54,false,clixsense,0.8,39773483,UKR,07,Kharkiv,178.165.121.183,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:54:27,true,3713209543,,5/29/2018 20:51:54,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:54:51,true,3713210191,,5/29/2018 20:50:56,false,elite,1.0,44473604,VEN,25,Caracas,186.167.244.43,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:55:37,true,3713211642,,5/29/2018 20:50:36,false,neodev,0.8,41129156,VEN,25,Caracas,190.39.201.149,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:57:28,true,3713214453,,5/29/2018 20:47:10,false,clixsense,1.0,44277803,VEN,25,Caracas,190.74.91.202,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:58:56,true,3713217048,,5/29/2018 20:52:28,false,neodev,1.0,42510096,VEN,04,Maracay,190.37.66.84,yes,beer,yes,description237,is_yellow
+1748028922,5/29/2018 20:59:40,true,3713218590,,5/29/2018 20:59:17,false,neodev,1.0,43985758,EGY,11,Cairo,41.47.127.154,yes,beer,yes,description237,is_yellow
+1748028922,5/30/2018 12:15:37,true,3714793708,,5/30/2018 12:12:23,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,yes,beer,yes,description237,is_yellow
+1748029978,5/29/2018 20:47:34,true,3713196303,,5/29/2018 20:46:30,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:49:07,true,3713199305,,5/29/2018 20:46:00,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:50:10,true,3713201432,,5/29/2018 20:46:04,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:50:18,true,3713201749,,5/29/2018 20:48:49,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:50:55,true,3713202786,,5/29/2018 20:49:46,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:51:09,true,3713203191,,5/29/2018 20:50:30,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:51:32,true,3713203927,,5/29/2018 20:49:58,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:51:45,true,3713204300,,5/29/2018 20:49:14,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:52:24,true,3713205738,,5/29/2018 20:51:01,false,elite,0.8,36569740,COL,"","",186.170.132.193,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:52:28,true,3713205865,,5/29/2018 20:52:14,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:53:27,true,3713207722,,5/29/2018 20:51:16,false,elite,0.8,34334155,VEN,13,Barquisimeto,200.84.165.69,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:54:39,true,3713209923,,5/29/2018 20:49:14,false,neodev,0.8,38777123,VEN,"","",190.78.48.40,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:56:30,true,3713213070,,5/29/2018 20:49:21,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:57:28,true,3713214464,,5/29/2018 20:47:10,false,clixsense,1.0,44277803,VEN,25,Caracas,190.74.91.202,yes,camel,yes,description418,has_four_legs
+1748029978,5/29/2018 20:58:56,true,3713217071,,5/29/2018 20:52:28,false,neodev,1.0,42510096,VEN,04,Maracay,190.37.66.84,yes,camel,yes,description418,has_four_legs
+1748031215,5/29/2018 20:47:34,true,3713196294,,5/29/2018 20:46:30,false,elite,1.0,43548179,VEN,"","",190.206.227.45,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:48:04,true,3713197354,,5/29/2018 20:45:57,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:50:15,true,3713201630,,5/29/2018 20:46:57,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:50:29,true,3713202145,true,5/29/2018 20:49:22,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:50:41,true,3713202394,,5/29/2018 20:49:26,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:50:47,true,3713202557,,5/29/2018 20:50:29,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:50:48,true,3713202567,,5/29/2018 20:48:17,false,neodev,1.0,35277890,VEN,"","",190.78.82.7,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:51:38,true,3713204087,,5/29/2018 20:51:04,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:52:05,true,3713205013,true,5/29/2018 20:51:38,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:52:17,true,3713205468,,5/29/2018 20:48:37,false,elite,1.0,44358563,VEN,"","",190.198.251.149,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:52:24,true,3713205740,,5/29/2018 20:51:01,false,elite,0.8,36569740,COL,"","",186.170.132.193,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:53:11,true,3713207245,true,5/29/2018 20:50:28,false,neodev,0.8,42493826,EGY,"","",196.136.9.235,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:53:14,true,3713207359,,5/29/2018 20:49:28,false,clixsense,0.8,44496691,VEN,13,Barquisimeto,181.208.63.246,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:53:26,true,3713207686,,5/29/2018 20:47:02,false,neodev,1.0,43719304,VEN,04,Maracay,186.92.146.20,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:53:31,true,3713207892,,5/29/2018 20:51:55,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:54:07,true,3713208972,,5/29/2018 20:51:22,false,elite,0.8,44113607,VEN,23,Maracaibo,201.248.102.148,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:54:27,true,3713209545,true,5/29/2018 20:51:54,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:54:29,true,3713209595,,5/29/2018 20:52:25,false,elite,0.8,41953706,MEX,30,Veracruz,177.247.70.220,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:55:05,true,3713210662,true,5/29/2018 20:54:22,false,neodev,0.8,43531815,CHL,12,Santiago,181.160.204.195,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:55:20,true,3713211241,,5/29/2018 20:51:47,false,elite,0.8,44088126,EGY,01,Mansoura,156.198.22.204,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:55:37,true,3713211629,,5/29/2018 20:50:36,false,neodev,0.8,41129156,VEN,25,Caracas,190.39.201.149,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:55:38,true,3713211668,,5/29/2018 20:51:17,false,clixsense,1.0,41399716,BRA,27,Sao Paulo,201.6.228.217,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:56:08,true,3713212351,,5/29/2018 20:48:00,false,neodev,1.0,44014331,EGY,11,Cairo,105.32.102.132,no,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:56:26,true,3713212944,true,5/29/2018 20:50:00,false,neodev,0.8,43978092,VEN,25,Caracas,186.167.243.36,yes,bat_(sporting),no,description705,has_wings
+1748031215,5/29/2018 20:57:28,true,3713214456,,5/29/2018 20:47:10,false,clixsense,1.0,44277803,VEN,25,Caracas,190.74.91.202,no,bat_(sporting),no,description705,has_wings
+1748033366,5/29/2018 20:48:48,true,3713198531,,5/29/2018 20:47:15,false,elite,1.0,43705844,VEN,25,Caracas,186.167.250.0,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:49:41,true,3713200421,,5/29/2018 20:48:17,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:51:06,true,3713203110,,5/29/2018 20:46:17,false,clixsense,0.8333,36841019,IND,16,Thane,49.32.143.150,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:51:29,true,3713203836,true,5/29/2018 20:50:23,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:51:54,true,3713204715,true,5/29/2018 20:46:42,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:53:00,true,3713206803,true,5/29/2018 20:52:27,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:53:24,true,3713207621,true,5/29/2018 20:48:48,false,clixsense,0.8,42440998,EGY,06,Alexandria,197.34.93.132,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:53:27,true,3713207709,true,5/29/2018 20:51:16,false,elite,0.8,34334155,VEN,13,Barquisimeto,200.84.165.69,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:53:43,true,3713208275,,5/29/2018 20:52:02,false,neodev,1.0,43649464,COL,34,Bogota,181.61.161.41,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:54:29,true,3713209589,,5/29/2018 20:52:25,false,elite,0.8,41953706,MEX,30,Veracruz,177.247.70.220,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:55:26,true,3713211349,,5/29/2018 20:51:25,false,neodev,1.0,43835109,VEN,07,Valencia,190.201.236.144,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:55:37,true,3713211625,true,5/29/2018 20:50:36,false,neodev,0.8,41129156,VEN,25,Caracas,190.39.201.149,no,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:55:38,true,3713211660,,5/29/2018 20:51:17,false,clixsense,1.0,41399716,BRA,27,Sao Paulo,201.6.228.217,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:56:30,true,3713213063,,5/29/2018 20:49:21,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:58:17,true,3713215774,,5/29/2018 20:56:24,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,heron,yes,description635,has_claws
+1748033366,5/29/2018 20:59:40,true,3713218595,,5/29/2018 20:59:17,false,neodev,1.0,43985758,EGY,11,Cairo,41.47.127.154,yes,heron,yes,description635,has_claws
+1748033478,5/29/2018 20:48:48,true,3713198537,,5/29/2018 20:47:15,false,elite,1.0,43705844,VEN,25,Caracas,186.167.250.0,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:49:07,true,3713199309,,5/29/2018 20:46:00,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:49:21,true,3713199766,,5/29/2018 20:47:00,false,elite,0.8889,35085118,VNM,44,Hanoi,171.226.171.5,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:50:09,true,3713201399,,5/29/2018 20:48:27,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:50:15,true,3713201633,true,5/29/2018 20:46:57,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:50:19,true,3713201768,,5/29/2018 20:47:45,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:50:48,true,3713202575,,5/29/2018 20:46:30,false,neodev,1.0,44051878,VEN,"","",190.206.156.130,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:50:55,true,3713202788,true,5/29/2018 20:49:46,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,no,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:51:51,true,3713204485,,5/29/2018 20:49:49,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:52:05,true,3713205017,,5/29/2018 20:51:38,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:52:17,true,3713205474,,5/29/2018 20:48:37,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:52:28,true,3713205866,,5/29/2018 20:50:49,false,neodev,1.0,44299659,VEN,04,Maracay,201.208.10.144,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:53:03,true,3713206914,,5/29/2018 20:50:36,false,neodev,0.8,43191711,EGY,"","",156.201.227.21,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:53:11,true,3713207236,,5/29/2018 20:50:28,false,neodev,0.8,42493826,EGY,"","",196.136.9.235,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:53:19,true,3713207511,,5/29/2018 20:50:44,false,neodev,1.0,44530146,EGY,"","",197.39.146.203,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:54:07,true,3713208968,,5/29/2018 20:51:22,false,elite,0.8,44113607,VEN,23,Maracaibo,201.248.102.148,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:54:11,true,3713209077,,5/29/2018 20:51:59,false,neodev,1.0,43281967,VEN,07,Valencia,190.203.57.181,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:55:36,true,3713211609,,5/29/2018 20:50:18,false,neodev,1.0,37041000,VEN,25,Caracas,190.77.56.255,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:56:56,true,3713213579,,5/29/2018 20:52:34,false,elite,0.8,43650019,BRA,07,Brasilia,179.95.6.153,yes,knickers,yes,description690,made_of_cotton
+1748033478,5/29/2018 20:57:25,true,3713214364,,5/29/2018 20:52:17,false,neodev,1.0,42312098,VEN,04,Maracay,190.37.91.132,yes,knickers,yes,description690,made_of_cotton
+1748034323,5/29/2018 20:49:41,true,3713200418,,5/29/2018 20:48:17,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:49:45,true,3713200584,,5/29/2018 20:48:17,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:50:29,true,3713202132,,5/29/2018 20:48:25,false,elite,1.0,44174761,EGY,11,Cairo,41.34.176.215,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:50:29,true,3713202148,,5/29/2018 20:49:22,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:50:37,true,3713202274,,5/29/2018 20:48:06,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:50:55,true,3713202787,,5/29/2018 20:49:46,false,clixsense,0.8333,39592819,TUR,35,Izmir,88.246.189.163,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:50:58,true,3713202900,,5/29/2018 20:49:02,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:51:12,true,3713203329,,5/29/2018 20:49:43,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:51:53,true,3713204626,,5/29/2018 20:49:53,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:52:24,true,3713205734,,5/29/2018 20:48:51,false,elite,1.0,43913593,,,"",102.166.17.15,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:53:10,true,3713207194,,5/29/2018 20:51:21,false,clixsense,0.8333,44186816,RUS,60,Pskov,31.130.70.52,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:53:24,true,3713207625,,5/29/2018 20:48:48,false,clixsense,0.8,42440998,EGY,06,Alexandria,197.34.93.132,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:53:27,true,3713207725,,5/29/2018 20:51:16,false,elite,0.8,34334155,VEN,13,Barquisimeto,200.84.165.69,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:54:02,true,3713208825,,5/29/2018 20:52:13,false,elite,1.0,44190044,USA,NY,New York,159.89.230.179,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:54:05,true,3713208919,,5/29/2018 20:51:54,false,clixsense,0.8,39773483,UKR,07,Kharkiv,178.165.121.183,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:54:29,true,3713209583,true,5/29/2018 20:52:25,false,elite,0.8,41953706,MEX,30,Veracruz,177.247.70.220,yes,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:54:39,true,3713209924,,5/29/2018 20:49:14,false,neodev,0.8,38777123,VEN,"","",190.78.48.40,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:56:08,true,3713212350,,5/29/2018 20:48:00,false,neodev,1.0,44014331,EGY,11,Cairo,105.32.102.132,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:56:56,true,3713213584,,5/29/2018 20:52:34,false,elite,0.8,43650019,BRA,07,Brasilia,179.95.6.153,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:57:28,true,3713214460,,5/29/2018 20:47:10,false,clixsense,1.0,44277803,VEN,25,Caracas,190.74.91.202,no,cushion,no,description492,made_of_metal
+1748034323,5/29/2018 20:58:56,true,3713217063,,5/29/2018 20:52:28,false,neodev,1.0,42510096,VEN,04,Maracay,190.37.66.84,no,cushion,no,description492,made_of_metal
+1748034570,5/29/2018 20:49:45,true,3713200577,,5/29/2018 20:48:17,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:49:46,true,3713200626,,5/29/2018 20:47:52,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:50:09,true,3713201402,,5/29/2018 20:48:27,false,elite,0.875,44365722,MNE,00,Podgorica,79.140.149.212,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:50:19,true,3713201772,,5/29/2018 20:47:45,false,neodev,0.8333,36113457,EGY,11,Cairo,41.237.24.120,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:50:27,true,3713202083,,5/29/2018 20:49:55,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:50:41,true,3713202389,,5/29/2018 20:49:26,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:50:51,true,3713202685,,5/29/2018 20:48:28,false,neodev,0.8,44265529,VEN,20,San Cristóbal,186.93.252.86,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:51:54,true,3713204703,,5/29/2018 20:50:50,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:52:11,true,3713205209,,5/29/2018 20:51:33,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:52:15,true,3713205429,,5/29/2018 20:50:53,false,elite,1.0,43548179,VEN,"","",190.206.227.45,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:52:24,true,3713205729,,5/29/2018 20:51:01,false,elite,0.8,36569740,COL,"","",186.170.132.193,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:52:29,true,3713205934,true,5/29/2018 20:50:38,false,elite,0.8571,44310560,COL,"","",186.154.120.78,no,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:54:11,true,3713209071,,5/29/2018 20:51:59,false,neodev,1.0,43281967,VEN,07,Valencia,190.203.57.181,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:54:48,true,3713210108,,5/29/2018 20:51:27,false,neodev,1.0,44021504,EGY,17,Assiut,41.238.18.235,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:55:03,true,3713210602,,5/29/2018 20:49:34,false,clixsense,1.0,44303978,EGY,11,Cairo,41.237.24.120,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:56:30,true,3713213067,,5/29/2018 20:49:21,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 20:57:15,true,3713214118,,5/29/2018 20:56:32,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 22:24:24,true,3713400069,,5/29/2018 22:24:08,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,sycamore,yes,description551,has_leaves
+1748034570,5/29/2018 22:30:23,true,3713413968,,5/29/2018 22:29:22,false,instagc,0.8,13842059,USA,NY,New York,68.132.243.237,yes,sycamore,yes,description551,has_leaves
+1748034638,5/29/2018 20:49:46,true,3713200633,,5/29/2018 20:47:52,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:50:51,true,3713202683,,5/29/2018 20:48:28,false,neodev,0.8,44265529,VEN,20,San Cristóbal,186.93.252.86,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:50:58,true,3713202898,,5/29/2018 20:49:02,false,neodev,1.0,36957773,ARG,05,Cordoba,201.235.210.37,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:51:12,true,3713203323,,5/29/2018 20:49:43,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:52:49,true,3713206558,true,5/29/2018 20:50:35,false,clixsense,0.8571,44166094,UKR,01,Cherkassy,109.227.69.115,yes,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:52:50,true,3713206606,,5/29/2018 20:51:06,false,elite,0.8333,43899480,VEN,"","",186.95.10.218,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:02,true,3713206881,,5/29/2018 20:52:25,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:14,true,3713207380,,5/29/2018 20:51:31,false,elite,1.0,34958034,SRB,00,Belgrade,24.135.110.20,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:27,true,3713207714,,5/29/2018 20:51:16,false,elite,0.8,34334155,VEN,13,Barquisimeto,200.84.165.69,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:29,true,3713207839,,5/29/2018 20:49:01,false,neodev,1.0,35150745,VEN,23,Maracaibo,201.211.5.53,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:43,true,3713208273,,5/29/2018 20:52:02,false,neodev,1.0,43649464,COL,34,Bogota,181.61.161.41,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:53:48,true,3713208453,true,5/29/2018 20:50:05,false,neodev,0.8,44260134,VEN,20,San Cristóbal,201.208.46.70,yes,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:54:39,true,3713209920,true,5/29/2018 20:49:14,false,neodev,0.8,38777123,VEN,"","",190.78.48.40,yes,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:54:52,true,3713210179,,5/29/2018 20:52:10,false,neodev,0.8333,43912110,EGY,11,Cairo,154.184.40.65,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:55:03,true,3713210608,,5/29/2018 20:49:34,false,clixsense,1.0,44303978,EGY,11,Cairo,41.237.24.120,no,castle,no,description423,made_of_metal
+1748034638,5/29/2018 20:56:08,true,3713212349,,5/29/2018 20:48:00,false,neodev,1.0,44014331,EGY,11,Cairo,105.32.102.132,no,castle,no,description423,made_of_metal
+1748034763,5/29/2018 20:49:19,true,3713199693,,5/29/2018 20:48:47,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:50:29,true,3713202147,,5/29/2018 20:49:22,false,elite,0.8571,34195998,IND,16,Mumbai,203.192.243.193,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:51:12,true,3713203326,,5/29/2018 20:49:43,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:52:55,true,3713206694,,5/29/2018 20:52:25,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:53:14,true,3713207349,,5/29/2018 20:49:28,false,clixsense,0.8,44496691,VEN,13,Barquisimeto,181.208.63.246,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:53:19,true,3713207520,,5/29/2018 20:50:44,false,neodev,1.0,44530146,EGY,"","",197.39.146.203,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:53:24,true,3713207629,,5/29/2018 20:48:48,false,clixsense,0.8,42440998,EGY,06,Alexandria,197.34.93.132,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:54:00,true,3713208756,,5/29/2018 20:48:44,false,elite,0.8,44231434,USA,NY,Flushing,206.189.180.136,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:54:07,true,3713208974,,5/29/2018 20:51:22,false,elite,0.8,44113607,VEN,23,Maracaibo,201.248.102.148,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:54:39,true,3713209921,,5/29/2018 20:49:14,false,neodev,0.8,38777123,VEN,"","",190.78.48.40,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:55:26,true,3713211361,,5/29/2018 20:51:25,false,neodev,1.0,43835109,VEN,07,Valencia,190.201.236.144,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:55:36,true,3713211613,,5/29/2018 20:50:18,false,neodev,1.0,37041000,VEN,25,Caracas,190.77.56.255,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:56:11,true,3713212426,,5/29/2018 20:54:37,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 20:56:26,true,3713212943,,5/29/2018 20:50:00,false,neodev,0.8,43978092,VEN,25,Caracas,186.167.243.36,no,bow_(weapon),no,description6,has_roots
+1748034763,5/29/2018 22:24:07,true,3713399603,,5/29/2018 22:23:47,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,no,bow_(weapon),no,description6,has_roots
+1748034882,5/29/2018 20:49:53,true,3713200860,,5/29/2018 20:49:21,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:50:18,true,3713201760,,5/29/2018 20:48:49,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:50:41,true,3713202380,,5/29/2018 20:49:26,false,elite,0.8571,43941520,EGY,01,Mansoura,156.201.169.144,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:50:59,true,3713202907,,5/29/2018 20:49:22,false,neodev,0.8571,38661505,VEN,25,Caracas,201.238.25.166,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:51:39,true,3713204095,,5/29/2018 20:49:13,false,clixsense,0.8333,44026666,VEN,08,Tinaquillo,190.202.181.79,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:51:53,true,3713204631,,5/29/2018 20:49:53,false,clixsense,1.0,38064537,SRB,00,Belgrade,78.30.140.246,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:52:05,true,3713205015,,5/29/2018 20:51:38,false,prodege,0.9091,3587109,CAN,NS,Larrys River,47.54.157.138,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:52:13,true,3713205350,,5/29/2018 20:50:31,false,clixsense,0.8,31791015,MAR,50,Berrechid,41.251.216.67,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:52:17,true,3713205456,,5/29/2018 20:48:37,false,elite,1.0,44358563,VEN,"","",190.198.251.149,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:52:30,true,3713205938,,5/29/2018 20:51:47,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:52:57,true,3713206726,,5/29/2018 20:51:30,false,elite,1.0,29463692,IRL,04,Cork,95.45.68.111,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:53:14,true,3713207354,,5/29/2018 20:49:28,false,clixsense,0.8,44496691,VEN,13,Barquisimeto,181.208.63.246,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:53:29,true,3713207824,,5/29/2018 20:49:01,false,neodev,1.0,35150745,VEN,23,Maracaibo,201.211.5.53,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:53:48,true,3713208457,,5/29/2018 20:50:05,false,neodev,0.8,44260134,VEN,20,San Cristóbal,201.208.46.70,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:54:11,true,3713209080,,5/29/2018 20:51:59,false,neodev,1.0,43281967,VEN,07,Valencia,190.203.57.181,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:54:51,true,3713210185,,5/29/2018 20:50:56,false,elite,1.0,44473604,VEN,25,Caracas,186.167.244.43,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:55:36,true,3713211606,,5/29/2018 20:50:18,false,neodev,1.0,37041000,VEN,25,Caracas,190.77.56.255,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:55:38,true,3713211665,,5/29/2018 20:51:17,false,clixsense,1.0,41399716,BRA,27,Sao Paulo,201.6.228.217,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:56:56,true,3713213583,,5/29/2018 20:52:34,false,elite,0.8,43650019,BRA,07,Brasilia,179.95.6.153,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:57:25,true,3713214360,,5/29/2018 20:52:17,false,neodev,1.0,42312098,VEN,04,Maracay,190.37.91.132,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/29/2018 20:58:30,true,3713216068,,5/29/2018 20:56:32,false,neodev,1.0,44116459,VEN,"","",190.74.179.129,yes,cockerel,yes,description252,is_an_animal
+1748034882,5/30/2018 12:15:37,true,3714793712,,5/30/2018 12:12:23,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,yes,cockerel,yes,description252,is_an_animal
+1748034956,5/29/2018 20:51:32,true,3713203929,,5/29/2018 20:49:58,false,neodev,0.8333,44014618,BGD,81,Dhaka,180.149.18.36,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:51:45,true,3713204307,,5/29/2018 20:49:14,false,elite,1.0,43830774,ITA,08,Genova,93.36.230.24,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:52:23,true,3713205692,,5/29/2018 20:51:40,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:52:25,true,3713205783,,5/29/2018 20:51:46,false,clixsense,1.0,44291437,TUR,"","",176.237.21.15,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:53:16,true,3713207418,,5/29/2018 20:50:53,false,neodev,1.0,42604105,EGY,"","",154.188.150.72,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:53:19,true,3713207525,,5/29/2018 20:50:44,false,neodev,1.0,44530146,EGY,"","",197.39.146.203,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:53:33,true,3713207945,,5/29/2018 20:50:52,false,elite,0.8,43715502,VEN,18,Guanare,186.93.134.234,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:53:48,true,3713208460,,5/29/2018 20:50:05,false,neodev,0.8,44260134,VEN,20,San Cristóbal,201.208.46.70,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:54:07,true,3713208976,,5/29/2018 20:51:22,false,elite,0.8,44113607,VEN,23,Maracaibo,201.248.102.148,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:54:27,true,3713209551,,5/29/2018 20:51:54,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:54:29,true,3713209592,,5/29/2018 20:52:25,false,elite,0.8,41953706,MEX,30,Veracruz,177.247.70.220,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:55:11,true,3713210873,,5/29/2018 20:52:12,false,elite,1.0,44174761,EGY,08,Gîza,41.34.137.57,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:55:25,true,3713211300,,5/29/2018 20:52:11,false,elite,0.8,43960286,VEN,15,San Antonio De Los Altos,200.82.204.43,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:55:26,true,3713211346,,5/29/2018 20:51:25,false,neodev,1.0,43835109,VEN,07,Valencia,190.201.236.144,yes,submarine,yes,description434,has_an_engine
+1748034956,5/29/2018 20:55:36,true,3713211598,,5/29/2018 20:50:18,false,neodev,1.0,37041000,VEN,25,Caracas,190.77.56.255,yes,submarine,yes,description434,has_an_engine
+1748035196,5/29/2018 20:51:46,true,3713204319,,5/29/2018 20:50:12,false,neodev,0.8571,43853423,ECU,18,Quito,181.198.151.35,no,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:52:13,true,3713205352,true,5/29/2018 20:50:31,false,clixsense,0.8,31791015,MAR,50,Berrechid,41.251.216.67,yes,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:53:03,true,3713206906,true,5/29/2018 20:50:36,false,neodev,0.8,43191711,EGY,"","",156.201.227.21,yes,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:53:10,true,3713207207,true,5/29/2018 20:52:12,false,neodev,0.8571,29765103,ISR,04,Haifa,46.120.57.104,yes,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:53:33,true,3713207976,,5/29/2018 20:52:18,false,elite,1.0,44358563,VEN,"","",190.198.251.149,no,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:53:46,true,3713208365,,5/29/2018 20:52:27,false,clixsense,1.0,44118241,TUR,"","",88.231.180.197,no,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:54:02,true,3713208820,,5/29/2018 20:52:13,false,elite,1.0,44190044,USA,NY,New York,159.89.230.179,no,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:54:27,true,3713209548,,5/29/2018 20:51:54,false,neodev,0.8333,42152691,VEN,07,Valencia,190.205.194.126,no,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:55:12,true,3713210879,true,5/29/2018 20:54:37,false,clixsense,0.9333,6335115,SRB,00,Belgrade,109.93.102.63,yes,knickers,no,description114,is_brown
+1748035196,5/29/2018 20:57:25,true,3713214374,,5/29/2018 20:52:17,false,neodev,1.0,42312098,VEN,04,Maracay,190.37.91.132,no,knickers,no,description114,is_brown
+1748035414,5/29/2018 20:52:24,true,3713205732,,5/29/2018 20:51:01,false,elite,0.8,36569740,COL,"","",186.170.132.193,yes,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:52:28,true,3713205878,,5/29/2018 20:51:53,false,gifthunterclub,1.0,36100283,ESP,58,Santiago De Compostela,193.125.203.130,yes,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:53:14,true,3713207374,,5/29/2018 20:51:31,false,elite,1.0,34958034,SRB,00,Belgrade,24.135.110.20,no,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:54:11,true,3713209074,,5/29/2018 20:51:59,false,neodev,1.0,43281967,VEN,07,Valencia,190.203.57.181,no,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:54:30,true,3713209659,,5/29/2018 20:51:44,false,neodev,0.8,44280295,VEN,"","",186.89.102.23,no,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:54:48,true,3713210093,,5/29/2018 20:51:27,false,neodev,1.0,44021504,EGY,17,Assiut,41.238.18.235,yes,lamb,"yes
+no",description709,is_small
+1748035414,5/29/2018 20:55:05,true,3713210664,,5/29/2018 20:54:22,false,neodev,0.8,43531815,CHL,12,Santiago,181.160.204.195,no,lamb,"yes
+no",description709,is_small
+1748035752,5/29/2018 20:53:43,true,3713208274,,5/29/2018 20:52:02,false,neodev,1.0,43649464,COL,34,Bogota,181.61.161.41,no,herring,no,description82,has_roots
+1748035752,5/30/2018 12:15:37,true,3714793710,,5/30/2018 12:12:23,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,no,herring,no,description82,has_roots
+1748035871,5/29/2018 22:30:23,true,3713413972,,5/29/2018 22:29:22,false,instagc,0.8,13842059,USA,NY,New York,68.132.243.237,yes,fir,yes,description53,has_roots
+1748035930,5/29/2018 20:55:10,true,3713210839,,5/29/2018 20:54:28,false,elite,0.8889,39343009,SRB,00,Belgrade,95.180.110.56,yes,biscuit,yes,description129,is_eaten_edible
+1748037359,5/30/2018 12:15:37,true,3714793713,,5/30/2018 12:12:23,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,yes,accordion,yes,description314,is_noisy_loud
+1748037602,5/29/2018 22:30:23,true,3713413971,true,5/29/2018 22:29:22,false,instagc,0.8,13842059,USA,NY,New York,68.132.243.237,yes,biscuit,no,description427,is_clothing
+1748037602,5/30/2018 12:15:37,true,3714793711,,5/30/2018 12:12:23,false,prodege,1.0,38202325,USA,ME,Limestone,98.13.82.121,no,biscuit,no,description427,is_clothing

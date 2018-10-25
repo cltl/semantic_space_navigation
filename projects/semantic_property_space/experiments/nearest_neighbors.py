@@ -64,27 +64,16 @@ def get_centroids_loo(vecs_pos, vecs_neg):
 def nearest_neighbor_classification_loo(model, feature, n, subset = None):
 
     predictions = []
-
     words_pos, words_neg = load_data(feature, subset = subset)
-
     vecs_pos, wi_dict_pos = load_vecs(model, words_pos)
     vecs_neg, wi_dict_neg = load_vecs(model, words_neg)
-
-
     centroids = get_centroids_loo(vecs_pos, vecs_neg)
-
     words = words_pos + words_neg
-
     wi_dict = merge_wi_dicts(wi_dict_pos, wi_dict_neg)
-
-    #print(len(words), len(centroids), len(list(wi_dict.keys())))
-
 
     for word in words:
 
         word = word.strip()
-        #print(word)
-
         vec_index = wi_dict[word]
 
         if vec_index != 'OOV':
@@ -94,10 +83,6 @@ def nearest_neighbor_classification_loo(model, feature, n, subset = None):
             nearest_neighbors = get_nearest_neighbors(model, centroid, n)
 
             nn_words = [w for c, w in nearest_neighbors]
-
-            #if word == 'pot':
-            #    for n in nearest_neighbors:
-            #        print(n)
 
             if word in nn_words:
                 predictions.append(1)
@@ -125,26 +110,17 @@ def nearest_neighbor_classification(model, feature_train, feature_test, n, subse
     vecs_neg_test, wi_dict_neg_test = load_vecs(model, words_neg_test)
     wi_dict_test = merge_wi_dicts(wi_dict_pos_test, wi_dict_neg_test)
 
-
     words_test = words_pos_test + words_neg_test
     x_test = vecs_pos_test + vecs_neg_test
 
-
     # transform to np array:
-
     x_train_pos = to_np_array(vecs_pos_train)
     x_test = to_np_array(x_test)
-
-
 
     centroid = get_centroid(x_train_pos)
 
     nearest_neighbors = get_nearest_neighbors(model, centroid, n)
     nn_words = [w for c, w in nearest_neighbors]
-
-    #print(centroid)
-    #print(nn_words)
-
 
     for word in words_test:
         #print(word)
@@ -152,15 +128,11 @@ def nearest_neighbor_classification(model, feature_train, feature_test, n, subse
         vec_index = wi_dict_test[word]
 
         if vec_index != 'OOV':
-
-
             if word in nn_words:
                 predictions.append(1)
-                print(word, 'in nn!')
             else:
                 predictions.append(0)
                 #print(word)
-
         else:
             predictions.append('OOV')
 
@@ -197,8 +169,15 @@ def main():
     else:
         ns = range(n_begin, n_end+n_step, n_step)
 
-    if features == 'all':
-        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')]
+    if (features  == 'train') and (test == 'test'):
+        features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_train-pos.txt')])
+        test_features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_test-pos.txt')])
+
+    elif (features == 'all') and (test == 'loo'):
+        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')\
+        if (not 'train' in f) and (not 'test' in f)]
+
+
     else:
         features = [features]
 
@@ -223,8 +202,9 @@ def main():
                     results_to_file(words, predictions, model_name, experiment_name, feat, par=par)
                 else:
                     feature_train = feat
-                    feature_test = test
-                    print(test)
+                    #feature_test = test
+                    #print(test)
+                    feature_test = test_features[no]
                     words, predictions = nearest_neighbor_classification(model, feature_train, feature_test, n, subset = None)
                     par = str(par) + '-test'
                     results_to_file(words, predictions, model_name, experiment_name, feature_test, par=par)

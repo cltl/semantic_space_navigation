@@ -1,0 +1,4 @@
+minnow
+revolver
+dice
+bullet

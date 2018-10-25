@@ -1,0 +1,17 @@
+,f1,p,r,oov
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:32:47-763370-test-poly_is_an_animal_test,0.8275862068965517,0.75,0.9230769230769231,36
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:18:17-987652-test-poly_is_an_animal_test,0.7586206896551724,0.6875,0.8461538461538461,36
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:30:03-049963-test-poly_is_an_animal_test,0.7142857142857142,0.6666666666666666,0.7692307692307693,36
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:30:54-103224-test-poly_is_an_animal_test,0.6923076923076923,0.6923076923076923,0.6923076923076923,36
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:28:39-577049-test-poly_is_an_animal_test,0.6896551724137931,0.625,0.7692307692307693,36
+results-word2vec_movies-neural_net_classification-default-shuff-2018-10-25-16:25:53-771715-test-poly_is_an_animal_test,0.6153846153846154,0.6153846153846154,0.6153846153846154,36
+results-word2vec_movies-nearest_neighbors-900-test-poly_is_an_animal_test,0.33333333333333337,0.6,0.23076923076923078,36
+results-word2vec_movies-nearest_neighbors-1000-test-poly_is_an_animal_test,0.33333333333333337,0.6,0.23076923076923078,36
+results-word2vec_movies-nearest_neighbors-700-test-poly_is_an_animal_test,0.23529411764705882,0.5,0.15384615384615385,36
+results-word2vec_movies-nearest_neighbors-500-test-poly_is_an_animal_test,0.23529411764705882,0.5,0.15384615384615385,36
+results-word2vec_movies-nearest_neighbors-600-test-poly_is_an_animal_test,0.23529411764705882,0.5,0.15384615384615385,36
+results-word2vec_movies-nearest_neighbors-800-test-poly_is_an_animal_test,0.23529411764705882,0.5,0.15384615384615385,36
+results-word2vec_movies-nearest_neighbors-400-test-poly_is_an_animal_test,0.23529411764705882,0.5,0.15384615384615385,36
+results-word2vec_movies-nearest_neighbors-100-test-poly_is_an_animal_test,0.14285714285714288,1.0,0.07692307692307693,36
+results-word2vec_movies-nearest_neighbors-200-test-poly_is_an_animal_test,0.14285714285714288,1.0,0.07692307692307693,36
+results-word2vec_movies-nearest_neighbors-300-test-poly_is_an_animal_test,0.125,0.3333333333333333,0.07692307692307693,36

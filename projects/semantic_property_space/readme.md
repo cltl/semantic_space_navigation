@@ -22,52 +22,73 @@ The directory includes scripts to:
 - predict features via the nearest neighbor of the centroid of its positive examples: `nearest_neighbors.py`
 - calculate the average similarity of all concepts in a dataset: `get_average_cosines.py`
 - get the distance of the words in a dataset from the centroid of all positive examples: `get_cosines_centriod.py`
-  
-  ### Running experiments
-  
-)
 
 
-  python logistic_regression.py [path_to_model] [model_name] [model_type] [feature]
-  
-  python neural_net.py [path_to_model] [model_name] [model_type] [feature]
-  
-  python nearest_neighbors.py [path_to_model] [model_name] [model_type] [neighbors_n_begin]
-  [neighbors_n_end] [neighbors_n_step] [feature]
 
+
+### Running experiments
+
+
+Example script to run all experiments: `experiments/run_experiments.sh`
+
+Note that the commands for running the standard experiments and the experiments on polysemy datasets differ slightly because of the different ways of evaluating the results.
+
+### Results
+
+The results  are written to:
+
+- Nearest neighbors: `results/[model_name]/nearest_neighbors/[n-evaluation]/[property].txt`
+- Logistic regression: `results/[model_name]/logistic_regression/[parameters-evaluation]/[property].txt`
+- Neural net: `results/[model_name]/neural_net_classification/[parameters-order-timestamp-evaluation]/[property].txt`
+
+### Evaluation
+
+The classifiers are evaluated using precision, recall, f1 per feature excluding out-of-vocabulary words.
+
+The results of the evaluation are written to:
+
+`evaluation/[property].csv`
+
+The .csv file contains the results of all models and classification approaches.
 
 
 ## Data
 
 We used the semantic property norms collected by Devereux et al. (2014) and extended the dataset via a crowdsourcing task. The original data can be dowlowaded at https://cslb.psychol.cam.ac.uk/propnorms. Our extension of the dataset (including intermediate steps and decisions) will be made available at (insert link).
 
-Instructions:
+### Extension
 
-- store positive and negative examples in data/
-- naming convention:
-    - [feature]-pos.txt; e.g. fruit_test-pos.txt
-    - [feature]-neg-all.txt; e.g. fruit_test.neg-all.txt
-- each line should contain a single word
+The extension provdies:
+* negative examples of properties (e.g. *strawberry* is a negative example of *is_an_animal*)
+* an additional verification of the some existing concept-property pairs
+* additional concepts (collected using the word2vec google news model)
+
+### Format:
+
+The data are stored in `data/blackbox/standard` and `data/blackbox/polysemy`  in the following format:
+
+Standard (leave-one-out evaluation:
+* Positive examples: `[property]-pos.txt`
+* Negative examples: `[property]-neg-all.txt`
+
+Polysemy(train - test splits):
+
+* `[property]-train-pos.txt`
+* `[property]-test-pos.txt`
+* `[property]-train-neg-all.txt`
+* `[property]-test-neg-all.txt`
+
+
+If you would like to gain insights into which examples have been added and verified through which step, please consider the data in the directory `implications/`, `extension-candidates` and `crowd`  and download the original CSLB property dataset.
+
+If you want to run an experiment, move your files into the `data/experiment/` directory. Currenty, the positive and negative examples of the property `is_dangerous` are placed there for testing.
+
+
 
 
 ## Hypotheses
 
 Hypotheses about specific semantic properties formulated by the authors (independently from each other in the first stage and combined in a second stage) can be found in hypotheses/.
-
-## Results
-
-Predictions are written to results/[model_name]/[experiment_name]/[parameters]/[feature].txt
-
-e.g. results/word2vec_google_news/nearest_neighbors/100/fruit_test.txt
-e.g. results/word2vec_google_news/logistic_regression/default/fruit_test.txt
-e.g. results/word2vec_google_news/neural_net/default/fruit_test.txt
-
-## Evaluation
-
-- Evaluation is written to evation/.
-- Precision, recall, f1 per feature excluding out-of-vocabulary words
-- Train/test folds: Leave-one-out cross-validation
-- Results of the evaluation are written to evaluation/[feature].txt
 
 
 
@@ -100,9 +121,6 @@ Our target features for more experiments are listed in the rows.
 
 ## Crowdsourcing set-up
 
-(to be filled in)
-
-
-
+Please consult our paper.
 
 

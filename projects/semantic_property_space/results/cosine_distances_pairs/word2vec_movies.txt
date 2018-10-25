@@ -1,2 +1,2 @@
 feature,av_cos
-crowd_is_dangerous,0.7761
+ci_is_dangerous,0.7633

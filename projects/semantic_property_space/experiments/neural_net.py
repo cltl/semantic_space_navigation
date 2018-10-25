@@ -257,8 +257,14 @@ def main():
 
     print( glob.glob(data+'*-pos.txt'))
 
-    if features == 'all':
-        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')]
+    if (features  == 'train') and (test == 'test'):
+        features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_train-pos.txt')])
+        test_features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_test-pos.txt')])
+
+    elif (features == 'all') and (test == 'loo'):
+        features = [f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*-pos.txt')\
+        if (not 'train' in f) and (not 'test' in f)]
+
     else:
         features = [features]
 
@@ -289,7 +295,8 @@ def main():
 
         else:
             feature_train = feat
-            feature_test = test
+            feature_test = test_features[no]
+            print(feature_train, feature_test)
             words, predictions = neural_net_classification(model, feature_train, feature_test, shuffle = shuffle)
             par = 'default-'+sh_par+'-'+ts+'-test'
             results_to_file(words, predictions, model_name, experiment_name, feature_test, par)
