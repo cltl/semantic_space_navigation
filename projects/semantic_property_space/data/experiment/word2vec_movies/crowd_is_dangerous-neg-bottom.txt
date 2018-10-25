@@ -1,0 +1,6 @@
+rake
+spade
+shovel
+rabbit
+soup
+monkey

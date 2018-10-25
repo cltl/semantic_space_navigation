@@ -1,6 +1,0 @@
-words,cosines,gold,pred-logistic_regression-default-loo,pred-nearest_neighbors-100-loo,pred-nearest_neighbors-1000-loo,pred-nearest_neighbors-200-loo,pred-nearest_neighbors-300-loo,pred-nearest_neighbors-400-loo,pred-nearest_neighbors-500-loo,pred-nearest_neighbors-600-loo,pred-nearest_neighbors-700-loo,pred-nearest_neighbors-800-loo,pred-nearest_neighbors-900-loo,pred-neural_net_classification-default-shuff-2018-07-19-06:54:20-089001-loo,pred-neural_net_classification-default-shuff-2018-07-19-06:55:59-207904-loo
-minnow,0.8636896674545916,1,1,0,1,0,0,0,1,1,1,1,1,1,1
-flounder,0.8587787601946041,1,1,0,1,1,1,1,1,1,1,1,1,1,1
-tripod,0.17284859310874592,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-grater,0.16338863995089536,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-marigold,0.060147898647118295,0,0,0,0,0,0,0,0,0,0,0,0,0,0
