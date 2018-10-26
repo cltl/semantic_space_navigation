@@ -30,6 +30,22 @@ MODEL_TYPE='w2v'
 # Create a toymodel for testing the code:
 python create_toy_model.py
 
+
+### Select data
+
+# For the standard set up, you can select the properties you want to test here:
+# For testing, the property 'is_dangerous' is selected. You can add as many
+# properties from the dataset (stored in ../data/blackbox_dataset.csv) as you want.
+python select_data.py is_dangerous
+
+
+### Data for polysemy experiments
+# For the experiments we ran on polysemous words, we make the train
+# and test splits availabel in ../data/blackbox_polysemy_splits/.
+# For testing, we copy the animal-food shift data into the ../data/experiment/
+# directory:
+cp -r ../data/blackbox_polysemy_splits/poly_is_an_animal*.txt ../data/experiment/.
+
 #### standard experiments
 
 # Standard experiments are run on all files in the directory 'data/experiment/'

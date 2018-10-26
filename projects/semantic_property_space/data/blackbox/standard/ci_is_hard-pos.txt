@@ -1,4 +1,0 @@
-coach
-rock
-bullet
-nut

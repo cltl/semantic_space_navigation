@@ -1,5 +1,0 @@
-gorilla
-dolphin
-panther
-spider
-hippo

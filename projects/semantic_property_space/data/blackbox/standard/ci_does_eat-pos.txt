@@ -1,5 +1,0 @@
-camel
-partridge
-rattlesnake
-octopus
-crayfish

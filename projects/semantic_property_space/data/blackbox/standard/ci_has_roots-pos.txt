@@ -1,4 +1,0 @@
-parsley
-fir
-cabbage
-prune

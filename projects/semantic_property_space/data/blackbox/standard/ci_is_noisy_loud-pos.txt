@@ -1,5 +1,0 @@
-clock
-bellows
-banjo
-helicopter
-accordion
