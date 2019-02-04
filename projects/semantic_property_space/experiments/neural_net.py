@@ -59,7 +59,6 @@ def mlp_classification_loo(x, y, shuffle = True):
         x_new = x
         y_new = y
 
-
     for train_index, test_index in loo.split(x_new):
         # All examples
         x_train, x_test = x_new[train_index], x_new[test_index]
@@ -144,7 +143,6 @@ def neural_net_classification_loo(model, feature, shuffle = True):
 
     vecs_pos, wi_dict_pos = load_vecs(model, words_pos)
     vecs_neg, wi_dict_neg = load_vecs(model, words_neg)
-
 
     words = words_pos + words_neg
     x = vecs_pos + vecs_neg
@@ -258,6 +256,7 @@ def main():
     print( glob.glob(data+'*-pos.txt'))
 
     if (features  == 'train') and (test == 'test'):
+        print('train-test')
         features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_train-pos.txt')])
         test_features = sorted([f.split('/')[-1].split('-')[0] for f in glob.glob(data+'*_test-pos.txt')])
 
