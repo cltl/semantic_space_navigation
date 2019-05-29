@@ -1,0 +1,4 @@
+blacks
+foreigners
+immigrants
+whites

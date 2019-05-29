@@ -1,0 +1,4 @@
+people
+men
+women
+children
