@@ -1,0 +1,7 @@
+init_pair, average_rank_difference
+pinit1-pinit2,6.24
+pinit1-pinit3,7.2
+pinit2-pinit1,7.68
+pinit2-pinit3,8.96
+pinit3-pinit1,14.12
+pinit3-pinit2,12.72
