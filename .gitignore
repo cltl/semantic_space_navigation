@@ -1,1 +1,3 @@
 *.pyc
+projects/w2v_stability_neighbors/models/*
+
