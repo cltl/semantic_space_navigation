@@ -1,0 +1,10 @@
+hamster
+pelican
+donkey
+pigeon
+seahorse
+hornet
+deer
+hippo
+eel
+wasp

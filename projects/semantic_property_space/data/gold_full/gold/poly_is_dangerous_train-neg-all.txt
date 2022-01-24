@@ -1,0 +1,14 @@
+colt_pistol
+dengue_virus
+dengue
+barreled_shotgun
+nine_millimeter_pistol
+amur_leopard
+semiautomatic
+malayan_tiger
+hippos
+guage_shotgun
+chisel
+semiautomatic_pistol
+semiautomatic_handgun
+coyote
